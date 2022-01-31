@@ -24,19 +24,19 @@
                 </div>
                 <div class="form-group">
                     <label for="title_oz">O‘zb</label>
-                    <textarea name="title_oz" id="description_oz" class="form-control"></textarea>
+                    <textarea name="title_oz" id="" class="form-control"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="title_uz">Ўзб</label>
-                    <textarea name="title_uz" id="description_uz" class="form-control"></textarea>
+                    <textarea name="title_uz" id="" class="form-control"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="title_ru">Рус</label>
-                    <textarea name="title_ru" id="description_ru" class="form-control"></textarea>
+                    <textarea name="title_ru" id="" class="form-control"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="title_en">Eng</label>
-                    <textarea name="title_en" id="description_en" class="form-control"></textarea>
+                    <textarea name="title_en" id="" class="form-control"></textarea>
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary">{{ tr('Add') }}</button>
