@@ -11,7 +11,7 @@
                     <a href="#">
                         <div class="logo-in">
                             <img src="{{ asset('img/logo.png') }}">
-                            <span>Глобальная контртеррористическая<br> стратегия ООН в Центральной Азии</span>
+                            <span>{!! tr('UN Global Counter-Terrorism Strategy in Central Asia') !!}</span>
                         </div>
                     </a>
                 </div>

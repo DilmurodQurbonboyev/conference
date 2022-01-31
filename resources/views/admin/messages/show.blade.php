@@ -13,9 +13,30 @@
 @endsection
 @section('content')
     <div class="p-3 d-flex justify-content-end">
-        <x-show-button destroyAction="{{ route('messages.destroy', $messages->id) }}"
-                       createAction="{{ route('messages.create') }}" indexAction="{{ route('messages.index') }}"
-                       editAction="{{ route('messages.edit', $messages->id ) }}"/>
+        @can('messages.create')
+            <a class="btn btn-success" href="{{ route('messages.create') }}">
+                <i class="fa fa-plus"></i>
+            </a>
+        @endcan
+        @can('messages.index')
+            <a class="btn btn-info text-white" href="{{ route('messages.index') }}">
+                <i class="fa fa-list"></i>
+            </a>
+        @endcan
+        @can('messages.edit')
+            <a class="btn btn-primary" href="{{ route('messages.edit', $messages->id) }}">
+                <i class="fa fa-edit"></i>
+            </a>
+        @endcan
+        @can('messages.destroy')
+            <form method="POST" action="{{ route('messages.destroy', $messages->id) }}">
+                @csrf
+                @method('DELETE')
+                <input name="_method" type="hidden" value="DELETE">
+                <button type="submit" class="btn btn-danger">
+                    <i class="fa fa-trash"></i></button>
+            </form>
+        @endcan
     </div>
     <div class="card card-primary card-outline card-tabs">
         <div class="card-header p-0 pt-1 border-bottom-0">

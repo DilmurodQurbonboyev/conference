@@ -36,7 +36,7 @@
                     <tr>
                         <td>{{ ++$key }}</td>
                         <td>{{ $message->id }}</td>
-                        <td>{{ $message->title ?? '' }}</td>
+                        <td>{!! $message->title ?? '' !!}</td>
                         <td>
                             @if ($message->translate('oz')->title)
                                 <span class="badge bg-success">O‘zb</span>
