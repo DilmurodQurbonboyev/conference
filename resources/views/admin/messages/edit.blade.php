@@ -28,22 +28,22 @@
                 </div>
                 <div class="form-group">
                     <label for="title_oz">O‘zb</label>
-                    <textarea name="title_oz" id="description_oz"
+                    <textarea name="title_oz" id=""
                               class="form-control">{{ $messages->translate('oz')->title ?? '' }}</textarea>
                 </div>
                 <div class="form-group">
                     <label for="title_uz">Ўзб</label>
-                    <textarea name="title_uz" id="description_uz"
+                    <textarea name="title_uz" id=""
                               class="form-control">{{ $messages->translate('uz')->title ?? '' }}</textarea>
                 </div>
                 <div class="form-group">
                     <label for="title_ru">Рус</label>
-                    <textarea name="title_ru" id="description_ru"
+                    <textarea name="title_ru" id=""
                               class="form-control">{{ $messages->translate('ru')->title ?? '' }}</textarea>
                 </div>
                 <div class="form-group">
                     <label for="title_en">Eng</label>
-                    <textarea name="title_en" id="description_en"
+                    <textarea name="title_en" id=""
                               class="form-control">{{ $messages->translate('en')->title ?? '' }}</textarea>
                 </div>
                 <div class="form-group">
