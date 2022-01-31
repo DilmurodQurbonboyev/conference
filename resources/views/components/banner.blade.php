@@ -95,7 +95,7 @@
             @foreach($partners as $partner)
                 @if ($partner->translate($app->getLocale())->title !== null)
                     <div class="banner-col">
-                        <a href="{{ hrefType($partner->link_type, $useful->link) }}"
+                        <a href="{{ hrefType($partner->link_type, $partner->link) }}"
                            target="{{ targetType($partner->link_type) }}">
                             <img src="{{ $partner->image }}"/>
                         </a>

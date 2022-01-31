@@ -45,7 +45,10 @@
                         <div class="text-danger">{{ $message }}</div>
                         @enderror
                     </div>
+
+
                     <x-form.description name="description_{{ $lang }}" value="" />
+
                     <x-form.content name="content_{{ $lang }}" value="" />
                     <div class="form-group">
                         <label for="pdf_title_{{ $lang }}">{{ tr('Pdf title') }}</label>
