@@ -75,18 +75,18 @@
                 <div class="banner-text">
 						<span>
 							<i>Международная конференция высокого уровня</i>
-                            @if(!empty($about))
-                                {{ $about->title ?? '' }}
-                            @endif
+{{--                            @if(!empty($about))--}}
+{{--                                {{ $about->title ?? '' }}--}}
+{{--                            @endif--}}
 						</span>
                 </div>
             </div>
             <div class="banner-date">
                 <img src="{{ asset('img/date.png') }}">
                 <span>
-                     @if(!empty($about))
-                        {{ $about->description ?? '' }}
-                    @endif
+{{--                     @if(!empty($about))--}}
+{{--                        {{ $about->description ?? '' }}--}}
+{{--                    @endif--}}
                 </span>
             </div>
             <div class="banner-link">
