@@ -1570,34 +1570,34 @@
     {
         "id": "197",
         "message_id": "50",
-        "title": "<p>Foydali havolalar<\/p>",
+        "title": "Foydali havolalar",
         "locale": "oz",
         "created_at": "2022-01-31 12:15:07",
-        "updated_at": "2022-01-31 12:15:07"
+        "updated_at": "2022-01-31 16:45:51"
     },
     {
         "id": "198",
         "message_id": "50",
-        "title": "<p>Фойдали ҳаволалар<\/p>",
+        "title": "Фойдали ҳаволалар",
         "locale": "uz",
         "created_at": "2022-01-31 12:15:07",
-        "updated_at": "2022-01-31 12:15:07"
+        "updated_at": "2022-01-31 16:43:40"
     },
     {
         "id": "199",
         "message_id": "50",
-        "title": "<p>Полезные ссылки<\/p>",
+        "title": "Полезные ссылки",
         "locale": "ru",
         "created_at": "2022-01-31 12:15:07",
-        "updated_at": "2022-01-31 12:15:07"
+        "updated_at": "2022-01-31 16:43:40"
     },
     {
         "id": "200",
         "message_id": "50",
-        "title": null,
+        "title": "Useful links",
         "locale": "en",
         "created_at": "2022-01-31 12:15:07",
-        "updated_at": "2022-01-31 12:15:07"
+        "updated_at": "2022-01-31 16:43:40"
     },
     {
         "id": "201",
@@ -1630,5 +1630,101 @@
         "locale": "en",
         "created_at": "2022-01-31 13:18:26",
         "updated_at": "2022-01-31 13:35:07"
+    },
+    {
+        "id": "205",
+        "message_id": "52",
+        "title": "BMT Global aksilterror strategiyasini amalga oshirish bo‘yicha qo‘shma harakatlar rejasi doirasida Markaziy Osiyo davlatlarining mintaqaviy hamkorligi",
+        "locale": "oz",
+        "created_at": "2022-01-31 15:39:17",
+        "updated_at": "2022-01-31 15:39:17"
+    },
+    {
+        "id": "206",
+        "message_id": "52",
+        "title": "БМТ Глобал аксилтеррор стратегиясини амалга ошириш бўйича қўшма ҳаракатлар режаси доирасида Марказий Осиё давлатларининг минтақавий ҳамкорлиги",
+        "locale": "uz",
+        "created_at": "2022-01-31 15:39:17",
+        "updated_at": "2022-01-31 15:39:17"
+    },
+    {
+        "id": "207",
+        "message_id": "52",
+        "title": "Региональное сотрудничество стран Центральной Азии в рамках Совместного плана действий по реализации Глобальной контртеррористической стратегии ООН",
+        "locale": "ru",
+        "created_at": "2022-01-31 15:39:17",
+        "updated_at": "2022-01-31 15:39:17"
+    },
+    {
+        "id": "208",
+        "message_id": "52",
+        "title": "Regional cooperation of the countries of Central Asia within the framework of the Joint Action Plan for the implementation of the UN Global Counter-Terrorism Strategy",
+        "locale": "en",
+        "created_at": "2022-01-31 15:39:17",
+        "updated_at": "2022-01-31 15:39:17"
+    },
+    {
+        "id": "209",
+        "message_id": "53",
+        "title": "YUQORI DARAJALI <br\/>  XALQARO KONFERENSIYA",
+        "locale": "oz",
+        "created_at": "2022-01-31 15:41:53",
+        "updated_at": "2022-01-31 16:08:11"
+    },
+    {
+        "id": "210",
+        "message_id": "53",
+        "title": "ЮҚОРИ ДАРАЖАЛИ <br\/> ХАЛҚАРО КОНФЕРЕНСИЯ",
+        "locale": "uz",
+        "created_at": "2022-01-31 15:41:53",
+        "updated_at": "2022-01-31 16:08:11"
+    },
+    {
+        "id": "211",
+        "message_id": "53",
+        "title": "МЕЖДУНАРОДНАЯ <br\/> КОНФЕРЕНЦИЯ ВЫСОКОГО УРОВНЯ",
+        "locale": "ru",
+        "created_at": "2022-01-31 15:41:53",
+        "updated_at": "2022-01-31 16:08:11"
+    },
+    {
+        "id": "212",
+        "message_id": "53",
+        "title": "HIGH LEVEL <br\/> INTERNATIONAL CONFERENCE",
+        "locale": "en",
+        "created_at": "2022-01-31 15:41:53",
+        "updated_at": "2022-01-31 16:08:11"
+    },
+    {
+        "id": "213",
+        "message_id": "54",
+        "title": "Ishtirokchilarni ro'yxatga olish",
+        "locale": "oz",
+        "created_at": "2022-01-31 15:43:22",
+        "updated_at": "2022-01-31 15:43:22"
+    },
+    {
+        "id": "214",
+        "message_id": "54",
+        "title": "Иштирокчиларни рўйхатга олиш",
+        "locale": "uz",
+        "created_at": "2022-01-31 15:43:22",
+        "updated_at": "2022-01-31 15:43:22"
+    },
+    {
+        "id": "215",
+        "message_id": "54",
+        "title": "Регистрация участников",
+        "locale": "ru",
+        "created_at": "2022-01-31 15:43:22",
+        "updated_at": "2022-01-31 15:43:22"
+    },
+    {
+        "id": "216",
+        "message_id": "54",
+        "title": "Registration of participants",
+        "locale": "en",
+        "created_at": "2022-01-31 15:43:22",
+        "updated_at": "2022-01-31 15:43:22"
     }
 ]

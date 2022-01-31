@@ -2,6 +2,10 @@
 
 namespace Database\Seeders;
 
+use Database\Seeders\BackUp\MenusCategorySeeder;
+use Database\Seeders\BackUp\MenusCategoryTranslationSeeder;
+use Database\Seeders\BackUp\MenuSeeder;
+use Database\Seeders\BackUp\MenuTranslationSeeder;
 use Illuminate\Database\Seeder;
 use Database\Seeders\ListTypeSeeder;
 use Database\Seeders\BackUp\RoleSeeder;
@@ -39,6 +43,9 @@ class DatabaseSeeder extends Seeder
         $this->call(ListCategoryTranslationSeeder::class);
         $this->call(ListSeeder::class);
         $this->call(ListsTranslationSeeder::class);
-
+        $this->call(MenusCategorySeeder::class);
+        $this->call(MenusCategoryTranslationSeeder::class);
+        $this->call(MenuSeeder::class);
+        $this->call(MenuTranslationSeeder::class);
     }
 }

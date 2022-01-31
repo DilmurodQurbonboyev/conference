@@ -2,17 +2,13 @@
 
 namespace App\View\Components;
 
-use App\Models\Lists;
-use Illuminate\View\Component;
 use App\Models\Menu;
+use Illuminate\View\Component;
 
-class Banner extends Component
+class Header extends Component
 {
     public $top_menu;
     public $top_menu_tree;
-    public $about;
-    public $partners;
-
     /**
      * Create a new component instance.
      *
@@ -25,18 +21,8 @@ class Banner extends Component
             ->orderBy('id', 'asc')
             ->orderBy('order', 'desc')
             ->get();
+
         $this->top_menu_tree = Menu::buildTree($this->top_menu->toArray());
-
-        $this->about = Lists::where('list_type_id', 6)
-            ->where('lists_category_id', 4)
-            ->where('status', 2)
-            ->first();
-
-        $this->partners = Lists::where('list_type_id', 6)
-            ->where('lists_category_id', 3)
-            ->orderBy('order', 'desc')
-            ->where('status', 2)
-            ->get();
     }
 
     /**
@@ -46,6 +32,6 @@ class Banner extends Component
      */
     public function render()
     {
-        return view('components.banner');
+        return view('components.header');
     }
 }

@@ -304,5 +304,23 @@
         "key": "UN Global Counter-Terrorism Strategy in Central Asia",
         "created_at": "2022-01-31 13:18:26",
         "updated_at": "2022-01-31 13:18:26"
+    },
+    {
+        "id": "52",
+        "key": "Regional cooperation of the countries of Central Asia within the framework of the Joint Action Plan for the implementation of the UN Global Counter-Terrorism Strategy",
+        "created_at": "2022-01-31 15:39:17",
+        "updated_at": "2022-01-31 15:39:17"
+    },
+    {
+        "id": "53",
+        "key": "HIGH LEVEL INTERNATIONAL CONFERENCE",
+        "created_at": "2022-01-31 15:41:53",
+        "updated_at": "2022-01-31 15:41:53"
+    },
+    {
+        "id": "54",
+        "key": "Registration of participants",
+        "created_at": "2022-01-31 15:43:22",
+        "updated_at": "2022-01-31 15:43:22"
     }
 ]

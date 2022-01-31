@@ -1,7 +1,7 @@
 <section class="link-section">
     <div class="container">
         <div class="heading">
-            <span>{!! tr('Useful links') !!}</span>
+            <span>{{ tr('Useful links') }}</span>
         </div>
         <div class="owl-link">
             <div class="owl-carousel owl-theme">
