@@ -1,0 +1,226 @@
+[
+    {
+        "id": "1",
+        "menu_id": "1",
+        "title": "Forum haqida",
+        "locale": "oz",
+        "created_at": "2022-01-31 12:23:13",
+        "updated_at": "2022-01-31 12:23:13"
+    },
+    {
+        "id": "2",
+        "menu_id": "1",
+        "title": "Форум ҳақида",
+        "locale": "uz",
+        "created_at": "2022-01-31 12:23:13",
+        "updated_at": "2022-01-31 12:23:13"
+    },
+    {
+        "id": "3",
+        "menu_id": "1",
+        "title": "О форуме",
+        "locale": "ru",
+        "created_at": "2022-01-31 12:23:13",
+        "updated_at": "2022-01-31 12:23:13"
+    },
+    {
+        "id": "4",
+        "menu_id": "1",
+        "title": "About forum",
+        "locale": "en",
+        "created_at": "2022-01-31 12:23:13",
+        "updated_at": "2022-01-31 12:23:13"
+    },
+    {
+        "id": "5",
+        "menu_id": "2",
+        "title": "Dastur",
+        "locale": "oz",
+        "created_at": "2022-01-31 12:24:45",
+        "updated_at": "2022-01-31 12:24:45"
+    },
+    {
+        "id": "6",
+        "menu_id": "2",
+        "title": "Дастур",
+        "locale": "uz",
+        "created_at": "2022-01-31 12:24:45",
+        "updated_at": "2022-01-31 12:24:45"
+    },
+    {
+        "id": "7",
+        "menu_id": "2",
+        "title": "Программа",
+        "locale": "ru",
+        "created_at": "2022-01-31 12:24:45",
+        "updated_at": "2022-01-31 12:24:45"
+    },
+    {
+        "id": "8",
+        "menu_id": "2",
+        "title": "Programm",
+        "locale": "en",
+        "created_at": "2022-01-31 12:24:45",
+        "updated_at": "2022-01-31 12:24:45"
+    },
+    {
+        "id": "9",
+        "menu_id": "3",
+        "title": "Ishtirokchilar",
+        "locale": "oz",
+        "created_at": "2022-01-31 12:28:35",
+        "updated_at": "2022-01-31 12:28:35"
+    },
+    {
+        "id": "10",
+        "menu_id": "3",
+        "title": "Иштирокчилар",
+        "locale": "uz",
+        "created_at": "2022-01-31 12:28:35",
+        "updated_at": "2022-01-31 12:28:35"
+    },
+    {
+        "id": "11",
+        "menu_id": "3",
+        "title": "Участники",
+        "locale": "ru",
+        "created_at": "2022-01-31 12:28:35",
+        "updated_at": "2022-01-31 12:28:35"
+    },
+    {
+        "id": "12",
+        "menu_id": "3",
+        "title": "Members",
+        "locale": "en",
+        "created_at": "2022-01-31 12:28:35",
+        "updated_at": "2022-01-31 12:28:35"
+    },
+    {
+        "id": "13",
+        "menu_id": "4",
+        "title": "Yangiliklar",
+        "locale": "oz",
+        "created_at": "2022-01-31 12:29:59",
+        "updated_at": "2022-01-31 12:29:59"
+    },
+    {
+        "id": "14",
+        "menu_id": "4",
+        "title": "Янгиликлар",
+        "locale": "uz",
+        "created_at": "2022-01-31 12:29:59",
+        "updated_at": "2022-01-31 12:29:59"
+    },
+    {
+        "id": "15",
+        "menu_id": "4",
+        "title": "Новости",
+        "locale": "ru",
+        "created_at": "2022-01-31 12:29:59",
+        "updated_at": "2022-01-31 12:29:59"
+    },
+    {
+        "id": "16",
+        "menu_id": "4",
+        "title": "News",
+        "locale": "en",
+        "created_at": "2022-01-31 12:29:59",
+        "updated_at": "2022-01-31 12:29:59"
+    },
+    {
+        "id": "17",
+        "menu_id": "5",
+        "title": "Media",
+        "locale": "oz",
+        "created_at": "2022-01-31 12:31:31",
+        "updated_at": "2022-01-31 12:31:31"
+    },
+    {
+        "id": "18",
+        "menu_id": "5",
+        "title": "Медиа",
+        "locale": "uz",
+        "created_at": "2022-01-31 12:31:31",
+        "updated_at": "2022-01-31 12:31:31"
+    },
+    {
+        "id": "19",
+        "menu_id": "5",
+        "title": "Медиа",
+        "locale": "ru",
+        "created_at": "2022-01-31 12:31:31",
+        "updated_at": "2022-01-31 12:31:31"
+    },
+    {
+        "id": "20",
+        "menu_id": "5",
+        "title": "Media",
+        "locale": "en",
+        "created_at": "2022-01-31 12:31:31",
+        "updated_at": "2022-01-31 12:31:31"
+    },
+    {
+        "id": "21",
+        "menu_id": "6",
+        "title": "Tashkilotchilar",
+        "locale": "oz",
+        "created_at": "2022-01-31 12:32:37",
+        "updated_at": "2022-01-31 12:32:37"
+    },
+    {
+        "id": "22",
+        "menu_id": "6",
+        "title": "Ташкилотчилар",
+        "locale": "uz",
+        "created_at": "2022-01-31 12:32:37",
+        "updated_at": "2022-01-31 12:32:37"
+    },
+    {
+        "id": "23",
+        "menu_id": "6",
+        "title": "организаторы",
+        "locale": "ru",
+        "created_at": "2022-01-31 12:32:37",
+        "updated_at": "2022-01-31 12:32:37"
+    },
+    {
+        "id": "24",
+        "menu_id": "6",
+        "title": "organizers",
+        "locale": "en",
+        "created_at": "2022-01-31 12:32:37",
+        "updated_at": "2022-01-31 12:32:37"
+    },
+    {
+        "id": "25",
+        "menu_id": "7",
+        "title": "действие",
+        "locale": "oz",
+        "created_at": "2022-01-31 12:34:56",
+        "updated_at": "2022-01-31 12:34:56"
+    },
+    {
+        "id": "26",
+        "menu_id": "7",
+        "title": "действие",
+        "locale": "uz",
+        "created_at": "2022-01-31 12:34:56",
+        "updated_at": "2022-01-31 12:34:56"
+    },
+    {
+        "id": "27",
+        "menu_id": "7",
+        "title": "действие",
+        "locale": "ru",
+        "created_at": "2022-01-31 12:34:56",
+        "updated_at": "2022-01-31 12:34:56"
+    },
+    {
+        "id": "28",
+        "menu_id": "7",
+        "title": "действие",
+        "locale": "en",
+        "created_at": "2022-01-31 12:34:56",
+        "updated_at": "2022-01-31 12:34:56"
+    }
+]

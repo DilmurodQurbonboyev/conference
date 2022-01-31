@@ -10,5 +10,41 @@
         "color": "primary",
         "created_at": "2022-01-23 11:58:45",
         "updated_at": "2022-01-23 11:58:45"
+    },
+    {
+        "id": "2",
+        "name": "maxmud0404",
+        "email": "geyzer-4@bk.ru",
+        "email_verified_at": null,
+        "password": "30404830200022",
+        "remember_token": null,
+        "dark_mode": "0",
+        "color": "primary",
+        "created_at": "2022-01-31 11:32:19",
+        "updated_at": "2022-01-31 11:32:19"
+    },
+    {
+        "id": "3",
+        "name": "cube",
+        "email": "safarmurod20014@gmail.com",
+        "email_verified_at": null,
+        "password": "30207952550028",
+        "remember_token": null,
+        "dark_mode": "0",
+        "color": "primary",
+        "created_at": "2022-01-31 11:35:04",
+        "updated_at": "2022-01-31 11:35:04"
+    },
+    {
+        "id": "4",
+        "name": "obakhtiev",
+        "email": "bakhtiev.olimjon@gmail.com",
+        "email_verified_at": null,
+        "password": "30908770100032",
+        "remember_token": null,
+        "dark_mode": "0",
+        "color": "primary",
+        "created_at": "2022-01-31 12:07:46",
+        "updated_at": "2022-01-31 12:07:46"
     }
 ]

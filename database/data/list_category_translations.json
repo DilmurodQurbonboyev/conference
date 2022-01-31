@@ -1,0 +1,130 @@
+[
+    {
+        "id": "1",
+        "list_category_id": "1",
+        "title": "Yangiliklar",
+        "locale": "oz",
+        "created_at": "2022-01-31 11:30:04",
+        "updated_at": "2022-01-31 11:30:04"
+    },
+    {
+        "id": "2",
+        "list_category_id": "1",
+        "title": "Янгиликлар",
+        "locale": "uz",
+        "created_at": "2022-01-31 11:30:04",
+        "updated_at": "2022-01-31 11:30:04"
+    },
+    {
+        "id": "3",
+        "list_category_id": "1",
+        "title": "Новости",
+        "locale": "ru",
+        "created_at": "2022-01-31 11:30:04",
+        "updated_at": "2022-01-31 11:30:04"
+    },
+    {
+        "id": "4",
+        "list_category_id": "1",
+        "title": "News",
+        "locale": "en",
+        "created_at": "2022-01-31 11:30:04",
+        "updated_at": "2022-01-31 11:30:04"
+    },
+    {
+        "id": "5",
+        "list_category_id": "2",
+        "title": "Foydali havolalar",
+        "locale": "oz",
+        "created_at": "2022-01-31 11:30:59",
+        "updated_at": "2022-01-31 11:30:59"
+    },
+    {
+        "id": "6",
+        "list_category_id": "2",
+        "title": "Фойдали ҳаволалар",
+        "locale": "uz",
+        "created_at": "2022-01-31 11:30:59",
+        "updated_at": "2022-01-31 11:30:59"
+    },
+    {
+        "id": "7",
+        "list_category_id": "2",
+        "title": "Полезные ссылки",
+        "locale": "ru",
+        "created_at": "2022-01-31 11:30:59",
+        "updated_at": "2022-01-31 11:30:59"
+    },
+    {
+        "id": "8",
+        "list_category_id": "2",
+        "title": "Useful links",
+        "locale": "en",
+        "created_at": "2022-01-31 11:30:59",
+        "updated_at": "2022-01-31 11:30:59"
+    },
+    {
+        "id": "9",
+        "list_category_id": "3",
+        "title": "Hamkorlar",
+        "locale": "oz",
+        "created_at": "2022-01-31 11:31:41",
+        "updated_at": "2022-01-31 11:31:41"
+    },
+    {
+        "id": "10",
+        "list_category_id": "3",
+        "title": "Ҳамкорлар",
+        "locale": "uz",
+        "created_at": "2022-01-31 11:31:41",
+        "updated_at": "2022-01-31 11:31:41"
+    },
+    {
+        "id": "11",
+        "list_category_id": "3",
+        "title": "Партнеры",
+        "locale": "ru",
+        "created_at": "2022-01-31 11:31:41",
+        "updated_at": "2022-01-31 11:31:41"
+    },
+    {
+        "id": "12",
+        "list_category_id": "3",
+        "title": "Partners",
+        "locale": "en",
+        "created_at": "2022-01-31 11:31:41",
+        "updated_at": "2022-01-31 11:31:41"
+    },
+    {
+        "id": "13",
+        "list_category_id": "4",
+        "title": "Asosiy ma'lumot",
+        "locale": "oz",
+        "created_at": "2022-01-31 13:18:07",
+        "updated_at": "2022-01-31 13:18:07"
+    },
+    {
+        "id": "14",
+        "list_category_id": "4",
+        "title": "Асосий маълумот",
+        "locale": "uz",
+        "created_at": "2022-01-31 13:18:07",
+        "updated_at": "2022-01-31 13:18:07"
+    },
+    {
+        "id": "15",
+        "list_category_id": "4",
+        "title": "Основная информация",
+        "locale": "ru",
+        "created_at": "2022-01-31 13:18:07",
+        "updated_at": "2022-01-31 13:18:07"
+    },
+    {
+        "id": "16",
+        "list_category_id": "4",
+        "title": "Main info",
+        "locale": "en",
+        "created_at": "2022-01-31 13:18:07",
+        "updated_at": "2022-01-31 13:18:07"
+    }
+]

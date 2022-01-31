@@ -30,7 +30,7 @@ class Banner extends Component
         $this->about = Lists::where('list_type_id', 6)
             ->where('lists_category_id', 4)
             ->where('status', 2)
-            ->take(1)
+            ->latest()
             ->get();
 
         $this->partners = Lists::where('list_type_id', 6)
