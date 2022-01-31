@@ -10,4 +10,9 @@ class SiteController extends Controller
     {
         return view('frontend.index');
     }
+
+    public function category($slug)
+    {
+
+    }
 }

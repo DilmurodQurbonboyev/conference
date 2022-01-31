@@ -12,7 +12,7 @@
                                target="{{ targetType($useful->link_type) }}">
                                 <div class="link">
                                     <div class="link-img">
-                                        <img src="{{ asset('img/l1.png') }}">
+                                        <img src="{{ $useful->image }}">
                                     </div>
                                     <div class="link-text">
                                         <span>{{ $useful->title ?? '' }}</span>

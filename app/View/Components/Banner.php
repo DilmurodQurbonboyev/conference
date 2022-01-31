@@ -9,6 +9,7 @@ use App\Models\Menu;
 class Banner extends Component
 {
     public $top_menu;
+    public $about;
     public $top_menu_tree;
     public $partners;
 
@@ -25,6 +26,12 @@ class Banner extends Component
             ->orderBy('order', 'desc')
             ->get();
         $this->top_menu_tree = Menu::buildTree($this->top_menu->toArray());
+
+        $this->about = Lists::where('list_type_id', 6)
+            ->where('lists_category_id', 4)
+            ->where('status', 2)
+            ->take(1)
+            ->get();
 
         $this->partners = Lists::where('list_type_id', 6)
             ->where('lists_category_id', 3)

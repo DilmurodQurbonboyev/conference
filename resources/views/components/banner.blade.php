@@ -75,13 +75,19 @@
                 <div class="banner-text">
 						<span>
 							<i>Международная конференция высокого уровня</i>
-							«Региональное сотрудничество стран Центральной Азии в рамках Совместного плана действий по реализации Глобальной контртеррористической стратегии ООН»
+                            @if(!empty($about))
+                                {{ $about->title ?? '' }}
+                            @endif
 						</span>
                 </div>
             </div>
             <div class="banner-date">
                 <img src="{{ asset('img/date.png') }}">
-                <span>Дата: 3-4 марта 2022 г. Ташкент</span>
+                <span>
+                     @if(!empty($about))
+                        {{ $about->description ?? '' }}
+                    @endif
+                </span>
             </div>
             <div class="banner-link">
                 <a href="#">
