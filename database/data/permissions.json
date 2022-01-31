@@ -1,0 +1,1031 @@
+[
+    {
+        "id": "1",
+        "name": "menus-category.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:53",
+        "updated_at": "2022-01-23 11:58:53"
+    },
+    {
+        "id": "2",
+        "name": "menus-category.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:53",
+        "updated_at": "2022-01-23 11:58:53"
+    },
+    {
+        "id": "3",
+        "name": "menus-category.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:53",
+        "updated_at": "2022-01-23 11:58:53"
+    },
+    {
+        "id": "4",
+        "name": "menus-category.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:53",
+        "updated_at": "2022-01-23 11:58:53"
+    },
+    {
+        "id": "5",
+        "name": "menus-category.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:53",
+        "updated_at": "2022-01-23 11:58:53"
+    },
+    {
+        "id": "6",
+        "name": "menus-category.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:53",
+        "updated_at": "2022-01-23 11:58:53"
+    },
+    {
+        "id": "7",
+        "name": "menus-category.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:53",
+        "updated_at": "2022-01-23 11:58:53"
+    },
+    {
+        "id": "8",
+        "name": "menus.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "9",
+        "name": "menus.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "10",
+        "name": "menus.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "11",
+        "name": "menus.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "12",
+        "name": "menus.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "13",
+        "name": "menus.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "14",
+        "name": "menus.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "15",
+        "name": "news-category.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "16",
+        "name": "news-category.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "17",
+        "name": "news-category.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "18",
+        "name": "news-category.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "19",
+        "name": "news-category.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "20",
+        "name": "news-category.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "21",
+        "name": "news-category.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "22",
+        "name": "news.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "23",
+        "name": "news.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "24",
+        "name": "news.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "25",
+        "name": "news.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "26",
+        "name": "news.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "27",
+        "name": "news.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "28",
+        "name": "news.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "29",
+        "name": "pages-category.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "30",
+        "name": "pages-category.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "31",
+        "name": "pages-category.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "32",
+        "name": "pages-category.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "33",
+        "name": "pages-category.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "34",
+        "name": "pages-category.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "35",
+        "name": "pages-category.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:54",
+        "updated_at": "2022-01-23 11:58:54"
+    },
+    {
+        "id": "36",
+        "name": "pages.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "37",
+        "name": "pages.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "38",
+        "name": "pages.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "39",
+        "name": "pages.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "40",
+        "name": "pages.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "41",
+        "name": "pages.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "42",
+        "name": "pages.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "43",
+        "name": "useful-category.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "44",
+        "name": "useful-category.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "45",
+        "name": "useful-category.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "46",
+        "name": "useful-category.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "47",
+        "name": "useful-category.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "48",
+        "name": "useful-category.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "49",
+        "name": "useful-category.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "50",
+        "name": "useful.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "51",
+        "name": "useful.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "52",
+        "name": "useful.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "53",
+        "name": "useful.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "54",
+        "name": "useful.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "55",
+        "name": "useful.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "56",
+        "name": "useful.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "57",
+        "name": "photos-category.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "58",
+        "name": "photos-category.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "59",
+        "name": "photos-category.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:55",
+        "updated_at": "2022-01-23 11:58:55"
+    },
+    {
+        "id": "60",
+        "name": "photos-category.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "61",
+        "name": "photos-category.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "62",
+        "name": "photos-category.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "63",
+        "name": "photos-category.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "64",
+        "name": "photos.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "65",
+        "name": "photos.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "66",
+        "name": "photos.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "67",
+        "name": "photos.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "68",
+        "name": "photos.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "69",
+        "name": "photos.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "70",
+        "name": "photos.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "71",
+        "name": "videos-category.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "72",
+        "name": "videos-category.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "73",
+        "name": "videos-category.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "74",
+        "name": "videos-category.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "75",
+        "name": "videos-category.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "76",
+        "name": "videos-category.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "77",
+        "name": "videos-category.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "78",
+        "name": "videos.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "79",
+        "name": "videos.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "80",
+        "name": "videos.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "81",
+        "name": "videos.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:56",
+        "updated_at": "2022-01-23 11:58:56"
+    },
+    {
+        "id": "82",
+        "name": "videos.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "83",
+        "name": "videos.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "84",
+        "name": "videos.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "85",
+        "name": "managements-category.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "86",
+        "name": "managements-category.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "87",
+        "name": "managements-category.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "88",
+        "name": "managements-category.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "89",
+        "name": "managements-category.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "90",
+        "name": "managements-category.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "91",
+        "name": "managements-category.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "92",
+        "name": "managements.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "93",
+        "name": "managements.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "94",
+        "name": "managements.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "95",
+        "name": "managements.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "96",
+        "name": "managements.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "97",
+        "name": "managements.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:57",
+        "updated_at": "2022-01-23 11:58:57"
+    },
+    {
+        "id": "98",
+        "name": "managements.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "99",
+        "name": "users.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "100",
+        "name": "users.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "101",
+        "name": "users.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "102",
+        "name": "users.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "103",
+        "name": "users.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "104",
+        "name": "users.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "105",
+        "name": "users.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "106",
+        "name": "logs.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "107",
+        "name": "logs.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "108",
+        "name": "logs.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "109",
+        "name": "logs.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "110",
+        "name": "logs.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "111",
+        "name": "logs.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "112",
+        "name": "logs.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "113",
+        "name": "roles.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "114",
+        "name": "roles.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "115",
+        "name": "roles.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "116",
+        "name": "roles.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "117",
+        "name": "roles.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "118",
+        "name": "roles.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "119",
+        "name": "roles.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "120",
+        "name": "permissions.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "121",
+        "name": "permissions.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "122",
+        "name": "permissions.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "123",
+        "name": "permissions.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "124",
+        "name": "permissions.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "125",
+        "name": "permissions.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "126",
+        "name": "permissions.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "127",
+        "name": "messages.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "128",
+        "name": "messages.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "129",
+        "name": "messages.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "130",
+        "name": "messages.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "131",
+        "name": "messages.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "132",
+        "name": "messages.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "133",
+        "name": "messages.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:59",
+        "updated_at": "2022-01-23 11:58:59"
+    },
+    {
+        "id": "134",
+        "name": "types.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:59:00",
+        "updated_at": "2022-01-23 11:59:00"
+    },
+    {
+        "id": "135",
+        "name": "types.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:59:00",
+        "updated_at": "2022-01-23 11:59:00"
+    },
+    {
+        "id": "136",
+        "name": "types.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:59:00",
+        "updated_at": "2022-01-23 11:59:00"
+    },
+    {
+        "id": "137",
+        "name": "types.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:59:00",
+        "updated_at": "2022-01-23 11:59:00"
+    },
+    {
+        "id": "138",
+        "name": "types.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:59:00",
+        "updated_at": "2022-01-23 11:59:00"
+    },
+    {
+        "id": "139",
+        "name": "types.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:59:00",
+        "updated_at": "2022-01-23 11:59:00"
+    },
+    {
+        "id": "140",
+        "name": "types.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:59:00",
+        "updated_at": "2022-01-23 11:59:00"
+    },
+    {
+        "id": "141",
+        "name": "appeals.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "142",
+        "name": "appeals.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "143",
+        "name": "appeals.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "144",
+        "name": "appeals.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "145",
+        "name": "appeals.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "146",
+        "name": "appeals.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "147",
+        "name": "appeals.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    }
+]

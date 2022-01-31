@@ -1,0 +1,1538 @@
+[
+  {
+    "id": "1",
+    "message_id": "1",
+    "title": "Asosiy",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:05:48",
+    "updated_at": "2022-01-27 07:05:48"
+  },
+  {
+    "id": "2",
+    "message_id": "1",
+    "title": "Асосий",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:05:48",
+    "updated_at": "2022-01-27 07:05:48"
+  },
+  {
+    "id": "3",
+    "message_id": "1",
+    "title": "Главная",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:05:48",
+    "updated_at": "2022-01-27 07:05:48"
+  },
+  {
+    "id": "4",
+    "message_id": "1",
+    "title": "Dashboard",
+    "locale": "en",
+    "created_at": "2022-01-27 07:05:48",
+    "updated_at": "2022-01-27 07:05:48"
+  },
+  {
+    "id": "5",
+    "message_id": "2",
+    "title": "Menyu",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:09:32",
+    "updated_at": "2022-01-27 07:09:32"
+  },
+  {
+    "id": "6",
+    "message_id": "2",
+    "title": "Меню",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:09:32",
+    "updated_at": "2022-01-27 07:09:32"
+  },
+  {
+    "id": "7",
+    "message_id": "2",
+    "title": "Меню",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:09:32",
+    "updated_at": "2022-01-27 07:09:32"
+  },
+  {
+    "id": "8",
+    "message_id": "2",
+    "title": "Menus",
+    "locale": "en",
+    "created_at": "2022-01-27 07:09:32",
+    "updated_at": "2022-01-27 07:09:32"
+  },
+  {
+    "id": "9",
+    "message_id": "3",
+    "title": "Menyu Kategoriyalari",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:11:07",
+    "updated_at": "2022-01-27 07:11:07"
+  },
+  {
+    "id": "10",
+    "message_id": "3",
+    "title": "Меню Категориялари",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:11:07",
+    "updated_at": "2022-01-27 07:11:07"
+  },
+  {
+    "id": "11",
+    "message_id": "3",
+    "title": "Категории Меню",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:11:07",
+    "updated_at": "2022-01-27 07:11:07"
+  },
+  {
+    "id": "12",
+    "message_id": "3",
+    "title": "Menu Categories",
+    "locale": "en",
+    "created_at": "2022-01-27 07:11:07",
+    "updated_at": "2022-01-27 07:11:07"
+  },
+  {
+    "id": "13",
+    "message_id": "4",
+    "title": "Yangiliklar",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:15:06",
+    "updated_at": "2022-01-27 07:15:06"
+  },
+  {
+    "id": "14",
+    "message_id": "4",
+    "title": "Янгиликлар",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:15:06",
+    "updated_at": "2022-01-27 07:15:06"
+  },
+  {
+    "id": "15",
+    "message_id": "4",
+    "title": "Новости",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:15:06",
+    "updated_at": "2022-01-27 07:15:06"
+  },
+  {
+    "id": "16",
+    "message_id": "4",
+    "title": "News",
+    "locale": "en",
+    "created_at": "2022-01-27 07:15:06",
+    "updated_at": "2022-01-27 07:15:06"
+  },
+  {
+    "id": "17",
+    "message_id": "5",
+    "title": "Yangiliklar Kategoriyalari",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:15:55",
+    "updated_at": "2022-01-27 07:15:55"
+  },
+  {
+    "id": "18",
+    "message_id": "5",
+    "title": "Янгиликлар Категориялари",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:15:55",
+    "updated_at": "2022-01-27 07:15:55"
+  },
+  {
+    "id": "19",
+    "message_id": "5",
+    "title": "Категории Новостей",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:15:55",
+    "updated_at": "2022-01-27 07:15:55"
+  },
+  {
+    "id": "20",
+    "message_id": "5",
+    "title": "News Categories",
+    "locale": "en",
+    "created_at": "2022-01-27 07:15:55",
+    "updated_at": "2022-01-27 07:15:55"
+  },
+  {
+    "id": "21",
+    "message_id": "6",
+    "title": "Posterlar",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:18:42",
+    "updated_at": "2022-01-27 07:18:42"
+  },
+  {
+    "id": "22",
+    "message_id": "6",
+    "title": "Постерлар",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:18:42",
+    "updated_at": "2022-01-27 07:18:42"
+  },
+  {
+    "id": "23",
+    "message_id": "6",
+    "title": "Постеры",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:18:42",
+    "updated_at": "2022-01-27 07:18:42"
+  },
+  {
+    "id": "24",
+    "message_id": "6",
+    "title": "Posters",
+    "locale": "en",
+    "created_at": "2022-01-27 07:18:42",
+    "updated_at": "2022-01-27 07:18:42"
+  },
+  {
+    "id": "25",
+    "message_id": "7",
+    "title": "Poster Kategoriyalari",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:21:13",
+    "updated_at": "2022-01-27 07:21:13"
+  },
+  {
+    "id": "26",
+    "message_id": "7",
+    "title": "Постер категорияси",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:21:13",
+    "updated_at": "2022-01-27 07:21:13"
+  },
+  {
+    "id": "27",
+    "message_id": "7",
+    "title": "Категория постера",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:21:13",
+    "updated_at": "2022-01-27 07:21:13"
+  },
+  {
+    "id": "28",
+    "message_id": "7",
+    "title": "Poster Categories",
+    "locale": "en",
+    "created_at": "2022-01-27 07:21:13",
+    "updated_at": "2022-01-27 07:21:13"
+  },
+  {
+    "id": "29",
+    "message_id": "8",
+    "title": "Sahifalar",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:22:20",
+    "updated_at": "2022-01-27 07:22:20"
+  },
+  {
+    "id": "30",
+    "message_id": "8",
+    "title": "Саҳифалар",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:22:20",
+    "updated_at": "2022-01-27 07:22:20"
+  },
+  {
+    "id": "31",
+    "message_id": "8",
+    "title": "Саҳифалар",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:22:20",
+    "updated_at": "2022-01-27 07:22:20"
+  },
+  {
+    "id": "32",
+    "message_id": "8",
+    "title": "Pages",
+    "locale": "en",
+    "created_at": "2022-01-27 07:22:20",
+    "updated_at": "2022-01-27 07:22:20"
+  },
+  {
+    "id": "33",
+    "message_id": "9",
+    "title": "Sahifalar Kategoriyalari",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:24:15",
+    "updated_at": "2022-01-27 07:24:15"
+  },
+  {
+    "id": "34",
+    "message_id": "9",
+    "title": "Саҳифалар категорияси",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:24:15",
+    "updated_at": "2022-01-27 07:24:15"
+  },
+  {
+    "id": "35",
+    "message_id": "9",
+    "title": "Категории Страниц",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:24:15",
+    "updated_at": "2022-01-27 07:24:15"
+  },
+  {
+    "id": "36",
+    "message_id": "9",
+    "title": "Pages Categories",
+    "locale": "en",
+    "created_at": "2022-01-27 07:24:15",
+    "updated_at": "2022-01-27 07:24:15"
+  },
+  {
+    "id": "37",
+    "message_id": "10",
+    "title": "Foydali resurslar",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:25:15",
+    "updated_at": "2022-01-27 07:25:15"
+  },
+  {
+    "id": "38",
+    "message_id": "10",
+    "title": "Фойдали ресурслар",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:25:15",
+    "updated_at": "2022-01-27 07:25:15"
+  },
+  {
+    "id": "39",
+    "message_id": "10",
+    "title": "Полезные ресурсы",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:25:15",
+    "updated_at": "2022-01-27 07:25:15"
+  },
+  {
+    "id": "40",
+    "message_id": "10",
+    "title": "Useful",
+    "locale": "en",
+    "created_at": "2022-01-27 07:25:15",
+    "updated_at": "2022-01-27 07:25:15"
+  },
+  {
+    "id": "41",
+    "message_id": "11",
+    "title": "Foydali resurslar kategoriyalari",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:27:13",
+    "updated_at": "2022-01-27 07:27:13"
+  },
+  {
+    "id": "42",
+    "message_id": "11",
+    "title": "Фойдали ресурслар категорияси",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:27:13",
+    "updated_at": "2022-01-27 07:27:13"
+  },
+  {
+    "id": "43",
+    "message_id": "11",
+    "title": "Категории полезных ресурсов",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:27:13",
+    "updated_at": "2022-01-27 07:27:13"
+  },
+  {
+    "id": "44",
+    "message_id": "11",
+    "title": "Useful Categories",
+    "locale": "en",
+    "created_at": "2022-01-27 07:27:13",
+    "updated_at": "2022-01-27 07:27:13"
+  },
+  {
+    "id": "45",
+    "message_id": "12",
+    "title": "Fotosuratlar",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:28:59",
+    "updated_at": "2022-01-27 07:28:59"
+  },
+  {
+    "id": "46",
+    "message_id": "12",
+    "title": "Фотосуратлар",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:28:59",
+    "updated_at": "2022-01-27 07:28:59"
+  },
+  {
+    "id": "47",
+    "message_id": "12",
+    "title": "Фотогалерея",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:28:59",
+    "updated_at": "2022-01-27 07:28:59"
+  },
+  {
+    "id": "48",
+    "message_id": "12",
+    "title": "Photos",
+    "locale": "en",
+    "created_at": "2022-01-27 07:28:59",
+    "updated_at": "2022-01-27 07:28:59"
+  },
+  {
+    "id": "49",
+    "message_id": "13",
+    "title": "Fotosuratlar Kategoriyalari",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:31:09",
+    "updated_at": "2022-01-27 07:31:09"
+  },
+  {
+    "id": "50",
+    "message_id": "13",
+    "title": "Фотосуратлар категорияси",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:31:09",
+    "updated_at": "2022-01-27 07:31:09"
+  },
+  {
+    "id": "51",
+    "message_id": "13",
+    "title": "Категория фотографий",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:31:09",
+    "updated_at": "2022-01-27 07:31:09"
+  },
+  {
+    "id": "52",
+    "message_id": "13",
+    "title": "Photos Categories",
+    "locale": "en",
+    "created_at": "2022-01-27 07:31:09",
+    "updated_at": "2022-01-27 07:31:09"
+  },
+  {
+    "id": "53",
+    "message_id": "14",
+    "title": "Video galereyasi",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:32:49",
+    "updated_at": "2022-01-27 07:32:49"
+  },
+  {
+    "id": "54",
+    "message_id": "14",
+    "title": "Видео галереяси",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:32:49",
+    "updated_at": "2022-01-27 07:32:49"
+  },
+  {
+    "id": "55",
+    "message_id": "14",
+    "title": "Видео галерея",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:32:49",
+    "updated_at": "2022-01-27 07:32:49"
+  },
+  {
+    "id": "56",
+    "message_id": "14",
+    "title": "Video Gallery",
+    "locale": "en",
+    "created_at": "2022-01-27 07:32:49",
+    "updated_at": "2022-01-27 07:32:49"
+  },
+  {
+    "id": "57",
+    "message_id": "15",
+    "title": "Videogalereya kategoriyasi",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:37:32",
+    "updated_at": "2022-01-27 07:37:32"
+  },
+  {
+    "id": "58",
+    "message_id": "15",
+    "title": "Видеогалерея категорияси",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:37:32",
+    "updated_at": "2022-01-27 07:37:32"
+  },
+  {
+    "id": "59",
+    "message_id": "15",
+    "title": "Категория видеогалереи",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:37:32",
+    "updated_at": "2022-01-27 07:37:32"
+  },
+  {
+    "id": "60",
+    "message_id": "15",
+    "title": "Videos Categories",
+    "locale": "en",
+    "created_at": "2022-01-27 07:37:32",
+    "updated_at": "2022-01-27 07:37:32"
+  },
+  {
+    "id": "61",
+    "message_id": "16",
+    "title": "Boshqaruv",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:38:52",
+    "updated_at": "2022-01-27 07:38:52"
+  },
+  {
+    "id": "62",
+    "message_id": "16",
+    "title": "Бошқарув",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:38:52",
+    "updated_at": "2022-01-27 07:38:52"
+  },
+  {
+    "id": "63",
+    "message_id": "16",
+    "title": "Руководство",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:38:52",
+    "updated_at": "2022-01-27 07:43:08"
+  },
+  {
+    "id": "64",
+    "message_id": "16",
+    "title": "Managements",
+    "locale": "en",
+    "created_at": "2022-01-27 07:38:52",
+    "updated_at": "2022-01-27 07:38:52"
+  },
+  {
+    "id": "65",
+    "message_id": "17",
+    "title": "Boshqaruv kategoriyalari",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:42:10",
+    "updated_at": "2022-01-27 07:42:10"
+  },
+  {
+    "id": "66",
+    "message_id": "17",
+    "title": "Бошқарув категорияси",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:42:10",
+    "updated_at": "2022-01-27 07:42:10"
+  },
+  {
+    "id": "67",
+    "message_id": "17",
+    "title": "Категория руководство",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:42:10",
+    "updated_at": "2022-01-27 07:42:10"
+  },
+  {
+    "id": "68",
+    "message_id": "17",
+    "title": "Management Categories",
+    "locale": "en",
+    "created_at": "2022-01-27 07:42:10",
+    "updated_at": "2022-01-27 07:42:10"
+  },
+  {
+    "id": "69",
+    "message_id": "18",
+    "title": "Xabarlar",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:44:05",
+    "updated_at": "2022-01-27 07:44:05"
+  },
+  {
+    "id": "70",
+    "message_id": "18",
+    "title": "Хабарлар",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:44:05",
+    "updated_at": "2022-01-27 07:44:05"
+  },
+  {
+    "id": "71",
+    "message_id": "18",
+    "title": "Сообщения",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:44:05",
+    "updated_at": "2022-01-27 07:44:05"
+  },
+  {
+    "id": "72",
+    "message_id": "18",
+    "title": "Messages",
+    "locale": "en",
+    "created_at": "2022-01-27 07:44:05",
+    "updated_at": "2022-01-27 07:44:05"
+  },
+  {
+    "id": "73",
+    "message_id": "19",
+    "title": "Loglar",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:45:11",
+    "updated_at": "2022-01-27 07:45:11"
+  },
+  {
+    "id": "74",
+    "message_id": "19",
+    "title": "Логлар",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:45:11",
+    "updated_at": "2022-01-27 07:45:11"
+  },
+  {
+    "id": "75",
+    "message_id": "19",
+    "title": "Логи",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:45:11",
+    "updated_at": "2022-01-27 07:45:11"
+  },
+  {
+    "id": "76",
+    "message_id": "19",
+    "title": "Logs",
+    "locale": "en",
+    "created_at": "2022-01-27 07:45:11",
+    "updated_at": "2022-01-27 07:45:11"
+  },
+  {
+    "id": "77",
+    "message_id": "20",
+    "title": "Murojaatlar",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:45:55",
+    "updated_at": "2022-01-27 07:45:55"
+  },
+  {
+    "id": "78",
+    "message_id": "20",
+    "title": "Мурожаатлар",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:45:55",
+    "updated_at": "2022-01-27 07:45:55"
+  },
+  {
+    "id": "79",
+    "message_id": "20",
+    "title": "Обращения",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:45:55",
+    "updated_at": "2022-01-27 07:45:55"
+  },
+  {
+    "id": "80",
+    "message_id": "20",
+    "title": "Appeals",
+    "locale": "en",
+    "created_at": "2022-01-27 07:45:55",
+    "updated_at": "2022-01-27 07:45:55"
+  },
+  {
+    "id": "81",
+    "message_id": "21",
+    "title": "Super Admin",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:46:43",
+    "updated_at": "2022-01-27 07:46:43"
+  },
+  {
+    "id": "82",
+    "message_id": "21",
+    "title": "Супер Админ",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:46:43",
+    "updated_at": "2022-01-27 07:46:43"
+  },
+  {
+    "id": "83",
+    "message_id": "21",
+    "title": "Супер Админ",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:46:43",
+    "updated_at": "2022-01-27 07:46:43"
+  },
+  {
+    "id": "84",
+    "message_id": "21",
+    "title": "Super Admin",
+    "locale": "en",
+    "created_at": "2022-01-27 07:46:43",
+    "updated_at": "2022-01-27 07:46:43"
+  },
+  {
+    "id": "85",
+    "message_id": "22",
+    "title": "Foydalanuvchilar",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:47:54",
+    "updated_at": "2022-01-27 07:47:54"
+  },
+  {
+    "id": "86",
+    "message_id": "22",
+    "title": "Фойдаланувчилар",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:47:54",
+    "updated_at": "2022-01-27 07:47:54"
+  },
+  {
+    "id": "87",
+    "message_id": "22",
+    "title": "Пользователи",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:47:54",
+    "updated_at": "2022-01-27 07:47:54"
+  },
+  {
+    "id": "88",
+    "message_id": "22",
+    "title": "Users",
+    "locale": "en",
+    "created_at": "2022-01-27 07:47:54",
+    "updated_at": "2022-01-27 07:47:54"
+  },
+  {
+    "id": "89",
+    "message_id": "23",
+    "title": "Rollar",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:48:56",
+    "updated_at": "2022-01-27 07:48:56"
+  },
+  {
+    "id": "90",
+    "message_id": "23",
+    "title": "Рольлар",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:48:56",
+    "updated_at": "2022-01-27 07:48:56"
+  },
+  {
+    "id": "91",
+    "message_id": "23",
+    "title": "Роли",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:48:56",
+    "updated_at": "2022-01-27 07:48:56"
+  },
+  {
+    "id": "92",
+    "message_id": "23",
+    "title": "Roles",
+    "locale": "en",
+    "created_at": "2022-01-27 07:48:56",
+    "updated_at": "2022-01-27 07:48:56"
+  },
+  {
+    "id": "93",
+    "message_id": "24",
+    "title": "Huquqlar",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:51:06",
+    "updated_at": "2022-01-27 07:51:06"
+  },
+  {
+    "id": "94",
+    "message_id": "24",
+    "title": "Ҳуқуқлар",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:51:06",
+    "updated_at": "2022-01-27 07:51:06"
+  },
+  {
+    "id": "95",
+    "message_id": "24",
+    "title": "Разрешения",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:51:06",
+    "updated_at": "2022-01-27 07:51:06"
+  },
+  {
+    "id": "96",
+    "message_id": "24",
+    "title": "Permissions",
+    "locale": "en",
+    "created_at": "2022-01-27 07:51:06",
+    "updated_at": "2022-01-27 07:51:06"
+  },
+  {
+    "id": "97",
+    "message_id": "25",
+    "title": "Id",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:52:30",
+    "updated_at": "2022-01-27 07:52:30"
+  },
+  {
+    "id": "98",
+    "message_id": "25",
+    "title": "Ид",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:52:30",
+    "updated_at": "2022-01-27 07:52:30"
+  },
+  {
+    "id": "99",
+    "message_id": "25",
+    "title": "Ид",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:52:30",
+    "updated_at": "2022-01-27 07:52:30"
+  },
+  {
+    "id": "100",
+    "message_id": "25",
+    "title": "Id",
+    "locale": "en",
+    "created_at": "2022-01-27 07:52:30",
+    "updated_at": "2022-01-27 07:52:30"
+  },
+  {
+    "id": "101",
+    "message_id": "26",
+    "title": "Kategoriya",
+    "locale": "oz",
+    "created_at": "2022-01-27 07:54:08",
+    "updated_at": "2022-01-27 07:54:08"
+  },
+  {
+    "id": "102",
+    "message_id": "26",
+    "title": "Категория",
+    "locale": "uz",
+    "created_at": "2022-01-27 07:54:08",
+    "updated_at": "2022-01-27 07:54:08"
+  },
+  {
+    "id": "103",
+    "message_id": "26",
+    "title": "Категория",
+    "locale": "ru",
+    "created_at": "2022-01-27 07:54:08",
+    "updated_at": "2022-01-27 07:54:08"
+  },
+  {
+    "id": "104",
+    "message_id": "26",
+    "title": "Category",
+    "locale": "en",
+    "created_at": "2022-01-27 07:54:08",
+    "updated_at": "2022-01-27 07:54:08"
+  },
+  {
+    "id": "105",
+    "message_id": "27",
+    "title": "Sarlavha",
+    "locale": "oz",
+    "created_at": "2022-01-27 08:06:55",
+    "updated_at": "2022-01-27 08:06:55"
+  },
+  {
+    "id": "106",
+    "message_id": "27",
+    "title": "Сарлавҳа",
+    "locale": "uz",
+    "created_at": "2022-01-27 08:06:55",
+    "updated_at": "2022-01-27 08:06:55"
+  },
+  {
+    "id": "107",
+    "message_id": "27",
+    "title": "Заглавие",
+    "locale": "ru",
+    "created_at": "2022-01-27 08:06:55",
+    "updated_at": "2022-01-27 08:06:55"
+  },
+  {
+    "id": "108",
+    "message_id": "27",
+    "title": "Title",
+    "locale": "en",
+    "created_at": "2022-01-27 08:06:55",
+    "updated_at": "2022-01-27 08:06:55"
+  },
+  {
+    "id": "109",
+    "message_id": "28",
+    "title": "Slug",
+    "locale": "oz",
+    "created_at": "2022-01-27 08:08:41",
+    "updated_at": "2022-01-27 08:08:41"
+  },
+  {
+    "id": "110",
+    "message_id": "28",
+    "title": "Слуг",
+    "locale": "uz",
+    "created_at": "2022-01-27 08:08:41",
+    "updated_at": "2022-01-27 08:08:41"
+  },
+  {
+    "id": "111",
+    "message_id": "28",
+    "title": "Слизень",
+    "locale": "ru",
+    "created_at": "2022-01-27 08:08:41",
+    "updated_at": "2022-01-27 08:08:41"
+  },
+  {
+    "id": "112",
+    "message_id": "28",
+    "title": "Slug",
+    "locale": "en",
+    "created_at": "2022-01-27 08:08:41",
+    "updated_at": "2022-01-27 08:08:41"
+  },
+  {
+    "id": "113",
+    "message_id": "29",
+    "title": "Ta'rifi",
+    "locale": "oz",
+    "created_at": "2022-01-27 08:43:07",
+    "updated_at": "2022-01-27 08:43:07"
+  },
+  {
+    "id": "114",
+    "message_id": "29",
+    "title": "Таърифи",
+    "locale": "uz",
+    "created_at": "2022-01-27 08:43:07",
+    "updated_at": "2022-01-27 08:43:07"
+  },
+  {
+    "id": "115",
+    "message_id": "29",
+    "title": "Описание",
+    "locale": "ru",
+    "created_at": "2022-01-27 08:43:07",
+    "updated_at": "2022-01-27 08:43:07"
+  },
+  {
+    "id": "116",
+    "message_id": "29",
+    "title": "Description",
+    "locale": "en",
+    "created_at": "2022-01-27 08:43:07",
+    "updated_at": "2022-01-27 08:43:07"
+  },
+  {
+    "id": "117",
+    "message_id": "30",
+    "title": "Ko‘rishlar Soni",
+    "locale": "oz",
+    "created_at": "2022-01-27 08:45:04",
+    "updated_at": "2022-01-27 08:45:04"
+  },
+  {
+    "id": "118",
+    "message_id": "30",
+    "title": "Кўришлар Сони",
+    "locale": "uz",
+    "created_at": "2022-01-27 08:45:04",
+    "updated_at": "2022-01-27 08:45:04"
+  },
+  {
+    "id": "119",
+    "message_id": "30",
+    "title": "Количество просмотров",
+    "locale": "ru",
+    "created_at": "2022-01-27 08:45:04",
+    "updated_at": "2022-01-27 08:45:04"
+  },
+  {
+    "id": "120",
+    "message_id": "30",
+    "title": "Count Views",
+    "locale": "en",
+    "created_at": "2022-01-27 08:45:04",
+    "updated_at": "2022-01-27 08:45:04"
+  },
+  {
+    "id": "121",
+    "message_id": "31",
+    "title": "Holati",
+    "locale": "oz",
+    "created_at": "2022-01-27 08:45:51",
+    "updated_at": "2022-01-27 08:45:51"
+  },
+  {
+    "id": "122",
+    "message_id": "31",
+    "title": "Ҳолати",
+    "locale": "uz",
+    "created_at": "2022-01-27 08:45:51",
+    "updated_at": "2022-01-27 08:45:51"
+  },
+  {
+    "id": "123",
+    "message_id": "31",
+    "title": "Статус",
+    "locale": "ru",
+    "created_at": "2022-01-27 08:45:51",
+    "updated_at": "2022-01-27 08:45:51"
+  },
+  {
+    "id": "124",
+    "message_id": "31",
+    "title": "Status",
+    "locale": "en",
+    "created_at": "2022-01-27 08:45:51",
+    "updated_at": "2022-01-27 08:45:51"
+  },
+  {
+    "id": "125",
+    "message_id": "32",
+    "title": "Yaratuvchi",
+    "locale": "oz",
+    "created_at": "2022-01-27 08:46:38",
+    "updated_at": "2022-01-27 08:46:38"
+  },
+  {
+    "id": "126",
+    "message_id": "32",
+    "title": "Яратувчи",
+    "locale": "uz",
+    "created_at": "2022-01-27 08:46:38",
+    "updated_at": "2022-01-27 08:46:38"
+  },
+  {
+    "id": "127",
+    "message_id": "32",
+    "title": "Создатель",
+    "locale": "ru",
+    "created_at": "2022-01-27 08:46:38",
+    "updated_at": "2022-01-27 08:46:38"
+  },
+  {
+    "id": "128",
+    "message_id": "32",
+    "title": "Creator",
+    "locale": "en",
+    "created_at": "2022-01-27 08:46:38",
+    "updated_at": "2022-01-27 08:46:38"
+  },
+  {
+    "id": "129",
+    "message_id": "33",
+    "title": "Taxrirlovchi",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:02:28",
+    "updated_at": "2022-01-27 09:02:28"
+  },
+  {
+    "id": "130",
+    "message_id": "33",
+    "title": "Тахрирловчи",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:02:28",
+    "updated_at": "2022-01-27 09:02:28"
+  },
+  {
+    "id": "131",
+    "message_id": "33",
+    "title": "Пересмотренный",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:02:28",
+    "updated_at": "2022-01-27 09:02:28"
+  },
+  {
+    "id": "132",
+    "message_id": "33",
+    "title": "Modifier",
+    "locale": "en",
+    "created_at": "2022-01-27 09:02:28",
+    "updated_at": "2022-01-27 09:02:28"
+  },
+  {
+    "id": "133",
+    "message_id": "34",
+    "title": "Menyu kategoriyasini yarating",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:06:29",
+    "updated_at": "2022-01-27 09:06:29"
+  },
+  {
+    "id": "134",
+    "message_id": "34",
+    "title": "Меню категориясини яратинг",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:06:29",
+    "updated_at": "2022-01-27 09:06:29"
+  },
+  {
+    "id": "135",
+    "message_id": "34",
+    "title": "Создать категорию меню",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:06:29",
+    "updated_at": "2022-01-27 09:06:29"
+  },
+  {
+    "id": "136",
+    "message_id": "34",
+    "title": "Create Menu Category",
+    "locale": "en",
+    "created_at": "2022-01-27 09:06:29",
+    "updated_at": "2022-01-27 09:06:29"
+  },
+  {
+    "id": "137",
+    "message_id": "35",
+    "title": "Menyu yarating",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:07:10",
+    "updated_at": "2022-01-27 09:07:10"
+  },
+  {
+    "id": "138",
+    "message_id": "35",
+    "title": "Меню яратинг",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:07:10",
+    "updated_at": "2022-01-27 09:07:10"
+  },
+  {
+    "id": "139",
+    "message_id": "35",
+    "title": "Создать меню",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:07:10",
+    "updated_at": "2022-01-27 09:07:10"
+  },
+  {
+    "id": "140",
+    "message_id": "35",
+    "title": "Create Menu",
+    "locale": "en",
+    "created_at": "2022-01-27 09:07:10",
+    "updated_at": "2022-01-27 09:07:10"
+  },
+  {
+    "id": "141",
+    "message_id": "36",
+    "title": "Havola turi",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:08:14",
+    "updated_at": "2022-01-27 09:08:14"
+  },
+  {
+    "id": "142",
+    "message_id": "36",
+    "title": "Ҳавола тури",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:08:14",
+    "updated_at": "2022-01-27 09:08:14"
+  },
+  {
+    "id": "143",
+    "message_id": "36",
+    "title": "Тип ссылки",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:08:14",
+    "updated_at": "2022-01-27 09:08:14"
+  },
+  {
+    "id": "144",
+    "message_id": "36",
+    "title": "Link Type",
+    "locale": "en",
+    "created_at": "2022-01-27 09:08:14",
+    "updated_at": "2022-01-27 09:08:14"
+  },
+  {
+    "id": "145",
+    "message_id": "37",
+    "title": "Havola",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:08:40",
+    "updated_at": "2022-01-27 09:08:40"
+  },
+  {
+    "id": "146",
+    "message_id": "37",
+    "title": "Ҳавола",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:08:40",
+    "updated_at": "2022-01-27 09:08:40"
+  },
+  {
+    "id": "147",
+    "message_id": "37",
+    "title": "Ссылка",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:08:40",
+    "updated_at": "2022-01-27 09:08:40"
+  },
+  {
+    "id": "148",
+    "message_id": "37",
+    "title": "Link",
+    "locale": "en",
+    "created_at": "2022-01-27 09:08:40",
+    "updated_at": "2022-01-27 09:08:40"
+  },
+  {
+    "id": "149",
+    "message_id": "38",
+    "title": "Asosiy menyu",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:11:00",
+    "updated_at": "2022-01-27 09:11:00"
+  },
+  {
+    "id": "150",
+    "message_id": "38",
+    "title": "Aсосий меню",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:11:00",
+    "updated_at": "2022-01-27 09:11:00"
+  },
+  {
+    "id": "151",
+    "message_id": "38",
+    "title": "Главное меню",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:11:00",
+    "updated_at": "2022-01-27 09:11:00"
+  },
+  {
+    "id": "152",
+    "message_id": "38",
+    "title": "Main",
+    "locale": "en",
+    "created_at": "2022-01-27 09:11:00",
+    "updated_at": "2022-01-27 09:11:00"
+  },
+  {
+    "id": "153",
+    "message_id": "39",
+    "title": "Yangiliklar toifasini yarating",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:12:31",
+    "updated_at": "2022-01-27 09:12:31"
+  },
+  {
+    "id": "154",
+    "message_id": "39",
+    "title": "Янгиликлар тоифасини янгиланг",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:12:31",
+    "updated_at": "2022-01-27 09:12:31"
+  },
+  {
+    "id": "155",
+    "message_id": "39",
+    "title": "Создать категорию новостей",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:12:31",
+    "updated_at": "2022-01-27 09:12:31"
+  },
+  {
+    "id": "156",
+    "message_id": "39",
+    "title": "Create News Category",
+    "locale": "en",
+    "created_at": "2022-01-27 09:12:31",
+    "updated_at": "2022-01-27 09:12:31"
+  },
+  {
+    "id": "157",
+    "message_id": "40",
+    "title": "Yangiliklar yarating",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:14:56",
+    "updated_at": "2022-01-27 09:14:56"
+  },
+  {
+    "id": "158",
+    "message_id": "40",
+    "title": "Янгиликлар яратинг",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:14:56",
+    "updated_at": "2022-01-27 09:14:56"
+  },
+  {
+    "id": "159",
+    "message_id": "40",
+    "title": "Создать новости",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:14:56",
+    "updated_at": "2022-01-27 09:14:56"
+  },
+  {
+    "id": "160",
+    "message_id": "40",
+    "title": "Create News",
+    "locale": "en",
+    "created_at": "2022-01-27 09:14:56",
+    "updated_at": "2022-01-27 09:14:56"
+  },
+  {
+    "id": "161",
+    "message_id": "41",
+    "title": "Sahifa toifasini yarating",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:18:15",
+    "updated_at": "2022-01-27 09:18:15"
+  },
+  {
+    "id": "162",
+    "message_id": "41",
+    "title": "Саҳифа тоифасини яратинг",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:18:15",
+    "updated_at": "2022-01-27 09:18:15"
+  },
+  {
+    "id": "163",
+    "message_id": "41",
+    "title": "Создать Категорию страницы",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:18:15",
+    "updated_at": "2022-01-27 09:18:15"
+  },
+  {
+    "id": "164",
+    "message_id": "41",
+    "title": "Create Page Category",
+    "locale": "en",
+    "created_at": "2022-01-27 09:18:15",
+    "updated_at": "2022-01-27 09:18:15"
+  },
+  {
+    "id": "165",
+    "message_id": "42",
+    "title": "Sahifa yaratish",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:21:08",
+    "updated_at": "2022-01-27 09:21:08"
+  },
+  {
+    "id": "166",
+    "message_id": "42",
+    "title": "Саҳифа яратиш",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:21:08",
+    "updated_at": "2022-01-27 09:21:08"
+  },
+  {
+    "id": "167",
+    "message_id": "42",
+    "title": "Создать страницу",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:21:08",
+    "updated_at": "2022-01-27 09:21:08"
+  },
+  {
+    "id": "168",
+    "message_id": "42",
+    "title": "Create Page",
+    "locale": "en",
+    "created_at": "2022-01-27 09:21:08",
+    "updated_at": "2022-01-27 09:21:08"
+  },
+  {
+    "id": "169",
+    "message_id": "43",
+    "title": "Foydali resurslar toifalarini yarating",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:22:11",
+    "updated_at": "2022-01-27 09:22:11"
+  },
+  {
+    "id": "170",
+    "message_id": "43",
+    "title": "Фойдали ресурслар категориясини янгиланг",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:22:11",
+    "updated_at": "2022-01-27 09:22:11"
+  },
+  {
+    "id": "171",
+    "message_id": "43",
+    "title": "Создать полезные категории ссылок",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:22:11",
+    "updated_at": "2022-01-27 09:22:11"
+  },
+  {
+    "id": "172",
+    "message_id": "43",
+    "title": "Create Useful Category",
+    "locale": "en",
+    "created_at": "2022-01-27 09:22:11",
+    "updated_at": "2022-01-27 09:22:11"
+  },
+  {
+    "id": "173",
+    "message_id": "44",
+    "title": "Foydali havolani yarating",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:24:20",
+    "updated_at": "2022-01-27 09:24:20"
+  },
+  {
+    "id": "174",
+    "message_id": "44",
+    "title": "Фойдали ҳаволани яратинг",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:24:20",
+    "updated_at": "2022-01-27 09:24:20"
+  },
+  {
+    "id": "175",
+    "message_id": "44",
+    "title": "Создать полезную ресурсов",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:24:20",
+    "updated_at": "2022-01-27 09:24:20"
+  },
+  {
+    "id": "176",
+    "message_id": "44",
+    "title": "Create Useful",
+    "locale": "en",
+    "created_at": "2022-01-27 09:24:20",
+    "updated_at": "2022-01-27 09:24:20"
+  },
+  {
+    "id": "177",
+    "message_id": "45",
+    "title": "Fotosurat faylini qo'shing",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:27:01",
+    "updated_at": "2022-01-27 09:27:01"
+  },
+  {
+    "id": "178",
+    "message_id": "45",
+    "title": "Фотосурат файлини қўшинг",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:27:01",
+    "updated_at": "2022-01-27 09:27:01"
+  },
+  {
+    "id": "179",
+    "message_id": "45",
+    "title": "Добавить файл фотографии",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:27:01",
+    "updated_at": "2022-01-27 09:27:01"
+  },
+  {
+    "id": "180",
+    "message_id": "45",
+    "title": "Create Photo",
+    "locale": "en",
+    "created_at": "2022-01-27 09:27:01",
+    "updated_at": "2022-01-27 09:27:01"
+  },
+  {
+    "id": "181",
+    "message_id": "46",
+    "title": "Tarkibi",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:28:17",
+    "updated_at": "2022-01-27 09:28:17"
+  },
+  {
+    "id": "182",
+    "message_id": "46",
+    "title": "Таркиби",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:28:17",
+    "updated_at": "2022-01-27 09:28:17"
+  },
+  {
+    "id": "183",
+    "message_id": "46",
+    "title": "Содержание",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:28:17",
+    "updated_at": "2022-01-27 09:28:17"
+  },
+  {
+    "id": "184",
+    "message_id": "46",
+    "title": "Content",
+    "locale": "en",
+    "created_at": "2022-01-27 09:28:17",
+    "updated_at": "2022-01-27 09:28:17"
+  },
+  {
+    "id": "185",
+    "message_id": "47",
+    "title": "Pdf sarlavhasi",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:29:03",
+    "updated_at": "2022-01-27 09:29:03"
+  },
+  {
+    "id": "186",
+    "message_id": "47",
+    "title": "Pdf сарлавҳаси",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:29:03",
+    "updated_at": "2022-01-27 09:29:03"
+  },
+  {
+    "id": "187",
+    "message_id": "47",
+    "title": "Наименование Pdf",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:29:03",
+    "updated_at": "2022-01-27 09:29:03"
+  },
+  {
+    "id": "188",
+    "message_id": "47",
+    "title": "Pdf Title",
+    "locale": "en",
+    "created_at": "2022-01-27 09:29:03",
+    "updated_at": "2022-01-27 09:29:03"
+  },
+  {
+    "id": "189",
+    "message_id": "48",
+    "title": "Anons Rasm",
+    "locale": "oz",
+    "created_at": "2022-01-27 09:30:58",
+    "updated_at": "2022-01-27 09:30:58"
+  },
+  {
+    "id": "190",
+    "message_id": "48",
+    "title": "Анонс Расм",
+    "locale": "uz",
+    "created_at": "2022-01-27 09:30:58",
+    "updated_at": "2022-01-27 09:30:58"
+  },
+  {
+    "id": "191",
+    "message_id": "48",
+    "title": "Анонс Картина",
+    "locale": "ru",
+    "created_at": "2022-01-27 09:30:58",
+    "updated_at": "2022-01-27 09:30:58"
+  },
+  {
+    "id": "192",
+    "message_id": "48",
+    "title": "Anons Image",
+    "locale": "en",
+    "created_at": "2022-01-27 09:30:58",
+    "updated_at": "2022-01-27 09:30:58"
+  }
+]
