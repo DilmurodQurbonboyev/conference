@@ -26,17 +26,18 @@
                                 <div class="col-my-4 col-xl-4 col-md-6">
                                     <div class="foto">
                                         <a data-fancybox data-type="iframe"
-                                           data-src="https://youtu.be/{{ $list->video_code }}"
+                                           data-src="https://www.youtube.com/embed/{{ $list->video_code }}"
                                            href="javascript:;">
                                             <div class="video-in">
-                                                <img src="{{ $list->image }}"
-                                                     alt="{{ $list->title ?? '' }}">
+                                                <img
+                                                    src="{{ $list->image }}"
+                                                    alt="{{ $list->title ?? '' }}">
                                             </div>
                                             <div class="video-title">
                                                 <span>{{ $list->title ?? '' }}</span>
                                             </div>
                                             <div class="video-date">
-                                                <span>{{  $list->created_at->format('d.m.20y') }}</span>
+                                                <span>{{ $list->created_at->format('d.m.20y') }}</span>
                                             </div>
                                         </a>
                                     </div>
