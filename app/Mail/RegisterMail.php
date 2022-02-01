@@ -9,6 +9,7 @@ use Illuminate\Queue\SerializesModels;
 
 class RegisterMail extends Mailable
 {
+    public $data;
     use Queueable, SerializesModels;
 
     /**
@@ -16,9 +17,9 @@ class RegisterMail extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($data)
     {
-        //
+        $this->data = $data;
     }
 
     /**
@@ -28,6 +29,8 @@ class RegisterMail extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        return $this->from(env('MAIL_USERNAME'))->subject('Link for zoom meeting')
+            ->view('frontend.email')
+            ->with('details', $this->data);
     }
 }

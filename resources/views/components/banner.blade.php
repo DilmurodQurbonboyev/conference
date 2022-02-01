@@ -1,17 +1,12 @@
 <section class="banner">
     <div class="banner-in">
-        <div class="banner-gif">
-            <video autoplay="" muted="" loop="" data-autoplay>
-                <source src="{{ asset('img/banner.mp4') }}" type="video/mp4" autoplay="">
-            </video>
-        </div>
         <div class="container">
             <div class="header">
                 <div class="logo">
-                    <a href="#">
+                    <a href="/">
                         <div class="logo-in">
                             <img src="{{ asset('img/logo.png') }}">
-                            <span>{!! tr('UN Global Counter-Terrorism Strategy in Central Asia') !!}</span>
+                            <span>Глобальная контртеррористическая<br> стратегия ООН в Центральной Азии</span>
                         </div>
                     </a>
                 </div>
@@ -90,24 +85,26 @@
                 </span>
             </div>
             <div class="banner-link">
-                <a href="#">
-                    <span>{{ tr('Registration of participants') }}</span>
-                </a>
+                @if(!empty($about))
+                    <a href="{!! $about->link !!}">
+                        <span>{{ tr('Registration of participants') }}</span>
+                    </a>
+                @endif
             </div>
         </div>
-    </div>
-    <div class="banner-icon">
-        <div class="banner-icon-in">
-            @foreach($partners as $partner)
-                @if ($partner->translate($app->getLocale())->title !== null)
-                    <div class="banner-col">
-                        <a href="{{ hrefType($partner->link_type, $partner->link) }}"
-                           target="{{ targetType($partner->link_type) }}">
-                            <img src="{{ $partner->image }}"/>
-                        </a>
-                    </div>
-                @endif
-            @endforeach
+        <div class="banner-icon">
+            <div class="banner-icon-in">
+                @foreach($partners as $partner)
+                    @if ($partner->translate($app->getLocale())->title !== null)
+                        <div class="banner-col">
+                            <a href="{{ hrefType($partner->link_type, $partner->link) }}"
+                               target="{{ targetType($partner->link_type) }}">
+                                <img src="{{ $partner->image }}"/>
+                            </a>
+                        </div>
+                    @endif
+                @endforeach
+            </div>
         </div>
     </div>
 </section>

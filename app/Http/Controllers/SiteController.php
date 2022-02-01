@@ -4,9 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\RegisterRequest;
 use App\Models\ListCategory;
+use App\Mail\RegisterMail;
 use App\Models\Lists;
 use App\Models\Register;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class SiteController extends Controller
 {
@@ -20,17 +22,9 @@ class SiteController extends Controller
         $category = ListCategory::where('slug', $slug)->first();
         $metaTitle = $category->title ?? '';
 
-
-
         if (is_null($category)) {
             return view('frontend.error', compact('metaTitle'));
         }
-
-        // if (!$category) {
-        //     return view('frontend.error', 'metaTitle');
-        // }
-
-
 
         switch ($category->list_type_id) {
             case 1:
@@ -121,12 +115,12 @@ class SiteController extends Controller
         if ($request->hasfile('photo')) {
             $file = $request->file('photo');
             $extension = $file->getClientOriginalExtension();
-            $filename1 = uniqid('') . '.' . $extension;
-            $file->move($path . "/", $filename1);
-            $register->photo = $path . "/" . $filename1;
+            $filename = uniqid('') . '.' . $extension;
+            $file->move($path . "/", $filename);
+            $register->photo = $path . "/" . $filename;
         }
-        Mail
 
-        return view('frontend.register');
+        Mail::to($request->email)->send(new RegisterMail());
+        return redirect()->back()->with('success', tr('ZOOM conference link sent to your email'));
     }
 }
