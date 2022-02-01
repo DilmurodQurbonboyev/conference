@@ -1,6 +1,6 @@
 <div class="card card-primary">
     <div class="card-header">
-        <h3 class="card-title">{{ tr('Appeals') }}</h3>
+        <h3 class="card-title">{{ tr('Registers') }}</h3>
     </div>
     <div class="card-body">
         <div class="row">
@@ -13,34 +13,13 @@
                 <tr class="text-primary">
                     <th></th>
                     <th>{{ tr('Id') }}</th>
-                    <th>{{ tr('Name') }}</th>
-                    <th>{{ tr('Number') }}</th>
+                    <th>{{ tr('Image') }}</th>
+                    <th>{{ tr('FullName') }}</th>
+                    <th>{{ tr('Organization') }}</th>
+                    <th>{{ tr('Position') }}</th>
                     <th>{{ tr('Email') }}</th>
-                    <th>{{ tr('Status') }}</th>
                     <th>{{tr('Created At')}}</th>
                     <th style="width: 100px"></th>
-                </tr>
-                <tr>
-                    <th></th>
-                    <th>
-                        <input class="form-control" wire:model.debounce.300ms="filter_id" type="number">
-                    </th>
-                    <th>
-                        <input class="form-control" type="text" wire:model.debounce.300ms="filter_title">
-                    </th>
-                    <th>
-                        <input class="form-control" type="text" wire:model.debounce.300ms="filter_number">
-                    </th>
-                    <th>
-                        <input class="form-control" type="text" wire:model.debounce.300ms="filter_email">
-                    </th>
-                    <th>
-                        <select class="custom-select rounded-0" wire:model.debounce.300ms="filter_status">
-                            <option value=""></option>
-                            <option value="2">{{ tr('Active') }}</option>
-                            <option value="1">{{ tr('Inactive') }}</option>
-                        </select>
-                    </th>
                 </tr>
                 </thead>
                 <tbody>
@@ -48,18 +27,20 @@
                     <tr>
                         <td>{{++$key}}</td>
                         <td>{{ $appeal->id }}</td>
-                        <td>{{ $appeal->project }}</td>
-                        <td>{{ $appeal->bank_number }}</td>
-                        <td>{{$appeal->bank_email}}</td>
                         <td>
-                            @if ($appeal->status == 2)
-                                <span class="badge bg-success">{{ tr('Active') }}</span>
-                            @else
-                                <span class="badge bg-danger">{{ tr('Inactive') }}</span>
-                            @endif
+                            <img src="{{ $appeal->image }}" alt="">
                         </td>
+                        <td>{{ $appeal->fullName }}</td>
+                        <td>{{$appeal->organization}}</td>
+                        <td>{{$appeal->position}}</td>
+                        <td>{{$appeal->email}}</td>
                         <td>{{ $appeal->created_at->format('d.m.20y') }}</td>
                         <td class="d-flex">
+                            @can('appeals.show')
+                                <a class="btn btn-primary m-1" href="{{ route('appeals.show', $appeal->id) }}"
+                                   title="View" aria-label="View"><span class="fas fa-eye"></span>
+                                </a>
+                            @endcan
                             @can('appeals.edit')
                                 <a class="btn btn-primary m-1" href="{{ route('appeals.edit', $appeal->id) }}"
                                    title="Янгилаш" aria-label="Янгилаш"><span class="fas fa-pencil-alt"></span>

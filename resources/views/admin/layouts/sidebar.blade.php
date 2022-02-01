@@ -254,7 +254,7 @@
                         <a href="{{ route('appeals.index') }}"
                            class="nav-link {{ request()->routeIs('appeals.*') ? 'active' : '' }}">
                             <i class="fas fa-mail-bulk"></i>
-                            <p>{{ tr('Appeals') }}</p>
+                            <p>{{ tr('Registers') }}</p>
                         </a>
                     @endcan
                 </li>

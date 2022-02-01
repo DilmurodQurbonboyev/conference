@@ -326,11 +326,11 @@ Breadcrumbs::for('messages/show', function ($trail, $id) {
     $trail->parent('messages');
     $trail->push(tr('About Message'), route('messages.show', $id));
 });
-Breadcrumbs::for('appeals', function ($trail) {
+Breadcrumbs::for('registers', function ($trail) {
     $trail->parent('admin');
-    $trail->push(tr('Appeals'), route('appeals.index'));
+    $trail->push(tr('Registers'), route('appeals.index'));
 });
-Breadcrumbs::for('appeals/edit', function ($trail, $id) {
-    $trail->parent('appeals');
-    $trail->push(tr('Update Appeal'), route('appeals.edit', $id));
+Breadcrumbs::for('registers/edit', function ($trail, $id) {
+    $trail->parent('registers');
+    $trail->push(tr('Update Register'), route('appeals.edit', $id));
 });

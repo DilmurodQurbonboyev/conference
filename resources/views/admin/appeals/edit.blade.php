@@ -9,7 +9,7 @@
     </div>
     <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-            {{ Breadcrumbs::render('appeals/edit', $appeal->id) }}
+            {{ Breadcrumbs::render('registers/edit', $appeal->id) }}
         </ol>
     </div>
 @endsection

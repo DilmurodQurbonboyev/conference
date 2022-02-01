@@ -3,7 +3,7 @@
 namespace App\Http\Livewire;
 
 use Livewire\Component;
-use App\Models\Appeal;
+use App\Models\Register;
 use Livewire\WithPagination;
 
 
@@ -22,7 +22,7 @@ class Appeals extends Component
     public function render()
     {
 
-        $query = Appeal::query();
+        $query = Register::query();
 
         $query->when($this->filter_id != "", function ($q) {
             return $q->where('id', $this->filter_id);

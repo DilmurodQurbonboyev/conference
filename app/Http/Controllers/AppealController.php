@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Appeal;
+use App\Models\Register;
 use Illuminate\Http\Request;
 
 
@@ -26,7 +26,7 @@ class AppealController extends Controller
      */
     public function edit($id)
     {
-        $appeal = Appeal::findOrFail($id);
+        $appeal = Register::findOrFail($id);
         return view('admin.appeals.edit', compact('appeal'));
     }
 
@@ -43,7 +43,7 @@ class AppealController extends Controller
             'status' => $request->status,
         ];
 
-        Appeal::findOrFail($id)->update($appeal);
+        Register::findOrFail($id)->update($appeal);
 
         return redirect()->route('appeals.index')->with('success', tr('Successfully saved'));
     }
@@ -56,21 +56,13 @@ class AppealController extends Controller
      */
     public function destroy($id)
     {
-        $appeal = Appeal::findOrFail($id);
-        if ($appeal->short_info) {
-            unlink($appeal->short_info);
-        }
-        if ($appeal->energy_save) {
-            unlink($appeal->energy_save);
-        }
-        if ($appeal->other_info) {
-            unlink($appeal->other_info);
-        }
-        if ($appeal->confirm_info) {
-            unlink($appeal->confirm_info);
-        }
-        $appeal->delete();
+        $appeal = Register::findOrFail($id);
 
+        if ($appeal->photo) {
+            unlink($appeal->photo);
+        }
+
+        $appeal->delete();
         return redirect()->route('appeals.index')->with('success', 'Successfully deleted');
     }
 }

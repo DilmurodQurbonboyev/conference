@@ -74,7 +74,7 @@
             <div class="banner-center">
                 <div class="banner-text">
 						<span>
-							<i>{!! tr('HIGH LEVEL INTERNATIONAL CONFERENCE') !!}</i>
+							<i>{!! tr('high level international conference') !!}</i>
                             @if(!empty($about))
                                 {{ $about->title ?? '' }}
                             @endif
