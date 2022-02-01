@@ -8,7 +8,7 @@
     {{ $post->category->title }}
 @endsection
 @section('content')
-    <section class="page d-none">
+    <section class="page">
         <div class="container">
             <div class="head">
                 <div class="head-title">
@@ -26,51 +26,6 @@
             <div class="detail">
                 <div class="detail-title">
                     <span>{{ $post->title ?? '' }}</span>
-                </div>
-                <?php if(!empty($post->body_image) && is_array($res = explode(',', $post->body_image)) && !empty($res)) { ?>
-                <div class="owl-detail">
-                    <div class="owl-carousel owl-theme">
-                        @foreach ($res as $i)
-                            @if ($i)
-                                <div class="item">
-                                    <div class="detail-img">
-                                        <img src="{{ $i }}">
-                                    </div>
-                                </div>
-                            @endif
-                        @endforeach
-                    </div>
-                </div>
-                <?php }?>
-                <div class="detail-content">
-                    <!-- content -->
-                    {!! $post->content !!}
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <section class="page">
-        <div class="container">
-            <div class="head">
-                <div class="head-title">
-                    <span>НОВОСТИ</span>
-                </div>
-                <nav class="breadcrumb-nav" aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Library</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
-        <div class="container detail-container">
-            <div class="detail">
-                <div class="detail-title">
-                    <span>{{ $post->category->title }}</span>
                 </div>
                 <?php
                 if(!empty($post->body_image) && is_array(explode(',', $post->body_image))) {
