@@ -75,6 +75,9 @@ video {
 }
 /*--------all--------*/
 /*========app========*/
+.application-form {
+    padding-top: 25px;
+}
 .application-in {
   background-image: url(../img/sd.jpg);
   background-repeat: no-repeat;
@@ -104,7 +107,7 @@ video {
   max-width: 100%;
 }
 .application-form-in {
-  margin-top: 50px;
+  margin-top: 25px;
   background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
   box-shadow: 0px 9px 23px rgba(0, 0, 0, 0.16);
   border: 2px solid rgba(193, 231, 247, 1);
@@ -164,6 +167,12 @@ video {
     margin-left: auto;
     margin-right: auto;
   }
+    .application-form .alert {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 @media (max-width: 575px) {
   .application-form-in {
@@ -306,7 +315,7 @@ video {
   }
 }
 @media (min-width: 1600px) {
-  
+
 }
 @media (max-width: 991px) {
   .layout-left span {

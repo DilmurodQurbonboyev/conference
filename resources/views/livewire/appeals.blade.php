@@ -28,9 +28,7 @@
                         <td>{{++$key}}</td>
                         <td>{{ $appeal->id }}</td>
                         <td>
-                            <img src="{{$appeal->photo}}" alt="">
-                            <img src="{{ public_path($appeal->photo) }}" alt="Image"/>
-
+                            <img width="10%" src="{{ asset($appeal->photo) }}" alt="">
                         </td>
                         <td>{{ $appeal->fullName }}</td>
                         <td>{{$appeal->organization}}</td>

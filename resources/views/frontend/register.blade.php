@@ -41,24 +41,25 @@
                         </div>
                     </div>
                     <div class="col-xl-6">
-                        @if (count($errors) > 0)
-                            <div class="alert alert-danger">
-                                <button type="button" class="close" data-dismiss="alert">×</button>
-                                <ul>
-                                    @foreach ($errors->all() as $error)
-                                        <li>{{ $error }}</li>
-                                    @endforeach
-                                </ul>
-                            </div>
-                        @endif
-                        @if ($message = Session::get('success'))
-                            <div class="alert alert-success alert-block">
-                                <button type="button" class="close" data-dismiss="alert">×</button>
-                                <strong>{{ $message }}</strong>
-                            </div>
-                        @endif
+
                         <div class="application-form">
-                                <form action="{{ route('registerPost') }}" method="post">
+                            @if (count($errors) > 0)
+                                <div class="alert alert-danger">
+                                    <button type="button" class="close" data-dismiss="alert">×</button>
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endif
+                            @if ($message = Session::get('success'))
+                                <div class="alert alert-success alert-block">
+                                    <button type="button" class="close" data-dismiss="alert">×</button>
+                                    <strong>{{ $message }}</strong>
+                                </div>
+                            @endif
+                            <form action="{{ route('registerPost') }}" method="post" enctype="multipart/form-data">
                                 @csrf
                                 <div class="application-form-in">
                                     <div class="application-title">
@@ -94,10 +95,10 @@
                                                aria-describedby="emailHelp"
                                                placeholder="Введите текст">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="input6">{{ tr('Foto') }}</label>
-                                        <input type="file" class="form-control" id="input6" aria-describedby="emailHelp"
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" name="photo" id="input6" aria-describedby="emailHelp"
                                                placeholder="Введите текст">
+                                        <label class="custom-file-label" for="input6">{{ tr('Foto') }}</label>
                                     </div>
                                     <div class="application-submit">
                                         <button type="submit">{{ tr('Send') }}</button>
@@ -110,7 +111,4 @@
             </div>
         </div>
     </section>
-
-
-
 @endsection

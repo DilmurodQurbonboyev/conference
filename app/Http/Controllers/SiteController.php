@@ -101,7 +101,7 @@ class SiteController extends Controller
             mkdir('registers');
         }
 
-        $path = "registers/";
+        $path = "registers";
 
         $register = new Register();
         $register->fullName = $request->fullName;
@@ -117,9 +117,10 @@ class SiteController extends Controller
             $extension = $file->getClientOriginalExtension();
             $filename = uniqid('') . '.' . $extension;
             $file->move($path . "/", $filename);
-            $register->photo = $path . $filename;
+            $register->photo = $path . '/' . $filename;
         }
         $register->save();
+
         $link = 'https://youtube.com/';
 
         Mail::to($request->email)->send(new RegisterMail($link));
