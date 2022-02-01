@@ -18,9 +18,17 @@ class SiteController extends Controller
         $category = ListCategory::where('slug', $slug)->first();
         $metaTitle = $category->title ?? '';
 
-        if (!$category) {
-            return view('frontend.error', 'metaTitle');
+
+
+        if (is_null($category)) {
+            return view('frontend.error', compact('metaTitle'));
         }
+
+        // if (!$category) {
+        //     return view('frontend.error', 'metaTitle');
+        // }
+
+
 
         switch ($category->list_type_id) {
             case 1:
@@ -53,17 +61,30 @@ class SiteController extends Controller
     public function news(Request $request, $slug)
     {
         $post = Lists::where('slug', $slug)->first();
+
+        if (is_null($post)) {
+            return view('frontend.error');
+        }
+
+
         $postKey = 'news_' . $post->id;
         if (!session()->has($postKey)) {
             $post->increment('count_view');
             session()->put($postKey, 1);
         }
+
+
         return view("frontend.detail", compact('post'));
     }
 
     public function pages(Request $request, $slug)
     {
         $post = Lists::where('slug', $slug)->first();
+
+        if (is_null($post)) {
+            return view('frontend.error');
+        }
+
         $postKey = 'news_' . $post->id;
         if (!session()->has($postKey)) {
             $post->increment('count_view');
@@ -71,6 +92,4 @@ class SiteController extends Controller
         }
         return view("frontend.detail", compact('post'));
     }
-
-
 }

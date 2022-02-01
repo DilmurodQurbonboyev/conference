@@ -21,7 +21,7 @@
             <div class="card card-primary card-outline">
                 <div class="card-body box-profile">
                     <div class="text-center">
-                        <img class="profile-user-img img-fluid img-circle" src="{{ asset('img/noimage.jpg') }}"
+                        <img class="profile-user-img img-fluid img-circle" src="{{ asset('img/noImage.jpg') }}"
                             alt="User profile picture">
                     </div>
                     <h3 class="profile-username text-center">{{ Str::ucfirst(Auth::user()->name) }}</h3>

@@ -4,13 +4,14 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Models\User;
-use Illuminate\Support\Facades\DB;
+use OwenIt\Auditing\Models\Audit;
 use Livewire\WithPagination;
 
 class Log extends Component
 {
 
     use WithPagination;
+    public $deleteId = '';
     public $filter_id,
         $filter_modal,
         $filter_row,
@@ -27,7 +28,7 @@ class Log extends Component
     {
         $users = User::all();
 
-        $query = DB::table('audits');
+        $query = Audit::query();
 
         $query->when($this->filter_id != "", function ($q) {
             return $q->where('id', $this->filter_id);
@@ -35,5 +36,15 @@ class Log extends Component
 
         $audits = $query->paginate($this->perPage);
         return view('livewire.log', compact('users', 'audits'));
+    }
+
+    public function deleteId($id)
+    {
+        $this->deleteId = $id;
+    }
+
+    public function delete()
+    {
+        Audit::findOrFail($this->deleteId)->delete();
     }
 }

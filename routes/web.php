@@ -14,5 +14,9 @@ Route::group(
         Route::get('/category/{slug}', [App\Http\Controllers\SiteController::class, 'category'])->name('category');
         Route::get('/news/{slug}', [App\Http\Controllers\SiteController::class, 'news'])->name('news');
         Route::get('/pages/{slug}', [App\Http\Controllers\SiteController::class, 'pages'])->name('pages');
+
+        Route::fallback(function () {
+            return view("frontend.error");
+        });
     }
 );

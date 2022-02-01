@@ -6,7 +6,7 @@ function hrefType($link_type, $result)
         return '#';
     }
     if ($link_type == 2) {
-        return url()->current() . $result;
+        return $result;
     }
     if ($link_type == 3) {
         return url()->current() . $result;

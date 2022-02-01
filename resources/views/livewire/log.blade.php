@@ -59,35 +59,61 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @forelse($audits as $key=>$audit)
+                    @foreach($audits as $key=>$audit)
                     <tr>
                         <td>{{ ++$key }}</td>
                         <td>{{ $audit->id }}</td>
                         <td>{{ $audit->auditable_type }}</td>
                         <td>{{ $audit->auditable_id }}</td>
-                        <td>{{ $audit->user_id }}</td>
+                        <td>{{ $audit->user['name'] }}</td>
                         <td>{{ $audit->ip_address }}</td>
                         <td>{{ $audit->url }}</td>
                         <td>{{ $audit->event }}</td>
                         <td>{{ $audit->created_at }}</td>
-                        <td>
+                        <td class="d-flex">
                             @can('logs.show')
-                            <a href="{{ route('logs.show', $audit->id) }}" title="View" aria-label="View"><span
-                                    class="fas fa-eye"></span></a>
+                            <a class="btn btn-primary m-1" href="{{ route('logs.show', $audit->id) }}" title="View"
+                                aria-label="View"><span class="fas fa-eye"></span>
+                            </a>
                             @endcan
-                            @can('logs.edit')
-                            <a href="{{ route('logs.edit', $audit->id) }}" title="Янгилаш" aria-label="Янгилаш"><span
-                                    class="fas fa-pencil-alt"></span></a>
+                            @can('logs.destroy')
+                            <form action="{{ route('logs.destroy', $audit->id) }}" method="POST">
+                                @csrf
+                                @method('DELETE')
+                                <button type="button" wire:click="deleteId({{ $audit->id }})"
+                                    class="btn btn-primary m-1" data-toggle="modal" data-target="#deleteModal">
+                                    <span class="fas fa-trash-alt"></span>
+                                </button>
+                            </form>
                             @endcan
-                            @can('logs.delete')
-                            <a class="delete-button-confirm" href="{{ route('logs.destroy', $audit->id) }}"
-                                title="Ўчириш" aria-label="Ўчириш"><span class="fas fa-trash-alt"></span></a>
-                            @endcan
-                            <td />
+                        </td>
                     </tr>
-                    @empty
-                    No any data
-                    @endforelse
+                    @endforeach
+                    <div wire:ignore.self class="modal fade" id="deleteModal" tabindex="-1" role="dialog"
+                        aria-labelledby="deleteModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="deleteModalLabel">{{ tr('Delete Confirm') }}
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true close-btn">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>{{ tr('Are you sure want to delete') }}?</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary close-btn" data-dismiss="modal">{{
+                                        tr('No')
+                                        }}</button>
+                                    <button type="button" wire:click.prevent="delete()"
+                                        class="btn btn-primary close-modal" data-dismiss="modal">{{
+                                        tr('Yes') }}</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </tbody>
             </table>
             <span class="d-flex pt-2 justify-content-end"> {{ $audits->links() }}</span>

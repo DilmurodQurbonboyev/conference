@@ -47,9 +47,11 @@ Route::group(
                     'messages' => App\Http\Controllers\MessageController::class,
                     'managements' => App\Http\Controllers\ManagementController::class,
                     'managements-category' => App\Http\Controllers\ManagementCategoryController::class,
-                    'logs' => App\Http\Controllers\LogController::class,
+                    // 'logs' => App\Http\Controllers\LogController::class,
                     'appeals' => App\Http\Controllers\AppealController::class,
                 ]);
+
+                Route::resource('logs', App\Http\Controllers\LogController::class)->except('edit', 'create');
 
                 Route::group(['middleware' => ['role:super-admin']], function () {
 
