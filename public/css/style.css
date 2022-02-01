@@ -101,6 +101,42 @@ video {
   height: 240px;
   object-fit: cover;
 }
+.video-in {
+  position: relative;
+}
+.video-in:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url(../img/play.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.video-in img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+.video-title {
+  margin-top: 10px;
+}
+.video-title span {
+  font-family: "Roboto-Condensed-700";
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: rgba(70, 70, 70, 1);
+}
+.video-date {
+  margin-top: 5px;
+}
+.video-date span {
+  font-size: 14px;
+  color: rgba(70, 70, 70, 1);
+}
 @media (min-width: 576px) {
   .foto {
     margin-top: 30px;

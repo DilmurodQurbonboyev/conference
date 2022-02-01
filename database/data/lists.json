@@ -592,5 +592,32 @@
         "deleted_at": null,
         "created_at": "2022-02-01 11:18:59",
         "updated_at": "2022-02-01 11:18:59"
+    },
+    {
+        "id": "23",
+        "list_type_id": "8",
+        "lists_category_id": "9",
+        "slug": "mezhdunarodnyy-ekspertnyy-forum-sng-po-voprosam-obespecheniya-informacionnoy-bezopasnosti-2",
+        "image": "http:\/\/conference.realtest.uz\/storage\/photos\/shares\/40.jpg",
+        "anons_image": null,
+        "body_image": null,
+        "show_on_slider": null,
+        "pdf_type": null,
+        "video_code": "dcdc3c8be4e68a8",
+        "video": null,
+        "media_type": "4",
+        "link": null,
+        "link_type": null,
+        "parent_id": "2",
+        "right_menu": "2",
+        "date": "2022-02-01",
+        "order": null,
+        "count_view": "0",
+        "status": "2",
+        "user_id": "4",
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-02-01 11:56:54",
+        "updated_at": "2022-02-01 11:56:54"
     }
 ]

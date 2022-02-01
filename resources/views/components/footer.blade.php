@@ -3,10 +3,10 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="footer-title">
-                    <span>МЕЖДУНАРОДНАЯ КОНФЕРЕНЦИЯ ВЫСОКОГО УРОВНЯ</span>
+                    <span>{!! tr('HIGH LEVEL INTL CONFERENCE') !!}</span>
                 </div>
                 <div class="footer-description">
-                    <span>«Региональное сотрудничество стран Центральной Азии в рамках<br> Совместного плана действий по реализации<br> Глобальной контртеррористической стратегии ООН»</span>
+                    <span>{!! tr('Regional cooperation of the countries of Central Asia within the framework of the Joint Action Plan for the implementation of the UN Global Counter-Terrorism Strategy') !!}</span>
                 </div>
                 <div class="footer-description">
                     <span>©COPYRIGHT 2022. Все права защищены</span>
@@ -32,9 +32,10 @@
                     @if (isset($menu['submenus']))
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button"
                                data-toggle="dropdown" aria-expanded="false">
-                                {{ $menu['title'] }}
+                                <span>{{ $menu['title'] }}</span>
+                                <i class="fas fa-chevron-down"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 @foreach ($menu['submenus'] as $item)

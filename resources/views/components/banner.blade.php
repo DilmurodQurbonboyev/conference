@@ -12,11 +12,11 @@
                 </div>
                 <div class="lang">
                     <ul>
-{{--                        <li class="{{ $app->getLocale() == 'uz' ? 'active' : '' }}"><a--}}
-{{--                                href="{{ LaravelLocalization::getLocalizedURL('uz') }}">ЎЗ</a></li>--}}
-{{--                        <li class="{{ $app->getLocale() == 'oz' ? 'active' : '' }}">--}}
-{{--                            <a href="{{ LaravelLocalization::getLocalizedURL('oz') }}">O'Z</a>--}}
-{{--                        </li>--}}
+                        {{--                        <li class="{{ $app->getLocale() == 'uz' ? 'active' : '' }}"><a--}}
+                        {{--                                href="{{ LaravelLocalization::getLocalizedURL('uz') }}">ЎЗ</a></li>--}}
+                        {{--                        <li class="{{ $app->getLocale() == 'oz' ? 'active' : '' }}">--}}
+                        {{--                            <a href="{{ LaravelLocalization::getLocalizedURL('oz') }}">O'Z</a>--}}
+                        {{--                        </li>--}}
                         <li class="{{ $app->getLocale() == 'ru' ? 'active' : '' }}">
                             <a href="{{ LaravelLocalization::getLocalizedURL('ru') }}">RU</a>
                         </li>
@@ -44,9 +44,10 @@
                                 @endif
                                 @if (isset($menu['submenus']))
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        <a class="nav-link" href="#" id="navbarDropdown" role="button"
                                            data-toggle="dropdown" aria-expanded="false">
-                                            {{ $menu['title'] }}
+                                            <span>{{ $menu['title'] }}</span>
+                                            <i class="fas fa-chevron-down"></i>
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                             @foreach ($menu['submenus'] as $item)

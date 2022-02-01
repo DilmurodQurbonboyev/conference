@@ -254,5 +254,37 @@
         "locale": "en",
         "created_at": "2022-02-01 11:06:45",
         "updated_at": "2022-02-01 11:06:45"
+    },
+    {
+        "id": "33",
+        "list_category_id": "9",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-01 11:54:50",
+        "updated_at": "2022-02-01 11:54:50"
+    },
+    {
+        "id": "34",
+        "list_category_id": "9",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-01 11:54:50",
+        "updated_at": "2022-02-01 11:54:50"
+    },
+    {
+        "id": "35",
+        "list_category_id": "9",
+        "title": "Видеогаллерея",
+        "locale": "ru",
+        "created_at": "2022-02-01 11:54:50",
+        "updated_at": "2022-02-01 11:54:50"
+    },
+    {
+        "id": "36",
+        "list_category_id": "9",
+        "title": "Videogallery",
+        "locale": "en",
+        "created_at": "2022-02-01 11:54:50",
+        "updated_at": "2022-02-01 11:54:50"
     }
 ]

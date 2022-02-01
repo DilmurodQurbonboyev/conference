@@ -18,7 +18,7 @@ class ListCategorySeeder extends Seeder
         $json = File::get("database/data/list_categories.json");
         $listCategories = json_decode($json);
 
-        foreach ($listCategories as $key => $listCategory) {
+        foreach ($listCategories as $listCategory) {
             ListCategory::create([
                 "id" => $listCategory->id,
                 "list_type_id" => $listCategory->list_type_id,

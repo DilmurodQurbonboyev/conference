@@ -26,9 +26,10 @@
                                 @endif
                                 @if (isset($menu['submenus']))
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        <a class="nav-link" href="#" id="navbarDropdown" role="button"
                                            data-toggle="dropdown" aria-expanded="false">
-                                            {{ $menu['title'] }}
+                                            <span>{{ $menu['title'] }}</span>
+                                            <i class="fas fa-chevron-down"></i>
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                             @foreach ($menu['submenus'] as $item)
