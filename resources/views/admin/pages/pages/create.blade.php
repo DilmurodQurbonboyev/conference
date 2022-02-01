@@ -94,6 +94,18 @@
                     </span>
                 </div>
             </div>
+            <div class="form-group">
+                <label for="body_image" class="mb-2">{{ tr('Body Image') }}</label>
+                <div class="input-group">
+                    <input id="thumbnail3" class="form-control" type="text" name="body_image">
+                    <span class="input-group-btn">
+                        <a id="lfm3" data-input="thumbnail3" data-preview="holder" class="btn btn-primary">
+                            <i class="fas fa-images"></i>
+                            {{ tr('Choose') }}
+                        </a>
+                    </span>
+                </div>
+            </div>
             <input type="hidden" class="form-control" name="list_type_id" value="5">
             <div class="form-group">
                 <label for="order">{{ tr('Order') }}</label>
