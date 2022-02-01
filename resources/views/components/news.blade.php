@@ -12,12 +12,12 @@
                         <div class="item">
                             <div class="news">
                                 <div class="news-img">
-                                    <a href="#">
+                                    <a href="{{ route('news', $new->slug) }}">
                                         <img src="{{ $new->anons_image }}"/>
                                     </a>
                                 </div>
                                 <div class="news-title">
-                                    <a href="#">{{ $new->title ?? '' }}</a>
+                                    <a href="{{ route('news', $new->slug) }}">{{ $new->title ?? '' }}</a>
                                 </div>
                                 <div class="news-date">
                                     <img src="{{ asset('img/time.png') }}">
