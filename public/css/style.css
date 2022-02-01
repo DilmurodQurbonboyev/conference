@@ -232,7 +232,7 @@ video {
   }
 }
 @media (min-width: 1600px) {
-  
+
 }
 @media (max-width: 991px) {
   .layout-left span {
@@ -400,6 +400,7 @@ footer {
   width: auto !important;
   display: inline !important;
   transition: 0.25s;
+    max-height: 64px;
 }
 .link-text {
   margin-top: 15px;
