@@ -74,10 +74,34 @@ video {
   }
 }
 /*--------all--------*/
+/*========app========*/
+.application-description {
+  margin-top: 10px;
+}
+.application-description span {
+  font-size: 18px;
+  color: rgba(70, 70, 70, 1);
+}
+.application-text {
+  margin-top: 10px;
+}
+.application-text p {
+  font-size: 18px;
+  color: rgba(6, 6, 6, 1);
+}
+.application-text span {
+  font-size: 18px;
+  color: rgba(6, 6, 6, 1);
+}
+.application-text img {
+  max-width: 100%;
+}
+/*--------app--------*/
 /*========detail=====*/
 .detail-container {}
 .detail {
   margin-top: 15px;
+  min-height: 360px;
 }
 .detail-title {
   margin-bottom: 15px;
@@ -89,6 +113,11 @@ video {
 }
 .owl-detail {
   margin-bottom: 15px;
+}
+.owl-detail .detail-img {}
+.owl-detail .detail-img img {
+  height: 360px;
+  object-fit: cover;
 }
 .detail-content {}
 .detail-content p {}
@@ -370,6 +399,7 @@ footer {
   max-width: 100%;
   width: auto !important;
   display: inline !important;
+  transition: 0.25s;
 }
 .link-text {
   margin-top: 15px;
@@ -378,9 +408,57 @@ footer {
   color: rgba(38, 38, 38, 1);
   font-size: 20px;
 }
+.owl-link a:hover {}
+.owl-link a:hover img {
+  transform: scale(0.9);
+}
+.owl-link a:hover span {
+  color: rgba(12, 50, 151, 1);
+}
+.owl-link .owl-nav button {
+  border: 1px solid rgba(145, 174, 250, 1) !important;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.owl-link .owl-nav button i {
+  color: rgba(145, 174, 250, 1);
+}
+.owl-link .owl-nav button:hover {
+  border-color: rgba(12, 50, 151, 1) !important;
+}
+.owl-link .owl-nav button:hover i {
+  color: rgba(12, 50, 151, 1);
+}
 @media (min-width: 576px) {
   .link-section {
     margin-top: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  .owl-link .owl-nav {
+    position: absolute;
+    width: calc(100% + 72px);
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    left: -36px;
+    z-index: -1;
+  }
+}
+@media (max-width: 1199px) {
+  .owl-link .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .owl-link .owl-nav button {
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 @media (max-width: 575px) {
@@ -690,6 +768,14 @@ footer {
 .banner-col {
   padding-left: 15px;
   padding-right: 15px;
+}
+.banner-col a {}
+.banner-col a img {
+  max-height: 132px;
+  transition: 0.25s;
+}
+.banner-col a:hover img {
+  transform: scale(1.1);
 }
 @media (min-width: 576px) {
   .menu .navbar-nav .nav-item .nav-link {

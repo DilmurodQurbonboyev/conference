@@ -1,5 +1,4 @@
 window.addEventListener("load", function(event) {
-
 	// ================================
 	$('.owl-news .owl-carousel').owlCarousel({
 	    loop:true,
@@ -29,6 +28,7 @@ window.addEventListener("load", function(event) {
 	    loop:true,
 	    margin:10,
 	    nav:true,
+	    navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
 	    responsive:{
 	        0:{
 	            items:1
@@ -71,4 +71,4 @@ window.addEventListener("load", function(event) {
 	// ================================
 	// ================================
 	// ================================
-})
+});
