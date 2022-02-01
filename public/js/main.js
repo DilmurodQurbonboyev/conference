@@ -1,4 +1,5 @@
-$(document).ready(function (argument) {
+window.addEventListener("load", function(event) {
+
 	// ================================
 	$('.owl-news .owl-carousel').owlCarousel({
 	    loop:true,

@@ -90,12 +90,12 @@ class SiteController extends Controller
     }
 
 
-    public function registration()
+    public function register()
     {
         return view('frontend.register');
     }
 
-    public function register(RegisterRequest $request)
+    public function registerPost(RegisterRequest $request)
     {
         if (!file_exists('registers')) {
             mkdir('registers');
