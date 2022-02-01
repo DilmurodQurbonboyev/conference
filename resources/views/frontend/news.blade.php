@@ -1,4 +1,7 @@
 @extends('frontend.layouts.app')
+@section('title')
+    {{ tr('News') }}
+@endsection
 @section('content')
     <section class="page">
         <div class="container">

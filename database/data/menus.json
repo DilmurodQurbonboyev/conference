@@ -9,25 +9,25 @@
         "status": "2",
         "order": "50",
         "user_id": "4",
-        "modifier_id": null,
+        "modifier_id": "4",
         "deleted_at": null,
         "created_at": "2022-01-31 12:23:13",
-        "updated_at": "2022-01-31 12:23:13"
+        "updated_at": "2022-02-01 09:19:15"
     },
     {
         "id": "2",
-        "link": "#",
-        "link_type": "1",
+        "link": "\/pages\/dastur",
+        "link_type": "2",
         "image": null,
         "parent_id": "0",
         "menus_category_id": "1",
         "status": "2",
         "order": "50",
         "user_id": "4",
-        "modifier_id": null,
+        "modifier_id": "4",
         "deleted_at": null,
         "created_at": "2022-01-31 12:24:45",
-        "updated_at": "2022-01-31 12:24:45"
+        "updated_at": "2022-02-01 04:42:22"
     },
     {
         "id": "3",
@@ -46,18 +46,18 @@
     },
     {
         "id": "4",
-        "link": "#",
-        "link_type": "1",
+        "link": "\/category\/yangiliklar",
+        "link_type": "2",
         "image": null,
         "parent_id": "0",
         "menus_category_id": "1",
         "status": "2",
         "order": "50",
         "user_id": "4",
-        "modifier_id": null,
+        "modifier_id": "1",
         "deleted_at": null,
         "created_at": "2022-01-31 12:29:59",
-        "updated_at": "2022-01-31 12:29:59"
+        "updated_at": "2022-01-31 17:58:42"
     },
     {
         "id": "5",
@@ -84,10 +84,10 @@
         "status": "2",
         "order": "50",
         "user_id": "4",
-        "modifier_id": null,
+        "modifier_id": "4",
         "deleted_at": null,
         "created_at": "2022-01-31 12:32:37",
-        "updated_at": "2022-01-31 12:32:37"
+        "updated_at": "2022-02-01 09:20:38"
     },
     {
         "id": "7",

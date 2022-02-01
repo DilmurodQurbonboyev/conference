@@ -2,34 +2,34 @@
     {
         "id": "1",
         "menu_id": "1",
-        "title": "Forum haqida",
+        "title": "Konferentsiya haqida",
         "locale": "oz",
         "created_at": "2022-01-31 12:23:13",
-        "updated_at": "2022-01-31 12:23:13"
+        "updated_at": "2022-02-01 09:19:15"
     },
     {
         "id": "2",
         "menu_id": "1",
-        "title": "Форум ҳақида",
+        "title": "Конференция ҳақида",
         "locale": "uz",
         "created_at": "2022-01-31 12:23:13",
-        "updated_at": "2022-01-31 12:23:13"
+        "updated_at": "2022-02-01 09:19:15"
     },
     {
         "id": "3",
         "menu_id": "1",
-        "title": "О форуме",
+        "title": "О конференции",
         "locale": "ru",
         "created_at": "2022-01-31 12:23:13",
-        "updated_at": "2022-01-31 12:23:13"
+        "updated_at": "2022-02-01 09:19:15"
     },
     {
         "id": "4",
         "menu_id": "1",
-        "title": "About forum",
+        "title": "About conference",
         "locale": "en",
         "created_at": "2022-01-31 12:23:13",
-        "updated_at": "2022-01-31 12:23:13"
+        "updated_at": "2022-02-01 09:19:15"
     },
     {
         "id": "5",
@@ -162,34 +162,34 @@
     {
         "id": "21",
         "menu_id": "6",
-        "title": "Tashkilotchilar",
+        "title": "Konferentsiya hujjatlari",
         "locale": "oz",
         "created_at": "2022-01-31 12:32:37",
-        "updated_at": "2022-01-31 12:32:37"
+        "updated_at": "2022-02-01 09:20:38"
     },
     {
         "id": "22",
         "menu_id": "6",
-        "title": "Ташкилотчилар",
+        "title": "Конференция ҳужжатлари",
         "locale": "uz",
         "created_at": "2022-01-31 12:32:37",
-        "updated_at": "2022-01-31 12:32:37"
+        "updated_at": "2022-02-01 09:20:38"
     },
     {
         "id": "23",
         "menu_id": "6",
-        "title": "организаторы",
+        "title": "Документы конференции",
         "locale": "ru",
         "created_at": "2022-01-31 12:32:37",
-        "updated_at": "2022-01-31 12:32:37"
+        "updated_at": "2022-02-01 09:20:38"
     },
     {
         "id": "24",
         "menu_id": "6",
-        "title": "organizers",
+        "title": "Conference documents",
         "locale": "en",
         "created_at": "2022-01-31 12:32:37",
-        "updated_at": "2022-01-31 12:32:37"
+        "updated_at": "2022-02-01 09:20:38"
     },
     {
         "id": "25",

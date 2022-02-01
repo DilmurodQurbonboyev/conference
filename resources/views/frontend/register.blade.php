@@ -4,42 +4,7 @@
         <div class="application-in">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6">
-                        <div class="application-left">
-                            <div class="head">
-                                <div class="head-title">
-                                    <span>РЕГИСТРАЦИЯ УЧАСТНИКОВ</span>
-                                </div>
-                                <nav class="breadcrumb-nav" aria-label="breadcrumb">
-                                    <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="#">Главная</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Регистрация участников
-                                        </li>
-                                    </ol>
-                                </nav>
-                            </div>
-                            <div class="application-description">
-                                <span>«Региональное сотрудничество стран Центральной Азии в рамках Совместного плана действий по реализации Глобальной контртеррористической стратегии ООН»</span>
-                            </div>
-                            <div class="application-text">
-                                <p>Уважаемые участники, Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                                    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                                    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-                                    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
-                                    sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                                    justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-                                    est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-                                    elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                                    erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                                    eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                                    takimata sanctus est Lorem ipsum</p>
-                            </div>
-                        </div>
-                    </div>
+                    <x-register-info/>
                     <div class="col-xl-6">
 
                         <div class="application-form">
@@ -96,7 +61,8 @@
                                                placeholder="Введите текст">
                                     </div>
                                     <div class="custom-file">
-                                        <input type="file" class="custom-file-input" name="photo" id="input6" aria-describedby="emailHelp"
+                                        <input type="file" class="custom-file-input" name="photo" id="input6"
+                                               aria-describedby="emailHelp"
                                                placeholder="Введите текст">
                                         <label class="custom-file-label" for="input6">{{ tr('Foto') }}</label>
                                     </div>

@@ -74,9 +74,53 @@ video {
   }
 }
 /*--------all--------*/
+/*========foto=======*/
+.foto-title {
+  margin-top: 30px;
+}
+.foto-title span {
+  font-family: "Roboto-Condensed-700";
+  color: rgba(12, 50, 151, 1);
+}
+.foto a {}
+.foto-in {
+  position: relative;
+}
+.foto-in:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/image.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.foto-in img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+@media (min-width: 576px) {
+  .foto {
+    margin-top: 30px;
+  }
+  .foto-title span {
+    font-size: 24px;
+  }
+}
+@media (max-width: 575px) {
+  .foto {
+    margin-top: 15px;
+  }
+  .foto-title span {
+    font-size: 18px;
+  }
+}
+/*--------foto-------*/
 /*========app========*/
 .application-form {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 .application-in {
   background-image: url(../img/sd.jpg);
@@ -167,12 +211,11 @@ video {
     margin-left: auto;
     margin-right: auto;
   }
-    .application-form .alert {
-        max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
+  .application-form .alert {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media (max-width: 575px) {
   .application-form-in {
@@ -315,7 +358,7 @@ video {
   }
 }
 @media (min-width: 1600px) {
-
+  
 }
 @media (max-width: 991px) {
   .layout-left span {

@@ -1602,18 +1602,18 @@
     {
         "id": "201",
         "message_id": "51",
-        "title": "BMTning Markaziy Osiyoda <br\/>  global kontrterroristik strategiyasi",
+        "title": "BMTning Markaziy Osiyoda <br\/>  global aksilterror strategiyasi",
         "locale": "oz",
         "created_at": "2022-01-31 13:18:26",
-        "updated_at": "2022-01-31 13:35:07"
+        "updated_at": "2022-02-01 06:19:12"
     },
     {
         "id": "202",
         "message_id": "51",
-        "title": "БМТнинг Марказий Осиёда <br\/> глобал контртеррористик стратегияси",
+        "title": "БМТнинг Марказий Осиёда <br\/> глобал аксилтеррор стратегияси",
         "locale": "uz",
         "created_at": "2022-01-31 13:18:26",
-        "updated_at": "2022-01-31 13:35:07"
+        "updated_at": "2022-02-01 06:19:12"
     },
     {
         "id": "203",
@@ -1634,34 +1634,34 @@
     {
         "id": "205",
         "message_id": "52",
-        "title": "BMT Global aksilterror strategiyasini amalga oshirish bo‘yicha qo‘shma harakatlar rejasi doirasida Markaziy Osiyo davlatlarining mintaqaviy hamkorligi",
+        "title": "\"BMT Global aksilterror strategiyasini amalga oshirish bo‘yicha qo‘shma harakatlar rejasi doirasida Markaziy Osiyo davlatlarining mintaqaviy hamkorligi\"",
         "locale": "oz",
         "created_at": "2022-01-31 15:39:17",
-        "updated_at": "2022-01-31 15:39:17"
+        "updated_at": "2022-02-01 04:16:53"
     },
     {
         "id": "206",
         "message_id": "52",
-        "title": "БМТ Глобал аксилтеррор стратегиясини амалга ошириш бўйича қўшма ҳаракатлар режаси доирасида Марказий Осиё давлатларининг минтақавий ҳамкорлиги",
+        "title": "\"БМТ Глобал аксилтеррор стратегиясини амалга ошириш бўйича қўшма ҳаракатлар режаси доирасида Марказий Осиё давлатларининг минтақавий ҳамкорлиги\"",
         "locale": "uz",
         "created_at": "2022-01-31 15:39:17",
-        "updated_at": "2022-01-31 15:39:17"
+        "updated_at": "2022-02-01 04:16:53"
     },
     {
         "id": "207",
         "message_id": "52",
-        "title": "Региональное сотрудничество стран Центральной Азии в рамках Совместного плана действий по реализации Глобальной контртеррористической стратегии ООН",
+        "title": "\"Региональное сотрудничество стран Центральной Азии в рамках Совместного плана действий по реализации Глобальной контртеррористической стратегии ООН\"",
         "locale": "ru",
         "created_at": "2022-01-31 15:39:17",
-        "updated_at": "2022-01-31 15:39:17"
+        "updated_at": "2022-02-01 04:16:53"
     },
     {
         "id": "208",
         "message_id": "52",
-        "title": "Regional cooperation of the countries of Central Asia within the framework of the Joint Action Plan for the implementation of the UN Global Counter-Terrorism Strategy",
+        "title": "\"Regional cooperation of the countries of Central Asia within the framework of the Joint Action Plan for the implementation of the UN Global Counter-Terrorism Strategy\"",
         "locale": "en",
         "created_at": "2022-01-31 15:39:17",
-        "updated_at": "2022-01-31 15:39:17"
+        "updated_at": "2022-02-01 04:16:53"
     },
     {
         "id": "209",
@@ -1674,10 +1674,10 @@
     {
         "id": "210",
         "message_id": "53",
-        "title": "ЮҚОРИ ДАРАЖАЛИ <br\/> ХАЛҚАРО КОНФЕРЕНСИЯ",
+        "title": "ЮҚОРИ ДАРАЖАЛИ <br\/> ХАЛҚАРО КОНФЕРЕНЦИЯ",
         "locale": "uz",
         "created_at": "2022-01-31 15:41:53",
-        "updated_at": "2022-01-31 16:08:11"
+        "updated_at": "2022-02-01 05:22:09"
     },
     {
         "id": "211",
@@ -1726,5 +1726,325 @@
         "locale": "en",
         "created_at": "2022-01-31 15:43:22",
         "updated_at": "2022-01-31 15:43:22"
+    },
+    {
+        "id": "217",
+        "message_id": "55",
+        "title": "Asosiy",
+        "locale": "oz",
+        "created_at": "2022-01-31 16:53:06",
+        "updated_at": "2022-01-31 16:53:06"
+    },
+    {
+        "id": "218",
+        "message_id": "55",
+        "title": "Aсосий",
+        "locale": "uz",
+        "created_at": "2022-01-31 16:53:06",
+        "updated_at": "2022-01-31 16:53:06"
+    },
+    {
+        "id": "219",
+        "message_id": "55",
+        "title": "Главная",
+        "locale": "ru",
+        "created_at": "2022-01-31 16:53:06",
+        "updated_at": "2022-01-31 16:53:06"
+    },
+    {
+        "id": "220",
+        "message_id": "55",
+        "title": "Home",
+        "locale": "en",
+        "created_at": "2022-01-31 16:53:06",
+        "updated_at": "2022-01-31 16:53:06"
+    },
+    {
+        "id": "221",
+        "message_id": "56",
+        "title": "YUQORI DARAJALI XALQARO KONFERENTSIYA",
+        "locale": "oz",
+        "created_at": "2022-02-01 05:20:57",
+        "updated_at": "2022-02-01 09:24:25"
+    },
+    {
+        "id": "222",
+        "message_id": "56",
+        "title": "ЮҚОРИ ДАРАЖАЛИ ХАЛҚАРО КОНФЕРЕНЦИЯ",
+        "locale": "uz",
+        "created_at": "2022-02-01 05:20:57",
+        "updated_at": "2022-02-01 09:24:25"
+    },
+    {
+        "id": "223",
+        "message_id": "56",
+        "title": "МЕЖДУНАРОДНАЯ КОНФЕРЕНЦИЯ ВЫСОКОГО УРОВНЯ",
+        "locale": "ru",
+        "created_at": "2022-02-01 05:20:57",
+        "updated_at": "2022-02-01 09:24:25"
+    },
+    {
+        "id": "224",
+        "message_id": "56",
+        "title": "HIGH LEVEL INTERNATIONAL  CONFERENCE",
+        "locale": "en",
+        "created_at": "2022-02-01 05:20:57",
+        "updated_at": "2022-02-01 09:24:25"
+    },
+    {
+        "id": "225",
+        "message_id": "57",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-01 10:59:26",
+        "updated_at": "2022-02-01 10:59:26"
+    },
+    {
+        "id": "226",
+        "message_id": "57",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-01 10:59:26",
+        "updated_at": "2022-02-01 10:59:26"
+    },
+    {
+        "id": "227",
+        "message_id": "57",
+        "title": "Для регистрации заполните форму",
+        "locale": "ru",
+        "created_at": "2022-02-01 10:59:26",
+        "updated_at": "2022-02-01 10:59:26"
+    },
+    {
+        "id": "228",
+        "message_id": "57",
+        "title": "Fill out the form to register",
+        "locale": "en",
+        "created_at": "2022-02-01 10:59:26",
+        "updated_at": "2022-02-01 10:59:26"
+    },
+    {
+        "id": "229",
+        "message_id": "58",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-01 11:00:22",
+        "updated_at": "2022-02-01 11:00:22"
+    },
+    {
+        "id": "230",
+        "message_id": "58",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-01 11:00:22",
+        "updated_at": "2022-02-01 11:00:22"
+    },
+    {
+        "id": "231",
+        "message_id": "58",
+        "title": "Полное имя ФИО",
+        "locale": "ru",
+        "created_at": "2022-02-01 11:00:22",
+        "updated_at": "2022-02-01 11:00:22"
+    },
+    {
+        "id": "232",
+        "message_id": "58",
+        "title": "Full Name",
+        "locale": "en",
+        "created_at": "2022-02-01 11:00:22",
+        "updated_at": "2022-02-01 11:00:22"
+    },
+    {
+        "id": "233",
+        "message_id": "59",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-01 11:00:47",
+        "updated_at": "2022-02-01 11:00:47"
+    },
+    {
+        "id": "234",
+        "message_id": "59",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-01 11:00:47",
+        "updated_at": "2022-02-01 11:00:47"
+    },
+    {
+        "id": "235",
+        "message_id": "59",
+        "title": "Организация",
+        "locale": "ru",
+        "created_at": "2022-02-01 11:00:47",
+        "updated_at": "2022-02-01 11:00:47"
+    },
+    {
+        "id": "236",
+        "message_id": "59",
+        "title": "Organization",
+        "locale": "en",
+        "created_at": "2022-02-01 11:00:47",
+        "updated_at": "2022-02-01 11:00:47"
+    },
+    {
+        "id": "237",
+        "message_id": "60",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-01 11:01:23",
+        "updated_at": "2022-02-01 11:01:23"
+    },
+    {
+        "id": "238",
+        "message_id": "60",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-01 11:01:23",
+        "updated_at": "2022-02-01 11:01:23"
+    },
+    {
+        "id": "239",
+        "message_id": "60",
+        "title": "Должность",
+        "locale": "ru",
+        "created_at": "2022-02-01 11:01:23",
+        "updated_at": "2022-02-01 11:01:23"
+    },
+    {
+        "id": "240",
+        "message_id": "60",
+        "title": "Position",
+        "locale": "en",
+        "created_at": "2022-02-01 11:01:23",
+        "updated_at": "2022-02-01 11:01:23"
+    },
+    {
+        "id": "241",
+        "message_id": "61",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-01 11:01:36",
+        "updated_at": "2022-02-01 11:01:36"
+    },
+    {
+        "id": "242",
+        "message_id": "61",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-01 11:01:36",
+        "updated_at": "2022-02-01 11:01:36"
+    },
+    {
+        "id": "243",
+        "message_id": "61",
+        "title": "Страна",
+        "locale": "ru",
+        "created_at": "2022-02-01 11:01:36",
+        "updated_at": "2022-02-01 11:01:36"
+    },
+    {
+        "id": "244",
+        "message_id": "61",
+        "title": "Country",
+        "locale": "en",
+        "created_at": "2022-02-01 11:01:36",
+        "updated_at": "2022-02-01 11:01:36"
+    },
+    {
+        "id": "245",
+        "message_id": "62",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-01 11:02:51",
+        "updated_at": "2022-02-01 11:02:51"
+    },
+    {
+        "id": "246",
+        "message_id": "62",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-01 11:02:51",
+        "updated_at": "2022-02-01 11:02:51"
+    },
+    {
+        "id": "247",
+        "message_id": "62",
+        "title": "Обзор",
+        "locale": "ru",
+        "created_at": "2022-02-01 11:02:51",
+        "updated_at": "2022-02-01 11:02:51"
+    },
+    {
+        "id": "248",
+        "message_id": "62",
+        "title": "Browse",
+        "locale": "en",
+        "created_at": "2022-02-01 11:02:51",
+        "updated_at": "2022-02-01 11:02:51"
+    },
+    {
+        "id": "249",
+        "message_id": "63",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-01 11:03:13",
+        "updated_at": "2022-02-01 11:03:13"
+    },
+    {
+        "id": "250",
+        "message_id": "63",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-01 11:03:13",
+        "updated_at": "2022-02-01 11:03:13"
+    },
+    {
+        "id": "251",
+        "message_id": "63",
+        "title": "Отправить",
+        "locale": "ru",
+        "created_at": "2022-02-01 11:03:13",
+        "updated_at": "2022-02-01 11:03:13"
+    },
+    {
+        "id": "252",
+        "message_id": "63",
+        "title": "Send",
+        "locale": "en",
+        "created_at": "2022-02-01 11:03:13",
+        "updated_at": "2022-02-01 11:03:13"
+    },
+    {
+        "id": "253",
+        "message_id": "64",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-01 11:03:55",
+        "updated_at": "2022-02-01 11:03:55"
+    },
+    {
+        "id": "254",
+        "message_id": "64",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-01 11:03:55",
+        "updated_at": "2022-02-01 11:03:55"
+    },
+    {
+        "id": "255",
+        "message_id": "64",
+        "title": "Фото",
+        "locale": "ru",
+        "created_at": "2022-02-01 11:03:55",
+        "updated_at": "2022-02-01 11:03:55"
+    },
+    {
+        "id": "256",
+        "message_id": "64",
+        "title": "Photo",
+        "locale": "en",
+        "created_at": "2022-02-01 11:03:55",
+        "updated_at": "2022-02-01 11:03:55"
     }
 ]
