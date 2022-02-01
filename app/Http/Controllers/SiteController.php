@@ -98,7 +98,7 @@ class SiteController extends Controller
     public function registerPost(RegisterRequest $request)
     {
         if (!file_exists('registers')) {
-            mkdir('registers');
+            mkdir('registers', 0755, true);
         }
 
         $path = "registers";
