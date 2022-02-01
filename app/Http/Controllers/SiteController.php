@@ -108,7 +108,7 @@ class SiteController extends Controller
         $register->organization = $request->organization;
         $register->position = $request->position;
         $register->country = $request->country;
-        $register->photo = $request->photo;
+        $register->email = $request->email;
         $register->user_ip = $request->ip();
         $register->browser_agent = $request->header('User-Agent');
 
@@ -117,10 +117,12 @@ class SiteController extends Controller
             $extension = $file->getClientOriginalExtension();
             $filename = uniqid('') . '.' . $extension;
             $file->move($path . "/", $filename);
-            $register->photo = $path . "/" . $filename;
+            $register->photo = $path . $filename;
         }
+        $register->save();
+        $link = 'https://youtube.com/';
 
-        Mail::to($request->email)->send(new RegisterMail());
+        Mail::to($request->email)->send(new RegisterMail($link));
         return redirect()->back()->with('success', tr('ZOOM conference link sent to your email'));
     }
 }

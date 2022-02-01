@@ -28,6 +28,7 @@ window.addEventListener("load", function(event) {
 	    loop:true,
 	    margin:10,
 	    nav:true,
+	    autoplay: true,
 	    navText: ['<i class="fas fa-arrow-left"></i>', '<i class="fas fa-arrow-right"></i>'],
 	    responsive:{
 	        0:{

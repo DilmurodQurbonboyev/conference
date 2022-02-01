@@ -48,11 +48,11 @@
             </div>
             <div class="lang-ly">
                 <ul>
-                    <li class="{{ $app->getLocale() == 'uz' ? 'active' : '' }}"><a
-                            href="{{ LaravelLocalization::getLocalizedURL('uz') }}">ЎЗ</a></li>
-                    <li class="{{ $app->getLocale() == 'oz' ? 'active' : '' }}">
-                        <a href="{{ LaravelLocalization::getLocalizedURL('oz') }}">O'Z</a>
-                    </li>
+{{--                    <li class="{{ $app->getLocale() == 'uz' ? 'active' : '' }}"><a--}}
+{{--                            href="{{ LaravelLocalization::getLocalizedURL('uz') }}">ЎЗ</a></li>--}}
+{{--                    <li class="{{ $app->getLocale() == 'oz' ? 'active' : '' }}">--}}
+{{--                        <a href="{{ LaravelLocalization::getLocalizedURL('oz') }}">O'Z</a>--}}
+{{--                    </li>--}}
                     <li class="{{ $app->getLocale() == 'ru' ? 'active' : '' }}">
                         <a href="{{ LaravelLocalization::getLocalizedURL('ru') }}">RU</a>
                     </li>

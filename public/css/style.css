@@ -75,6 +75,12 @@ video {
 }
 /*--------all--------*/
 /*========app========*/
+.application-in {
+  background-image: url(../img/sd.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 50px;
+}
 .application-description {
   margin-top: 10px;
 }
@@ -84,6 +90,7 @@ video {
 }
 .application-text {
   margin-top: 10px;
+  text-align: justify;
 }
 .application-text p {
   font-size: 18px;
@@ -95,6 +102,73 @@ video {
 }
 .application-text img {
   max-width: 100%;
+}
+.application-form-in {
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 9px 23px rgba(0, 0, 0, 0.16);
+  border: 2px solid rgba(193, 231, 247, 1);
+  border-radius: 14px;
+}
+.application-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.application-title span {
+  font-family: "Roboto-Condensed-700";
+  font-size: 25px;
+  color: rgba(9, 22, 56, 1);
+}
+.application-submit {
+  text-align: center;
+  margin-top: 15px;
+}
+.application-submit button,
+.application-submit a {
+  display: inline-block;
+  border-radius: 12px;
+  background-color: rgba(14, 162, 220, 1);
+  border: 2px solid rgba(14, 162, 220, 1);
+  padding: 10px 30px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+}
+.application-submit button:hover,
+.application-submit a:hover {
+  background-color: transparent;
+  color: rgba(14, 162, 220, 1);
+}
+.application-form-in label {
+  color: rgba(1, 1, 1, 1);
+}
+.application-form-in input {}
+.application-form-in input::placeholder {
+  color: rgba(192, 192, 192, 1);
+}
+@media (min-width: 576px) {
+  .application-form-in {
+    padding: 36px 36px 20px 36px;
+  }
+  .application-section {
+    margin-bottom: -80px;
+  }
+}
+@media (min-width: 1200px) {
+  .application-left {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+  }
+  .application-form-in {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 575px) {
+  .application-form-in {
+    padding: 15px 15px 10px 15px;
+  }
 }
 /*--------app--------*/
 /*========detail=====*/
@@ -232,7 +306,7 @@ video {
   }
 }
 @media (min-width: 1600px) {
-
+  
 }
 @media (max-width: 991px) {
   .layout-left span {
@@ -400,7 +474,7 @@ footer {
   width: auto !important;
   display: inline !important;
   transition: 0.25s;
-    max-height: 64px;
+  max-height: 64px;
 }
 .link-text {
   margin-top: 15px;
