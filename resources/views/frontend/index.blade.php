@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>{{ tr('Conference') }}</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/jquery.fancybox.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.carousel.min.css') }}">

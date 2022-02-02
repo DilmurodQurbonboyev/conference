@@ -14,7 +14,8 @@
             </div>
             <div class="col-md-4">
                 <div class="uz">
-                    <a href="#">
+                    <a href="@if($app->getLocale() == 'ru') https://uzinfocom.uz/ru @else https://uzinfocom.uz/en @endif"
+                       target="_blank">
                         <img src="{{ asset('img/uz.png') }}">
                     </a>
                 </div>

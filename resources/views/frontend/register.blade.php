@@ -1,4 +1,7 @@
 @extends('frontend.layouts.app')
+@section('title')
+    {{ tr('Registration of participants') }}
+@endsection
 @section('content')
     <section class="application-section">
         <div class="application-in">

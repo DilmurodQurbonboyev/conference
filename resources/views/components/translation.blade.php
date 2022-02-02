@@ -14,7 +14,7 @@
                     <div class="online-time-in"></div>
                 </div>
                 <div class="online-play-in">
-                    <a data-fancybox data-type="iframe" data-src="https://www.youtube.com/embed/TiYyagm0EEc"
+                    <a data-fancybox data-type="iframe" data-src="#"
                        href="javascript:;">
                         <img src="{{ asset('img/play.png') }}">
                         <span>{{ tr('Watch') }}</span>
