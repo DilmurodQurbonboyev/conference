@@ -4,7 +4,7 @@
             <span>{{ tr('News') }}</span>
         </div>
     </div>
-    <div class="container-fluid news-container">
+    <div class="container">
         <div class="owl-news">
             <div class="owl-carousel owl-theme">
                 @foreach($news as $new)
