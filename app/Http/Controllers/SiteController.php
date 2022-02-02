@@ -70,7 +70,6 @@ class SiteController extends Controller
             session()->put($postKey, 1);
         }
 
-
         return view("frontend.detail", compact('post'));
     }
 

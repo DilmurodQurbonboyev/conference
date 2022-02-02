@@ -53,8 +53,7 @@
                             <div class="form-group">
                                 <label for="leader_{{ $lang }}">{{ tr('Leader') }}</label>
                                 <input type="text" class="form-control" name="leader_{{ $lang }}"
-                                       id="leader_{{ $lang }}" {{
-                            $managements->leader ?? '' }}>
+                                       id="leader_{{ $lang }}" value="{{ $managements->leader ?? '' }}">
                             </div>
                             <div class="form-group">
                                 <label for="reception_{{ $lang }}">{{ tr('Reception') }}</label>
