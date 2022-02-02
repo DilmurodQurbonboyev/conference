@@ -8,15 +8,18 @@
         <div class="online-img">
             <img src="{{ asset('img/online.jpg') }}">
         </div>
-        <div class="online-play">
-            <div class="online-play-in">
-                <img src="{{ asset('img/play.png') }}">
-                <span>{{ tr('Watch') }}</span>
-            </div>
-        </div>
-        <div class="online-time">
-            <div class="online-time-in">
-
+        <div class="online-content">
+            <div class="online-play">
+                <div class="online-time">
+                    <div class="online-time-in"></div>
+                </div>
+                <div class="online-play-in">
+                    <a data-fancybox data-type="iframe" data-src="https://www.youtube.com/embed/TiYyagm0EEc"
+                       href="javascript:;">
+                        <img src="{{ asset('img/play.png') }}">
+                        <span>{{ tr('Watch') }}</span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -44,6 +47,7 @@
             let minutes;
             let seconds;
             let html;
+
             function online(argument) {
                 date = new Date();
                 date_from = new Date('03 03 2022 10:30:00');
@@ -66,7 +70,7 @@
 								</div>
 								<div class="online-time-number">
 									<span>` + hours + `</span>
-									<span>` + hours_tr  + `</span>
+									<span>` + hours_tr + `</span>
 								</div>
 								<div class="online-time-dots">
 									<span>:</span>
@@ -156,6 +160,7 @@
                     $('.online-time-in').html(html);
                 }
             }
+
             setInterval(online, 1000);
         })
     </script>
