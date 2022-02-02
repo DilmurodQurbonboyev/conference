@@ -28,7 +28,11 @@
         <div class="container detail-container">
             <div class="detail">
                 <div class="detail-title">
-                    <span>{{ $post->title ?? '' }}</span>
+                    @if($post->id == 14)
+                        <span class="d-none">{{ $post->title ?? '' }}</span>
+                    @else
+                        <span>{{ $post->title ?? '' }}</span>
+                    @endif
                 </div>
                 <?php
                 if(!empty($post->body_image) && is_array(explode(',', $post->body_image))) {
@@ -73,7 +77,7 @@
                     @if ($post->pdf_type == 1)
                         <div>
                             <embed src="{{ $post->pdf }}" width="100%" type="application/pdf"
-                                   style="min-height: 500px;">
+                                   style="min-height: 1000px;">
                         </div>
                     @endif
                 @endif
