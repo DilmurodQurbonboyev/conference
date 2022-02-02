@@ -25,9 +25,9 @@
                     <label for="parent_id">{{ tr('Main') }}</label>
                     <select class="custom-select rounded-0 select2" name="parent_id" id="parent_id">
                         <option value="0">{{ tr('Select') }}</option>
-                        @foreach ($photosCategories as $photosCategory)
+                        @foreach ($photosCategories as $photo)
                             <option
-                                value="{{ $photosCategory->id }}" {{ $photosCategory->parent_id == $photosCategory->id ? 'selected' : '' }}>{{ $photosCategory->title }}</option>
+                                value="{{ $photo->id }}" {{ $photosCategory->parent_id == $photo->id ? 'selected' : '' }}>{{ $photo->title }}</option>
                         @endforeach
                     </select>
                 </div>

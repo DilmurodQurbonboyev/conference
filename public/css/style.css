@@ -425,7 +425,7 @@ video {
   }
 }
 @media (min-width: 1600px) {
-  
+
 }
 @media (max-width: 991px) {
   .layout-left span {
@@ -447,6 +447,7 @@ header {
 .logo-ly {
   position: absolute;
   left: 0;
+  opacity: 0;
 }
 .menu-ly {}
 .menu-ly .navbar-nav {
@@ -484,7 +485,6 @@ header {
 }
 @media (min-width: 1200px) {
   .header-ly {
-    padding-left: 100px;
     padding-right: 120px;
     padding-bottom: 15px;
   }
@@ -766,7 +766,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*opacity: 0;*/
+  opacity: 0;
   transition: 0.5s;
 }
 .online-time-in {}
@@ -858,6 +858,7 @@ footer {
 .logo {
   margin-top: 10px;
   margin-bottom: 10px;
+  opacity: 0;
 }
 .logo-in {
   display: flex;

@@ -48,9 +48,14 @@ class PageCategoryController extends Controller
         return view('admin.pages.pages-category.show', compact('pagesCategory'));
     }
 
+    /**
+     * @param $id
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     */
     public function edit($id)
     {
-        $pagesCategory = ListCategory::findOrFail($id);
+        $pagesCategory = ListCategory::find($id);
+
         $pagesCategories = ListCategory::where('list_type_id', ListType::PAGE)->where('status', '=', 2)->get();
         return view('admin.pages.pages-category.edit', compact('pagesCategory', 'pagesCategories'));
     }
