@@ -6,7 +6,6 @@
                 <div class="row">
                     <x-register-info/>
                     <div class="col-xl-6">
-
                         <div class="application-form">
                             @if (count($errors) > 0)
                                 <div class="alert alert-danger">
@@ -77,4 +76,10 @@
             </div>
         </div>
     </section>
+    @push('js')
+        <script>
+            var browse = <?php echo json_encode(tr('Browse')); ?>;
+            var fileInput = document.querySelector('.custom-file-label');
+        </script>
+    @endpush
 @endsection

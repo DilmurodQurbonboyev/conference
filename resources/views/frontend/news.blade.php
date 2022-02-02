@@ -2,6 +2,9 @@
 @section('title')
     {{ tr('News') }}
 @endsection
+@section('layout')
+    <x-layout/>
+@endsection
 @section('content')
     <section class="page">
         <div class="container">

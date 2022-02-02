@@ -42,7 +42,7 @@
                                     @if (!isset($item['submenus']))
                                         <a class="dropdown-item"
                                            href="{{ hrefType($item['link_type'], $item['link']) }}"
-                                           target="{{ targetType($item['link_type']) }}">Action</a>
+                                           target="{{ targetType($item['link_type']) }}">{{ $item['title'] }}</a>
                                     @endif
                                 @endforeach
                             </div>
