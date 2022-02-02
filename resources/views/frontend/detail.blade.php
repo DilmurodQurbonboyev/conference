@@ -64,12 +64,13 @@
                                         <img src="{{ asset('img/pdf.png') }}" alt="pdf">
                                     </a>
                                 </div>
-                                <div class="pdf-title">
-                                    <p>{{ $post->pdf_title ?? '' }}</p>
-                                    <p>
-                                        <a href="{{ $post->pdf }}"
-                                           download="true">{{ tr('Download') }}</a>
-                                    </p>
+                                <div class="pdf-text">
+                                    <div class="pdf-title">
+                                        <span>{{ $post->pdf_title ?? '' }}</span>
+                                    </div>
+                                    <div class="pdf-download">
+                                        <a href="{{ $post->pdf }}" download="true">{{ tr('Download') }}</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

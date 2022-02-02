@@ -74,6 +74,26 @@ video {
   }
 }
 /*--------all--------*/
+/*========pdf========*/
+.pdf {}
+.pdf-in {
+  display: flex;
+  align-items: center;
+}
+.pdf-icon {
+  margin-right: 10px;
+}
+.pdf-text {}
+.pdf-title {}
+.pdf-title span {
+  font-family: "Roboto-Condensed-700";
+  font-size: 18px;
+}
+.pdf-download {}
+.pdf-download a {
+  color: rgba(70, 70, 70, 1);
+}
+/*--------pdf--------*/
 /*========leader=====*/
 .leader {
   text-align: center;
@@ -85,6 +105,10 @@ video {
   object-fit: cover;
   object-position: top;
   border-radius: 50%;
+  transition: 0.25s;
+}
+.leader-img:hover img {
+  border-radius: 10%;
 }
 .leader-name {}
 .leader-name span {
@@ -688,11 +712,17 @@ footer {
 .news-section {}
 .owl-news {}
 .news {}
-.news-img {}
+.news-img {
+  overflow: hidden;
+}
 .news-img img {
   height: 250px;
   object-fit: cover;
   width: 100%;
+  transition: 0.25s;
+}
+.news-img a:hover img {
+  transform: scale(1.1);
 }
 .news-title {
   margin-top: 10px;
@@ -720,12 +750,53 @@ footer {
 .news-container {
   max-width: 2000px;
 }
+.owl-news .owl-nav button.owl-prev {
+  border: 1px solid rgba(19, 56, 155, 0.6);
+  padding: 5px 10px !important;
+  border-radius: 5px;
+  color: rgba(19, 56, 155, 0.6);
+  background-color: rgba(255, 255, 255, 1.0);
+  display: inline-block;
+  margin-right: 15px;
+}
+.owl-news .owl-nav button.owl-prev:hover {
+  border-color: rgba(19, 56, 155, 1);
+  background-color: rgba(19, 56, 155, 1);
+  color: rgba(255, 255, 255, 1.0);
+}
+.owl-news .owl-nav button.owl-next {
+  border: 1px solid rgba(19, 56, 155, 0.6);
+  padding: 5px 10px !important;
+  border-radius: 5px;
+  color: rgba(19, 56, 155, 0.6);
+  background-color: rgba(255, 255, 255, 1.0);
+  display: inline-block;
+}
+.owl-news .owl-nav button.owl-next:hover {
+  border-color: rgba(19, 56, 155, 1);
+  background-color: rgba(19, 56, 155, 1);
+  color: rgba(255, 255, 255, 1.0);
+}
+.owl-news .owl-nav {}
 @media (min-width: 576px) {
   .news-section {
     margin-top: 80px;
   }
   .owl-news {
     margin-top: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .owl-news .owl-nav {
+    position: absolute;
+    top: -60px;
+    right: 0;
+  }
+}
+@media (max-width: 1199px) {
+  .owl-news .owl-nav {
+    text-align: center;
+    margin-top: 15px;
   }
 }
 @media (max-width: 575px) {
