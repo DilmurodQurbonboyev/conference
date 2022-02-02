@@ -79,10 +79,11 @@
             </div>
         </div>
     </section>
-    @push('js')
-        <script>
-            var browse = <?php echo json_encode(tr('Browse')); ?>;
-            var fileInput = document.querySelector('.custom-file-label');
-        </script>
+    @push('css')
+        <style>
+            .custom-file-label::after {
+                content: "<?php echo tr('Browse') ?>";
+            }
+        </style>
     @endpush
 @endsection
