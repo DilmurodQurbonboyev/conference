@@ -35,7 +35,6 @@ class ManagementController extends Controller
             $this->managementRepository->saveManagement($request);
             return redirect()->route('managements.index')->with('success', tr('Successfully saved'));
         } catch (Exception $error) {
-            dd($error);
             return redirect()->back()->with('warning', trans('admin.error_save'));
         }
     }
@@ -49,7 +48,7 @@ class ManagementController extends Controller
     public function edit($id)
     {
         $managements = $this->managementRepository->getById($id);
-        $managementCategories = MCategory::where('list_type_id', '=', 1)->where('status', 2)->get();
+        $managementCategories = MCategory::where('status', 2)->get();
         return view('admin.managements.managements.edit', compact('managements', 'managementCategories'));
     }
 

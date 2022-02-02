@@ -6,6 +6,7 @@ use App\Http\Requests\RegisterRequest;
 use App\Models\ListCategory;
 use App\Mail\RegisterMail;
 use App\Models\Lists;
+use App\Models\Management;
 use App\Models\Register;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -125,5 +126,15 @@ class SiteController extends Controller
 
         Mail::to($request->email)->send(new RegisterMail($link));
         return redirect()->back()->with('success', tr('ZOOM conference link sent to your email'));
+    }
+
+    public function leaders()
+    {
+        $leaders = Management::where('m_category_id', 1)
+            ->orderBy('order', 'desc')
+            ->where('status', 2)
+            ->get();
+
+        return view('frontend.managements', compact('leaders'));
     }
 }

@@ -74,6 +74,37 @@ video {
   }
 }
 /*--------all--------*/
+/*========leader=====*/
+.leader {
+  text-align: center;
+}
+.leader-img {}
+.leader-img img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+}
+.leader-name {}
+.leader-name span {
+  font-family: "Roboto-Condensed-700";
+  font-size: 24px;
+  color: rgba(12, 50, 151, 1);
+}
+.leader-position {}
+.leader-position span {}
+@media (min-width: 576px) {
+  .leader {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .leader {
+    margin-top: 15px;
+  }
+}
+/*--------leader-----*/
 /*========foto=======*/
 .foto-title {
   margin-top: 30px;
@@ -875,6 +906,7 @@ footer {
 .menu .navbar-nav .dropdown a i,
 .menu-ly .navbar-nav .dropdown a i {
   transition: 0.25s;
+  font-size: 20px;
 }
 .menu button {
   background-color: rgba(255, 255, 255, 1.0);
