@@ -4,7 +4,8 @@ namespace App\Repositories;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Models\MCategory;
-use App\Services\SlugService;
+use Illuminate\Support\Str;
+
 
 class ManagementCategoryRepository extends Model
 {
@@ -13,7 +14,7 @@ class ManagementCategoryRepository extends Model
         return MCategory::findOrFail($id);
     }
 
-    public function saveMangementsCategory($request)
+    public function saveMangementsCategory($request, $managementCategory)
     {
         $slug = '';
         $slugArray = [
@@ -25,11 +26,7 @@ class ManagementCategoryRepository extends Model
 
         foreach ($slugArray as $item) {
             if (!is_null($item)) {
-                if (MCategory::where('slug', 'LIKE', $item)->first()) {
-                    $slug = SlugService::makeSlug($item . '-' . rand(1, 100));
-                } else {
-                    $slug = SlugService::makeSlug($item);
-                }
+                $slug = $managementCategory->makeSlug($item);
                 break;
             }
         }

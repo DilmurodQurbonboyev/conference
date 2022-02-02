@@ -3,7 +3,6 @@
 namespace App\Repositories;
 
 use App\Models\ListCategory;
-use App\Services\SlugService;
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Model;
 

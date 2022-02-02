@@ -35,6 +35,7 @@ class ManagementController extends Controller
             $this->managementRepository->saveManagement($request);
             return redirect()->route('managements.index')->with('success', tr('Successfully saved'));
         } catch (Exception $error) {
+            dd($error);
             return redirect()->back()->with('warning', trans('admin.error_save'));
         }
     }

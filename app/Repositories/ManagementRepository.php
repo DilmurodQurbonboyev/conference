@@ -3,7 +3,6 @@
 namespace App\Repositories;
 
 use App\Models\Management;
-use App\Services\SlugService;
 
 
 class ManagementRepository
@@ -16,25 +15,6 @@ class ManagementRepository
 
     public function saveManagement($request)
     {
-
-        $slug = '';
-        $slugArray = [
-            $request->title_oz,
-            $request->title_uz,
-            $request->title_ru,
-            $request->title_en,
-        ];
-
-        foreach ($slugArray as $item) {
-            if (!is_null($item)) {
-                if (Management::where('slug', 'LIKE', $item)->first()) {
-                    $slug = SlugService::makeSlug($item . '-' . rand(1, 100));
-                } else {
-                    $slug = SlugService::makeSlug($item);
-                }
-                break;
-            }
-        }
         $managements = [
             'oz' => [
                 'title' => $request->title_oz,
@@ -85,7 +65,6 @@ class ManagementRepository
                 'pdf' => $request->pdf_en,
             ],
             'list_type_id' => $request->list_type_id,
-            'slug' => $slug,
             'image' => $request->image,
             'anons_image' => $request->anons_image,
             'phone' => $request->phone,

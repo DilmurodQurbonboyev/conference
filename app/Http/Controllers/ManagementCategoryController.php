@@ -27,10 +27,10 @@ class ManagementCategoryController extends Controller
         return view('admin.managements.managements-category.create', compact('managementCategories'));
     }
 
-    public function store(ListCategoryRequest $request)
+    public function store(ListCategoryRequest $request, MCategory $MCategory)
     {
         try {
-            $this->managementCategoryRepository->saveMangementsCategory($request);
+            $this->managementCategoryRepository->saveMangementsCategory($request, $MCategory);
             return redirect()->route('managements-category.index')->with('success', tr('Successfully saved'));
         } catch (\Throwable $error) {
             return redirect()->back()->with('warning', trans('admin.error_save'));

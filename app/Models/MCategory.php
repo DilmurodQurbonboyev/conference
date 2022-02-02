@@ -12,11 +12,13 @@ use App\Models\MCategoryTranslation;
 use App\Models\Management;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use OwenIt\Auditing\Contracts\Auditable;
+use Cviebrock\EloquentSluggable\Services\SlugService;
+use Cviebrock\EloquentSluggable\Sluggable;
 
 
 class MCategory extends Model implements TranslatableContract, Auditable
 {
-    use HasFactory, Translatable, SoftDeletes;
+    use HasFactory, Translatable, SoftDeletes, Sluggable;
 
     use \OwenIt\Auditing\Auditable;
 
@@ -51,6 +53,22 @@ class MCategory extends Model implements TranslatableContract, Auditable
     public function managements()
     {
         return $this->hasMany(Management::class);
+    }
+
+    public function sluggable()
+    {
+        return [
+            'slug' => [
+                'source' => 'title'
+            ]
+        ];
+    }
+
+    public function makeSlug($slugable)
+    {
+        $slug = SlugService::createSlug(ListCategory::class, 'slug', $slugable, ['unique' => true]);
+
+        return $slug;
     }
 
     public function m_category_translation()
