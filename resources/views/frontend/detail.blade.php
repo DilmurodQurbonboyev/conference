@@ -51,6 +51,32 @@
                 <div class="detail-content">
                     {!! $post->content !!}
                 </div>
+                @if ($post->pdf)
+                    @if ($post->pdf_type == 2)
+                        <div class="pdf">
+                            <div class="pdf-in">
+                                <div class="pdf-icon">
+                                    <a href="{{ $post->pdf ?? '' }}" download="true">
+                                        <img src="{{ asset('img/pdf.png') }}" alt="pdf">
+                                    </a>
+                                </div>
+                                <div class="pdf-title">
+                                    <p>{{ $post->pdf_title ?? '' }}</p>
+                                    <p>
+                                        <a href="{{ $post->pdf }}"
+                                           download="true">{{ tr('Download') }}</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    @endif
+                    @if ($post->pdf_type == 1)
+                        <div>
+                            <embed src="{{ $post->pdf }}" width="100%" type="application/pdf"
+                                   style="min-height: 500px;">
+                        </div>
+                    @endif
+                @endif
             </div>
         </div>
     </section>
