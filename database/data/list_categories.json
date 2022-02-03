@@ -152,5 +152,19 @@
         "deleted_at": null,
         "created_at": "2022-02-02 06:10:44",
         "updated_at": "2022-02-02 06:10:44"
+    },
+    {
+        "id": "12",
+        "list_type_id": "6",
+        "parent_id": "0",
+        "slug": "videokonferenciya",
+        "color": null,
+        "image": null,
+        "status": "2",
+        "user_id": "4",
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-02-03 05:56:12",
+        "updated_at": "2022-02-03 05:56:12"
     }
 ]

@@ -369,13 +369,13 @@
         "right_menu": "2",
         "date": "2022-02-01",
         "order": "50",
-        "count_view": "18",
+        "count_view": "21",
         "status": "2",
         "user_id": "4",
         "modifier_id": "4",
         "deleted_at": null,
         "created_at": "2022-02-01 04:40:38",
-        "updated_at": "2022-02-03 04:49:05"
+        "updated_at": "2022-02-03 06:49:03"
     },
     {
         "id": "15",
@@ -700,5 +700,32 @@
         "deleted_at": null,
         "created_at": "2022-02-02 06:04:03",
         "updated_at": "2022-02-03 04:43:52"
+    },
+    {
+        "id": "27",
+        "list_type_id": "6",
+        "lists_category_id": "2",
+        "slug": "konferenciya",
+        "image": null,
+        "anons_image": null,
+        "body_image": null,
+        "show_on_slider": null,
+        "pdf_type": null,
+        "video_code": null,
+        "video": null,
+        "media_type": null,
+        "link": "https:\/\/us05web.zoom.us\/j\/8847529489?pwd=SVZJKzh1Q3NjVERtUUFsVDZTWkdwUT09",
+        "link_type": "1",
+        "parent_id": "2",
+        "right_menu": null,
+        "date": "2022-02-03",
+        "order": "50",
+        "count_view": "0",
+        "status": "2",
+        "user_id": "4",
+        "modifier_id": "1",
+        "deleted_at": null,
+        "created_at": "2022-02-03 05:57:53",
+        "updated_at": "2022-02-03 08:30:56"
     }
 ]
