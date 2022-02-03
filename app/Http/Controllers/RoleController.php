@@ -20,7 +20,7 @@ class RoleController extends Controller
     {
         $permissions = [];
         foreach (PermissionGroup::allTypes() as $type) {
-            $permissions[$type] = Permission::query()->where('name', 'like', '%' . $type)->get();
+            $permissions[$type] = Permission::query()->where('name', 'like', '%' . $type . '%')->get();
         }
         return view('admin.roles.create', compact('permissions'));
     }

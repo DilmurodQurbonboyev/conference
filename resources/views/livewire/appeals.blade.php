@@ -5,8 +5,10 @@
     <div class="card-body">
         <div class="row">
             <div class="col-md-12 my-2">
-                <a class="btn btn-primary create-btn"
+                <a class="btn btn-success create-btn"
                    href="{{ route('appeals.create') }}">{{ tr('Send Zoom Link') }}</a>
+                <a class="btn btn-info create-btn"
+                   href="{{ route('appeals.create') }}">{{ tr('Send Address') }}</a>
             </div>
         </div>
         <div class="table-responsive">
@@ -38,11 +40,11 @@
                         <td>{{$appeal->position}}</td>
                         <td>{{$appeal->email}}</td>
                         <td>
-{{--                            @if ($appeal->sendEmail == 1)--}}
-{{--                                <span class="badge bg-success p-2">{{ tr('Active') }}</span>--}}
-{{--                            @else--}}
-{{--                                <span class="badge bg-danger p-2">{{ tr('Inactive') }}</span>--}}
-{{--                            @endif--}}
+                            @if ($appeal->status == 2)
+                                <span class="badge bg-success p-2">{{ tr('Online') }}</span>
+                            @else
+                                <span class="badge bg-info p-2">{{ tr('Offline') }}</span>
+                            @endif
                         </td>
                         <td>{{ $appeal->created_at->format('d.m.20y') }}</td>
                         <td class="d-flex">

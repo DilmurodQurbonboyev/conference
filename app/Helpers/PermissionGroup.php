@@ -4,27 +4,27 @@ namespace App\Helpers;
 
 class PermissionGroup
 {
-    const MENUCATEGORY = 'menus-category.';
+    const MENUS__CATEGORY = 'menus-category.';
     const MENU = 'menus.';
-    const NEWCATEGORY = 'news-category.';
+    const NEWS_CATEGORY = 'news-category.';
     const NEWS = 'news.';
-    const POSTERCATEGORY = 'posters-category.';
+    const POSTER_CATEGORY = 'posters-category.';
     const POSTER = 'posters.';
-    const ANSWERCATEGORY = 'answers-category.';
+    const ANSWER_CATEGORY = 'answers-category.';
     const ANSWER = 'answers.';
-    const CONCERNCATEGORY = 'concerns-category.';
+    const CONCERN_CATEGORY = 'concerns-category.';
     const CONCERN = 'concerns.';
-    const PAGECATEGORY = 'pages-category.';
+    const PAGE_CATEGORY = 'pages-category.';
     const PAGE = 'pages.';
-    const USEFULCATEGORY = 'useful-category.';
+    const USEFUL_CATEGORY = 'useful-category.';
     const USEFUL = 'useful.';
-    const PHOTOCATEGORY = 'photos-category.';
+    const PHOTO_CATEGORY = 'photos-category.';
     const PHOTO = 'photos.';
-    const VIDEOCATEGORY = 'videos-category.';
+    const VIDEO_CATEGORY = 'videos-category.';
     const VIDEO = 'videos.';
-    const EVENTCATEGORY = 'events-category.';
+    const EVENT_CATEGORY = 'events-category.';
     const EVENT = 'events.';
-    const MANAGEMENTCATEGORY = 'managements-category.';
+    const MANAGEMENT_CATEGORY = 'managements-category.';
     const MANAGEMENT = 'managements.';
     const USER = 'users.';
     const LOG = 'logs.';
@@ -37,27 +37,27 @@ class PermissionGroup
     public static function allTypes(): array
     {
         return [
-            self::MENUCATEGORY,
+            self::MENUS__CATEGORY,
             self::MENU,
-            self::NEWCATEGORY,
+            self::NEWS_CATEGORY,
             self::NEWS,
-            self::POSTERCATEGORY,
+            self::POSTER_CATEGORY,
             self::POSTER,
-            self::ANSWERCATEGORY,
+            self::ANSWER_CATEGORY,
             self::ANSWER,
-            self::CONCERNCATEGORY,
+            self::CONCERN_CATEGORY,
             self::CONCERN,
-            self::PAGECATEGORY,
+            self::PAGE_CATEGORY,
             self::PAGE,
-            self::USEFULCATEGORY,
+            self::USEFUL_CATEGORY,
             self::USEFUL,
-            self::PHOTOCATEGORY,
+            self::PHOTO_CATEGORY,
             self::PHOTO,
-            self::VIDEOCATEGORY,
+            self::VIDEO_CATEGORY,
             self::VIDEO,
-            self::EVENTCATEGORY,
+            self::EVENT_CATEGORY,
             self::EVENT,
-            self::MANAGEMENTCATEGORY,
+            self::MANAGEMENT_CATEGORY,
             self::MANAGEMENT,
             self::USER,
             self::LOG,

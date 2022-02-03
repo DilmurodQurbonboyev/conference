@@ -28,7 +28,7 @@ class OneIdController extends Controller
         $param = $param . "&client_secret=" . rawurlencode($clientsecret);
         $param = $param . "&code=" . rawurlencode($authCode);
         $param = $param . "&scope=" . rawurlencode($scope);
-        $param = $param . "&redirect_uri=" . rawurlencode("");
+        $param = $param . "&redirect_uri=" . rawurlencode(env('REDIRECT_URI'));
 
         curl_setopt($ch, CURLOPT_POSTFIELDS, $param);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -36,6 +36,7 @@ class OneIdController extends Controller
 
         $result = curl_exec($ch);
         curl_close($ch);
+
 
         $obj = json_decode($result);
         $access_token = $obj->{'access_token'};

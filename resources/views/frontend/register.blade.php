@@ -68,6 +68,20 @@
                                                placeholder="Введите текст">
                                         <label class="custom-file-label" for="input6">{{ tr('Foto') }}</label>
                                     </div>
+                                    <div class="form-check mt-2">
+                                        <input class="form-check-input" type="radio" name="status" id="status"
+                                               value="2">
+                                        <label class="form-check-label" for="status">
+                                            {{ tr('Online') }}
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-2">
+                                        <input class="form-check-input" type="radio" name="status" id="status"
+                                               value="1">
+                                        <label class="form-check-label" for="status">
+                                            {{ tr('Offline') }}
+                                        </label>
+                                    </div>
                                     <div class="application-submit">
                                         <button type="submit">{{ tr('Send') }}</button>
                                     </div>

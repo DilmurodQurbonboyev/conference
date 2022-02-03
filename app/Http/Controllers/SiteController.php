@@ -110,6 +110,7 @@ class SiteController extends Controller
         $register->country = $request->country;
         $register->email = $request->email;
         $register->user_ip = $request->ip();
+        $register->status = $request->status;
         $register->browser_agent = $request->header('User-Agent');
 
         if ($request->hasfile('photo')) {

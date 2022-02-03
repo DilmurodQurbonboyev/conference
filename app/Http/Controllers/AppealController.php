@@ -24,8 +24,9 @@ class AppealController extends Controller
     public function create()
     {
         $link = Lists::where('lists_category_id', 12)->first();
-        $registers = Register::all();
-        return view('admin.appeals.create', compact('registers', 'link'));
+        $onlineUsers = Register::where('status', 2)->get();
+        $offlineUsers = Register::where('status', 1)->get();
+        return view('admin.appeals.create', compact('onlineUsers', 'link', 'offlineUsers'));
     }
 
     public function store(Request $request)
