@@ -5,6 +5,7 @@ namespace App\Http\Livewire;
 use Livewire\Component;
 use App\Models\Register;
 use Livewire\WithPagination;
+use App\Models\SendEmail;
 
 
 class Appeals extends Component

@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\SendEmail;
 
 class Register extends Model
 {
@@ -20,4 +21,9 @@ class Register extends Model
         'browser_agent',
         'user_ip',
     ];
+
+    public function sendEmail()
+    {
+        return $this->hasMany(SendEmail::class);
+    }
 }

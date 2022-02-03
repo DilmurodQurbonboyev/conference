@@ -1,3 +1,6 @@
-<h1>
+<p>
+    {{ $data }}
+    <br/>
     Thank you
-</h1>
+
+</p>

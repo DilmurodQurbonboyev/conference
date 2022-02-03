@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\RegisterMail;
+use App\Models\Lists;
 use App\Models\Register;
+use App\Models\SendEmail;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Mail;
 
 class AppealController extends Controller
 {
@@ -18,16 +21,44 @@ class AppealController extends Controller
         return view('admin.appeals.index');
     }
 
+    public function create()
+    {
+        $link = Lists::where('list_type_id', 6)->where('lists_category_id', 7)->first();
+        $registers = Register::all();
+        return view('admin.appeals.create', compact('registers', 'link'));
+    }
+
+    public function store(Request $request)
+    {
+        if ($request->link) {
+
+            foreach ($request->users as $user) {
+                $registers = Register::find($user);
+                Mail::to($registers->email)->send(new RegisterMail($request->link));
+                $result = new SendEmail();
+                $result->register_id = $registers->id;
+                $result->fullName = $registers->fullName;
+                $result->email = $registers->email;
+                $result->link = $request->link;
+                $result->status = 1;
+                $result->save();
+            }
+            return redirect()->back()->with('success', 'Zoom link send to users');
+        }
+    }
+
     /**
      * Show the form for editing the specified resource.
      *
      * @param int $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function show($id)
     {
         $appeal = Register::findOrFail($id);
-        return view('admin.appeals.edit', compact('appeal'));
+        $sendEmail = SendEmail::where('register_id', $appeal->id)->get();
+        $count = SendEmail::where('register_id', $appeal->id)->count();
+        return view('admin.appeals.show', compact('appeal', 'sendEmail', 'count'));
     }
 
     /**

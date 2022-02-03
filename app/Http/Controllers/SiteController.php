@@ -120,10 +120,6 @@ class SiteController extends Controller
             $register->photo = $path . '/' . $filename;
         }
         $register->save();
-
-        $link = 'https://youtube.com/';
-
-        Mail::to($request->email)->send(new RegisterMail($link));
         return redirect()->back()->with('success', tr('ZOOM conference link sent to your email'));
     }
 

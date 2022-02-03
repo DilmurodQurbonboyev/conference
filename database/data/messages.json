@@ -382,5 +382,77 @@
         "key": "Foto",
         "created_at": "2022-02-01 11:03:55",
         "updated_at": "2022-02-01 11:03:55"
+    },
+    {
+        "id": "65",
+        "key": "ZOOM conference link sent to your email",
+        "created_at": "2022-02-01 12:13:24",
+        "updated_at": "2022-02-01 12:13:24"
+    },
+    {
+        "id": "66",
+        "key": "Online streaming",
+        "created_at": "2022-02-02 05:12:18",
+        "updated_at": "2022-02-02 05:12:18"
+    },
+    {
+        "id": "67",
+        "key": "Watch",
+        "created_at": "2022-02-02 05:14:57",
+        "updated_at": "2022-02-02 05:14:57"
+    },
+    {
+        "id": "68",
+        "key": "There is still time left before the conference",
+        "created_at": "2022-02-02 05:16:32",
+        "updated_at": "2022-02-02 05:17:36"
+    },
+    {
+        "id": "69",
+        "key": "days",
+        "created_at": "2022-02-02 05:18:40",
+        "updated_at": "2022-02-02 05:18:40"
+    },
+    {
+        "id": "70",
+        "key": "days",
+        "created_at": "2022-02-02 05:18:49",
+        "updated_at": "2022-02-02 05:18:49"
+    },
+    {
+        "id": "71",
+        "key": "Hours",
+        "created_at": "2022-02-02 05:24:41",
+        "updated_at": "2022-02-02 05:24:41"
+    },
+    {
+        "id": "72",
+        "key": "Minutes",
+        "created_at": "2022-02-02 05:24:53",
+        "updated_at": "2022-02-02 05:24:53"
+    },
+    {
+        "id": "73",
+        "key": "Seconds",
+        "created_at": "2022-02-02 05:25:11",
+        "updated_at": "2022-02-02 05:25:11"
+    },
+    {
+        "id": "74",
+        "key": "Until the end of the conference",
+        "created_at": "2022-02-02 09:06:33",
+        "updated_at": "2022-02-02 09:06:33"
+    },
+    {
+        "id": "75",
+        "key": "Conference ended",
+        "created_at": "2022-02-02 09:07:19",
+        "updated_at": "2022-02-02 09:07:19"
+    },
+    {
+        "id": "76",
+        "key": "Conference",
+        "created_at": "2022-02-02 10:31:47",
+        "updated_at": "2022-02-02 10:31:47"
     }
 ]

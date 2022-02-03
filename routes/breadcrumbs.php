@@ -330,6 +330,10 @@ Breadcrumbs::for('registers', function ($trail) {
     $trail->parent('admin');
     $trail->push(tr('Registers'), route('appeals.index'));
 });
+Breadcrumbs::for('registers/create', function ($trail) {
+    $trail->parent('registers');
+    $trail->push(tr('Send Registers'), route('appeals.create'));
+});
 Breadcrumbs::for('registers/edit', function ($trail, $id) {
     $trail->parent('registers');
     $trail->push(tr('Update Register'), route('appeals.edit', $id));

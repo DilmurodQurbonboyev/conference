@@ -64,10 +64,10 @@
         "image": null,
         "status": "2",
         "user_id": "4",
-        "modifier_id": null,
+        "modifier_id": "4",
         "deleted_at": null,
         "created_at": "2022-02-01 04:38:03",
-        "updated_at": "2022-02-01 04:38:03"
+        "updated_at": "2022-02-02 07:27:52"
     },
     {
         "id": "6",
@@ -124,5 +124,33 @@
         "deleted_at": null,
         "created_at": "2022-02-01 11:54:50",
         "updated_at": "2022-02-01 11:54:50"
+    },
+    {
+        "id": "10",
+        "list_type_id": "5",
+        "parent_id": "0",
+        "slug": "o-konferencii",
+        "color": null,
+        "image": null,
+        "status": "2",
+        "user_id": "4",
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-02-02 06:10:22",
+        "updated_at": "2022-02-02 06:10:22"
+    },
+    {
+        "id": "11",
+        "list_type_id": "5",
+        "parent_id": "0",
+        "slug": "dokumenty-konferencii",
+        "color": null,
+        "image": null,
+        "status": "2",
+        "user_id": "4",
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-02-02 06:10:44",
+        "updated_at": "2022-02-02 06:10:44"
     }
 ]

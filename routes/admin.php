@@ -50,7 +50,7 @@ Route::group(
                 ]);
 
                 Route::resource('logs', App\Http\Controllers\LogController::class)->except('edit', 'create');
-                Route::resource('appeals', App\Http\Controllers\AppealController::class)->except('create');
+                Route::resource('appeals', App\Http\Controllers\AppealController::class);
 
                 Route::group(['middleware' => ['role:super-admin']], function () {
 
