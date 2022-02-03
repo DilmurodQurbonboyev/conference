@@ -23,7 +23,7 @@ class AppealController extends Controller
 
     public function create()
     {
-        $link = Lists::where('list_type_id', 6)->where('lists_category_id', 7)->first();
+        $link = Lists::where('list_type_id', 6)->where('lists_category_id', 12)->first();
         $registers = Register::all();
         return view('admin.appeals.create', compact('registers', 'link'));
     }
