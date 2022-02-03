@@ -21,7 +21,9 @@
                 @csrf
                 <div class="form-group">
                     <label for="link">Zoom Link</label>
-                    <input type="text" name="link" value="{{ $link->link }}" class="form-control">
+                    <input type="text" name="link" value="<?php if (isset($link->link)) {
+                        echo $link->link;
+                    } ?>" class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="users[]" class="p-1">Users</label>
