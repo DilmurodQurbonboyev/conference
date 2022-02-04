@@ -4,7 +4,7 @@
 @endsection
 @section('header')
     <div class="col-sm-6">
-        <h1>{{ tr('About Register') }}</h1>
+        <h1>{{ tr('About Online') }}</h1>
     </div>
     <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
@@ -20,16 +20,16 @@
             <form action="{{ route('appeals.store') }}" method="post">
                 @csrf
                 <div class="form-group">
-                    <label for="link">Zoom Link</label>
+                    <label for="link">{{ tr('Link') }}</label>
                     <input type="text" name="link" value="<?php if (isset($link->link)) {
                         echo $link->link;
                     } ?>" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label for="users[]" class="p-1">Users</label>
+                    <label for="users[]" class="p-1">{{ tr('Users') }}</label>
                     <select name="users[]" class="select2 form-control" id="users[]" multiple="multiple"
                             data-placeholder="">
-                        @foreach ($registers as $register)
+                        @foreach ($onlineUsers as $register)
                             <option value="{{ $register->id }}">
                                 Organization: {{ $register->organization }}
                                 FIO: {{ $register->fullName }}

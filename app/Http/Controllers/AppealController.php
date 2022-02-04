@@ -25,17 +25,17 @@ class AppealController extends Controller
     {
         $link = Lists::where('lists_category_id', 12)->first();
         $onlineUsers = Register::where('status', 2)->get();
-        $offlineUsers = Register::where('status', 1)->get();
-        return view('admin.appeals.create', compact('onlineUsers', 'link', 'offlineUsers'));
+        return view('admin.appeals.create', compact('onlineUsers', 'link'));
     }
 
     public function store(Request $request)
     {
-        if ($request->link) {
-
+        try {
             foreach ($request->users as $user) {
                 $registers = Register::find($user);
+
                 Mail::to($registers->email)->send(new RegisterMail($request->link));
+
                 $result = new SendEmail();
                 $result->register_id = $registers->id;
                 $result->fullName = $registers->fullName;
@@ -43,8 +43,11 @@ class AppealController extends Controller
                 $result->link = $request->link;
                 $result->status = 1;
                 $result->save();
+
+                return redirect()->back()->with('success', 'Zoom link send to users');
             }
-            return redirect()->back()->with('success', 'Zoom link send to users');
+        } catch (\Throwable $e) {
+            dd($e);
         }
     }
 

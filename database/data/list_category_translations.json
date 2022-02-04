@@ -382,5 +382,37 @@
         "locale": "en",
         "created_at": "2022-02-03 05:56:12",
         "updated_at": "2022-02-03 05:56:12"
+    },
+    {
+        "id": "49",
+        "list_category_id": "13",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 04:26:55",
+        "updated_at": "2022-02-04 04:26:55"
+    },
+    {
+        "id": "50",
+        "list_category_id": "13",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 04:26:55",
+        "updated_at": "2022-02-04 04:26:55"
+    },
+    {
+        "id": "51",
+        "list_category_id": "13",
+        "title": "Офлайн регистрация",
+        "locale": "ru",
+        "created_at": "2022-02-04 04:26:55",
+        "updated_at": "2022-02-04 04:26:55"
+    },
+    {
+        "id": "52",
+        "list_category_id": "13",
+        "title": "Offline registration",
+        "locale": "en",
+        "created_at": "2022-02-04 04:26:55",
+        "updated_at": "2022-02-04 04:26:55"
     }
 ]

@@ -166,5 +166,19 @@
         "deleted_at": null,
         "created_at": "2022-02-03 05:56:12",
         "updated_at": "2022-02-03 05:56:12"
+    },
+    {
+        "id": "13",
+        "list_type_id": "6",
+        "parent_id": "0",
+        "slug": "oflayn-registraciya",
+        "color": null,
+        "image": null,
+        "status": "2",
+        "user_id": "4",
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-02-04 04:26:54",
+        "updated_at": "2022-02-04 04:26:54"
     }
 ]

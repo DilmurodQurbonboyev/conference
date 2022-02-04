@@ -15,7 +15,10 @@ class CreateRegistersTable extends Migration
     {
         Schema::create('registers', function (Blueprint $table) {
             $table->id();
-            $table->string('fullName');
+            $table->string('fullName')->nullable();
+            $table->string('last_name');
+            $table->string('first_name');
+            $table->string('middle_name');
             $table->string('organization');
             $table->string('position');
             $table->string('country');
@@ -24,7 +27,6 @@ class CreateRegistersTable extends Migration
             $table->integer('status')->default(1);
             $table->text('browser_agent')->nullable();
             $table->string('user_ip')->nullable();
-
             $table->timestamps();
         });
     }

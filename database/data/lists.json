@@ -45,13 +45,13 @@
         "right_menu": "2",
         "date": "2022-01-31",
         "order": "50",
-        "count_view": "3",
+        "count_view": "11",
         "status": "2",
         "user_id": "2",
         "modifier_id": "4",
         "deleted_at": null,
         "created_at": "2022-01-31 12:45:29",
-        "updated_at": "2022-02-02 06:05:54"
+        "updated_at": "2022-02-03 11:59:14"
     },
     {
         "id": "3",
@@ -99,13 +99,13 @@
         "right_menu": "2",
         "date": "2022-01-31",
         "order": "50",
-        "count_view": "8",
+        "count_view": "16",
         "status": "2",
         "user_id": "2",
         "modifier_id": "4",
         "deleted_at": null,
         "created_at": "2022-01-31 13:02:22",
-        "updated_at": "2022-02-02 06:05:37"
+        "updated_at": "2022-02-03 11:59:04"
     },
     {
         "id": "5",
@@ -369,13 +369,13 @@
         "right_menu": "2",
         "date": "2022-02-01",
         "order": "50",
-        "count_view": "21",
+        "count_view": "34",
         "status": "2",
         "user_id": "4",
         "modifier_id": "4",
         "deleted_at": null,
         "created_at": "2022-02-01 04:40:38",
-        "updated_at": "2022-02-03 06:49:03"
+        "updated_at": "2022-02-04 05:38:57"
     },
     {
         "id": "15",
@@ -396,13 +396,13 @@
         "right_menu": "2",
         "date": "2022-02-01",
         "order": "50",
-        "count_view": "7",
+        "count_view": "15",
         "status": "2",
         "user_id": "4",
         "modifier_id": "4",
         "deleted_at": null,
         "created_at": "2022-02-01 05:29:16",
-        "updated_at": "2022-02-02 05:20:53"
+        "updated_at": "2022-02-03 11:57:35"
     },
     {
         "id": "16",
@@ -450,13 +450,13 @@
         "right_menu": "2",
         "date": "2022-02-01",
         "order": "50",
-        "count_view": "2",
+        "count_view": "10",
         "status": "2",
         "user_id": "4",
         "modifier_id": "4",
         "deleted_at": null,
         "created_at": "2022-02-01 09:38:16",
-        "updated_at": "2022-02-01 17:15:12"
+        "updated_at": "2022-02-03 11:58:55"
     },
     {
         "id": "18",
@@ -477,13 +477,13 @@
         "right_menu": "2",
         "date": "2022-02-01",
         "order": "50",
-        "count_view": "2",
+        "count_view": "10",
         "status": "2",
         "user_id": "4",
         "modifier_id": "4",
         "deleted_at": null,
         "created_at": "2022-02-01 09:42:17",
-        "updated_at": "2022-02-02 06:04:43"
+        "updated_at": "2022-02-03 11:58:47"
     },
     {
         "id": "19",
@@ -504,13 +504,13 @@
         "right_menu": "2",
         "date": "2022-02-01",
         "order": "50",
-        "count_view": "5",
+        "count_view": "13",
         "status": "2",
         "user_id": "4",
         "modifier_id": "4",
         "deleted_at": null,
         "created_at": "2022-02-01 09:46:11",
-        "updated_at": "2022-02-02 16:45:08"
+        "updated_at": "2022-02-03 11:58:40"
     },
     {
         "id": "20",
@@ -666,13 +666,13 @@
         "right_menu": "2",
         "date": "2022-02-02",
         "order": "50",
-        "count_view": "1",
+        "count_view": "9",
         "status": "2",
         "user_id": "4",
         "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-02-02 06:00:28",
-        "updated_at": "2022-02-02 09:33:40"
+        "updated_at": "2022-02-03 11:57:30"
     },
     {
         "id": "26",
@@ -693,18 +693,18 @@
         "right_menu": "2",
         "date": "2022-02-02",
         "order": "50",
-        "count_view": "2",
+        "count_view": "10",
         "status": "2",
         "user_id": "4",
         "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-02-02 06:04:03",
-        "updated_at": "2022-02-03 04:43:52"
+        "updated_at": "2022-02-03 11:57:22"
     },
     {
         "id": "27",
         "list_type_id": "6",
-        "lists_category_id": "2",
+        "lists_category_id": "12",
         "slug": "konferenciya",
         "image": null,
         "anons_image": null,
@@ -726,6 +726,60 @@
         "modifier_id": "1",
         "deleted_at": null,
         "created_at": "2022-02-03 05:57:53",
-        "updated_at": "2022-02-03 08:30:56"
+        "updated_at": "2022-02-03 09:24:55"
+    },
+    {
+        "id": "28",
+        "list_type_id": "7",
+        "lists_category_id": "8",
+        "slug": "test",
+        "image": null,
+        "anons_image": null,
+        "body_image": null,
+        "show_on_slider": null,
+        "pdf_type": null,
+        "video_code": null,
+        "video": null,
+        "media_type": null,
+        "link": null,
+        "link_type": null,
+        "parent_id": "2",
+        "right_menu": null,
+        "date": "2022-02-03",
+        "order": "50",
+        "count_view": "0",
+        "status": "2",
+        "user_id": "4",
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-02-03 13:48:43",
+        "updated_at": "2022-02-03 13:48:43"
+    },
+    {
+        "id": "29",
+        "list_type_id": "6",
+        "lists_category_id": "13",
+        "slug": "adres-konferencii",
+        "image": null,
+        "anons_image": null,
+        "body_image": null,
+        "show_on_slider": null,
+        "pdf_type": null,
+        "video_code": null,
+        "video": null,
+        "media_type": null,
+        "link": "Ташкент, Шайхантахурский район, улица Навоий, 28Б",
+        "link_type": "1",
+        "parent_id": "2",
+        "right_menu": null,
+        "date": "2022-02-04",
+        "order": "50",
+        "count_view": "0",
+        "status": "2",
+        "user_id": "4",
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-02-04 04:28:37",
+        "updated_at": "2022-02-04 04:28:37"
     }
 ]

@@ -5,11 +5,11 @@
 @endsection
 @section('header')
     <div class="col-sm-6">
-        <h1>{{ tr('About Register') }}</h1>
+        <h1>{{ tr('About Offline') }}</h1>
     </div>
     <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
-            {{ Breadcrumbs::render('registers/edit', $appeal->id) }}
+            {{ Breadcrumbs::render('offline/edit', $appeal->id) }}
         </ol>
     </div>
 @endsection

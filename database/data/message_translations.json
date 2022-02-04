@@ -2066,18 +2066,18 @@
     {
         "id": "259",
         "message_id": "65",
-        "title": "Ссылка на конференцию ZOOM отправлена вам на почту",
+        "title": "Информация отправлена Вам на электронную почту",
         "locale": "ru",
         "created_at": "2022-02-01 12:13:24",
-        "updated_at": "2022-02-01 12:13:24"
+        "updated_at": "2022-02-04 05:56:48"
     },
     {
         "id": "260",
         "message_id": "65",
-        "title": "ZOOM conference link sent to your email",
+        "title": "The information has been sent to your email",
         "locale": "en",
         "created_at": "2022-02-01 12:13:24",
-        "updated_at": "2022-02-01 12:13:24"
+        "updated_at": "2022-02-04 05:56:48"
     },
     {
         "id": "261",
@@ -2430,5 +2430,677 @@
         "locale": "en",
         "created_at": "2022-02-02 10:31:47",
         "updated_at": "2022-02-02 10:31:47"
+    },
+    {
+        "id": "305",
+        "message_id": "77",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 05:57:30",
+        "updated_at": "2022-02-04 05:57:30"
+    },
+    {
+        "id": "306",
+        "message_id": "77",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 05:57:30",
+        "updated_at": "2022-02-04 05:57:30"
+    },
+    {
+        "id": "307",
+        "message_id": "77",
+        "title": "Онлайн участник",
+        "locale": "ru",
+        "created_at": "2022-02-04 05:57:30",
+        "updated_at": "2022-02-04 06:03:54"
+    },
+    {
+        "id": "308",
+        "message_id": "77",
+        "title": "Online participant",
+        "locale": "en",
+        "created_at": "2022-02-04 05:57:30",
+        "updated_at": "2022-02-04 06:03:54"
+    },
+    {
+        "id": "309",
+        "message_id": "78",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 05:58:52",
+        "updated_at": "2022-02-04 05:58:52"
+    },
+    {
+        "id": "310",
+        "message_id": "78",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 05:58:52",
+        "updated_at": "2022-02-04 05:58:52"
+    },
+    {
+        "id": "311",
+        "message_id": "78",
+        "title": "Офлайн участник",
+        "locale": "ru",
+        "created_at": "2022-02-04 05:58:52",
+        "updated_at": "2022-02-04 05:58:52"
+    },
+    {
+        "id": "312",
+        "message_id": "78",
+        "title": "Offline participant",
+        "locale": "en",
+        "created_at": "2022-02-04 05:58:52",
+        "updated_at": "2022-02-04 05:58:52"
+    },
+    {
+        "id": "313",
+        "message_id": "79",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 06:00:00",
+        "updated_at": "2022-02-04 06:00:00"
+    },
+    {
+        "id": "314",
+        "message_id": "79",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 06:00:00",
+        "updated_at": "2022-02-04 06:00:00"
+    },
+    {
+        "id": "315",
+        "message_id": "79",
+        "title": "Вы уверены, что заполнили всё правильно",
+        "locale": "ru",
+        "created_at": "2022-02-04 06:00:00",
+        "updated_at": "2022-02-04 06:00:00"
+    },
+    {
+        "id": "316",
+        "message_id": "79",
+        "title": "Are you sure you filled out everything correctly",
+        "locale": "en",
+        "created_at": "2022-02-04 06:00:00",
+        "updated_at": "2022-02-04 06:00:00"
+    },
+    {
+        "id": "317",
+        "message_id": "80",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 06:00:52",
+        "updated_at": "2022-02-04 06:00:52"
+    },
+    {
+        "id": "318",
+        "message_id": "80",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 06:00:52",
+        "updated_at": "2022-02-04 06:00:52"
+    },
+    {
+        "id": "319",
+        "message_id": "80",
+        "title": "Отменить",
+        "locale": "ru",
+        "created_at": "2022-02-04 06:00:52",
+        "updated_at": "2022-02-04 06:00:52"
+    },
+    {
+        "id": "320",
+        "message_id": "80",
+        "title": "Cancel",
+        "locale": "en",
+        "created_at": "2022-02-04 06:00:52",
+        "updated_at": "2022-02-04 06:00:52"
+    },
+    {
+        "id": "321",
+        "message_id": "81",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 06:02:50",
+        "updated_at": "2022-02-04 06:02:50"
+    },
+    {
+        "id": "322",
+        "message_id": "81",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 06:02:50",
+        "updated_at": "2022-02-04 06:02:50"
+    },
+    {
+        "id": "323",
+        "message_id": "81",
+        "title": "Уведомление",
+        "locale": "ru",
+        "created_at": "2022-02-04 06:02:50",
+        "updated_at": "2022-02-04 06:02:50"
+    },
+    {
+        "id": "324",
+        "message_id": "81",
+        "title": "Notice",
+        "locale": "en",
+        "created_at": "2022-02-04 06:02:50",
+        "updated_at": "2022-02-04 06:02:50"
+    },
+    {
+        "id": "325",
+        "message_id": "82",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 06:04:31",
+        "updated_at": "2022-02-04 06:04:31"
+    },
+    {
+        "id": "326",
+        "message_id": "82",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 06:04:31",
+        "updated_at": "2022-02-04 06:04:31"
+    },
+    {
+        "id": "327",
+        "message_id": "82",
+        "title": "Регистрируемые",
+        "locale": "ru",
+        "created_at": "2022-02-04 06:04:31",
+        "updated_at": "2022-02-04 06:04:31"
+    },
+    {
+        "id": "328",
+        "message_id": "82",
+        "title": "Registers",
+        "locale": "en",
+        "created_at": "2022-02-04 06:04:31",
+        "updated_at": "2022-02-04 06:04:31"
+    },
+    {
+        "id": "329",
+        "message_id": "83",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 06:05:47",
+        "updated_at": "2022-02-04 06:05:47"
+    },
+    {
+        "id": "330",
+        "message_id": "83",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 06:05:47",
+        "updated_at": "2022-02-04 06:05:47"
+    },
+    {
+        "id": "331",
+        "message_id": "83",
+        "title": "Отправить ссылку Zoom",
+        "locale": "ru",
+        "created_at": "2022-02-04 06:05:47",
+        "updated_at": "2022-02-04 06:05:47"
+    },
+    {
+        "id": "332",
+        "message_id": "83",
+        "title": "Send Zoom Link",
+        "locale": "en",
+        "created_at": "2022-02-04 06:05:47",
+        "updated_at": "2022-02-04 06:05:47"
+    },
+    {
+        "id": "333",
+        "message_id": "84",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 06:06:30",
+        "updated_at": "2022-02-04 06:06:30"
+    },
+    {
+        "id": "334",
+        "message_id": "84",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 06:06:30",
+        "updated_at": "2022-02-04 06:06:30"
+    },
+    {
+        "id": "335",
+        "message_id": "84",
+        "title": "Оправить адрес",
+        "locale": "ru",
+        "created_at": "2022-02-04 06:06:30",
+        "updated_at": "2022-02-04 06:06:30"
+    },
+    {
+        "id": "336",
+        "message_id": "84",
+        "title": "Send Address",
+        "locale": "en",
+        "created_at": "2022-02-04 06:06:30",
+        "updated_at": "2022-02-04 06:20:01"
+    },
+    {
+        "id": "337",
+        "message_id": "85",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 06:07:40",
+        "updated_at": "2022-02-04 06:07:40"
+    },
+    {
+        "id": "338",
+        "message_id": "85",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 06:07:40",
+        "updated_at": "2022-02-04 06:07:40"
+    },
+    {
+        "id": "339",
+        "message_id": "85",
+        "title": "О регистрируемом лице",
+        "locale": "ru",
+        "created_at": "2022-02-04 06:07:40",
+        "updated_at": "2022-02-04 06:07:40"
+    },
+    {
+        "id": "340",
+        "message_id": "85",
+        "title": "About Register",
+        "locale": "en",
+        "created_at": "2022-02-04 06:07:40",
+        "updated_at": "2022-02-04 06:07:40"
+    },
+    {
+        "id": "341",
+        "message_id": "86",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 06:08:53",
+        "updated_at": "2022-02-04 06:08:53"
+    },
+    {
+        "id": "342",
+        "message_id": "86",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 06:08:53",
+        "updated_at": "2022-02-04 06:08:53"
+    },
+    {
+        "id": "343",
+        "message_id": "86",
+        "title": "Об оффлайн участнике",
+        "locale": "ru",
+        "created_at": "2022-02-04 06:08:53",
+        "updated_at": "2022-02-04 06:08:53"
+    },
+    {
+        "id": "344",
+        "message_id": "86",
+        "title": "About an offline participant",
+        "locale": "en",
+        "created_at": "2022-02-04 06:08:54",
+        "updated_at": "2022-02-04 06:08:54"
+    },
+    {
+        "id": "345",
+        "message_id": "87",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 07:16:30",
+        "updated_at": "2022-02-04 07:16:30"
+    },
+    {
+        "id": "346",
+        "message_id": "87",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 07:16:30",
+        "updated_at": "2022-02-04 07:16:30"
+    },
+    {
+        "id": "347",
+        "message_id": "87",
+        "title": "Поле Фамилия обязательно",
+        "locale": "ru",
+        "created_at": "2022-02-04 07:16:30",
+        "updated_at": "2022-02-04 07:16:30"
+    },
+    {
+        "id": "348",
+        "message_id": "87",
+        "title": "The last name field is required",
+        "locale": "en",
+        "created_at": "2022-02-04 07:16:30",
+        "updated_at": "2022-02-04 07:16:30"
+    },
+    {
+        "id": "349",
+        "message_id": "88",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 07:16:56",
+        "updated_at": "2022-02-04 07:16:56"
+    },
+    {
+        "id": "350",
+        "message_id": "88",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 07:16:56",
+        "updated_at": "2022-02-04 07:16:56"
+    },
+    {
+        "id": "351",
+        "message_id": "88",
+        "title": "Поле Имя обязательно",
+        "locale": "ru",
+        "created_at": "2022-02-04 07:16:56",
+        "updated_at": "2022-02-04 07:16:56"
+    },
+    {
+        "id": "352",
+        "message_id": "88",
+        "title": "The first name field is required",
+        "locale": "en",
+        "created_at": "2022-02-04 07:16:56",
+        "updated_at": "2022-02-04 07:16:56"
+    },
+    {
+        "id": "353",
+        "message_id": "89",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 07:17:26",
+        "updated_at": "2022-02-04 07:17:26"
+    },
+    {
+        "id": "354",
+        "message_id": "89",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 07:17:26",
+        "updated_at": "2022-02-04 07:17:26"
+    },
+    {
+        "id": "355",
+        "message_id": "89",
+        "title": "Поле Отчества обязательно",
+        "locale": "ru",
+        "created_at": "2022-02-04 07:17:26",
+        "updated_at": "2022-02-04 07:17:26"
+    },
+    {
+        "id": "356",
+        "message_id": "89",
+        "title": "The middle name field is required",
+        "locale": "en",
+        "created_at": "2022-02-04 07:17:26",
+        "updated_at": "2022-02-04 07:17:26"
+    },
+    {
+        "id": "357",
+        "message_id": "90",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 07:17:48",
+        "updated_at": "2022-02-04 07:17:48"
+    },
+    {
+        "id": "358",
+        "message_id": "90",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 07:17:48",
+        "updated_at": "2022-02-04 07:17:48"
+    },
+    {
+        "id": "359",
+        "message_id": "90",
+        "title": "Поле Организация обязательно",
+        "locale": "ru",
+        "created_at": "2022-02-04 07:17:48",
+        "updated_at": "2022-02-04 07:17:48"
+    },
+    {
+        "id": "360",
+        "message_id": "90",
+        "title": "The organization field is required",
+        "locale": "en",
+        "created_at": "2022-02-04 07:17:48",
+        "updated_at": "2022-02-04 07:17:48"
+    },
+    {
+        "id": "361",
+        "message_id": "91",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 07:18:10",
+        "updated_at": "2022-02-04 07:18:10"
+    },
+    {
+        "id": "362",
+        "message_id": "91",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 07:18:10",
+        "updated_at": "2022-02-04 07:18:10"
+    },
+    {
+        "id": "363",
+        "message_id": "91",
+        "title": "Поле Должность обязательно",
+        "locale": "ru",
+        "created_at": "2022-02-04 07:18:10",
+        "updated_at": "2022-02-04 07:18:10"
+    },
+    {
+        "id": "364",
+        "message_id": "91",
+        "title": "The position field is required",
+        "locale": "en",
+        "created_at": "2022-02-04 07:18:10",
+        "updated_at": "2022-02-04 07:18:10"
+    },
+    {
+        "id": "365",
+        "message_id": "92",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 07:18:31",
+        "updated_at": "2022-02-04 07:18:31"
+    },
+    {
+        "id": "366",
+        "message_id": "92",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 07:18:31",
+        "updated_at": "2022-02-04 07:18:31"
+    },
+    {
+        "id": "367",
+        "message_id": "92",
+        "title": "Поле Страны обязательно",
+        "locale": "ru",
+        "created_at": "2022-02-04 07:18:31",
+        "updated_at": "2022-02-04 07:18:31"
+    },
+    {
+        "id": "368",
+        "message_id": "92",
+        "title": "The country field is required",
+        "locale": "en",
+        "created_at": "2022-02-04 07:18:31",
+        "updated_at": "2022-02-04 07:18:31"
+    },
+    {
+        "id": "369",
+        "message_id": "93",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 07:18:49",
+        "updated_at": "2022-02-04 07:18:49"
+    },
+    {
+        "id": "370",
+        "message_id": "93",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 07:18:49",
+        "updated_at": "2022-02-04 07:18:49"
+    },
+    {
+        "id": "371",
+        "message_id": "93",
+        "title": "Поле электронной почты обязательно",
+        "locale": "ru",
+        "created_at": "2022-02-04 07:18:49",
+        "updated_at": "2022-02-04 07:18:49"
+    },
+    {
+        "id": "372",
+        "message_id": "93",
+        "title": "The email field is required",
+        "locale": "en",
+        "created_at": "2022-02-04 07:18:49",
+        "updated_at": "2022-02-04 07:18:49"
+    },
+    {
+        "id": "373",
+        "message_id": "94",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 07:19:21",
+        "updated_at": "2022-02-04 07:19:21"
+    },
+    {
+        "id": "374",
+        "message_id": "94",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 07:19:21",
+        "updated_at": "2022-02-04 07:19:21"
+    },
+    {
+        "id": "375",
+        "message_id": "94",
+        "title": "Поле Фотографии обязательно",
+        "locale": "ru",
+        "created_at": "2022-02-04 07:19:21",
+        "updated_at": "2022-02-04 07:19:21"
+    },
+    {
+        "id": "376",
+        "message_id": "94",
+        "title": "The photo field is required",
+        "locale": "en",
+        "created_at": "2022-02-04 07:19:21",
+        "updated_at": "2022-02-04 07:19:21"
+    },
+    {
+        "id": "377",
+        "message_id": "95",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 07:19:42",
+        "updated_at": "2022-02-04 07:19:42"
+    },
+    {
+        "id": "378",
+        "message_id": "95",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 07:19:42",
+        "updated_at": "2022-02-04 07:19:42"
+    },
+    {
+        "id": "379",
+        "message_id": "95",
+        "title": "Фотография должна быть изображением",
+        "locale": "ru",
+        "created_at": "2022-02-04 07:19:42",
+        "updated_at": "2022-02-04 07:19:42"
+    },
+    {
+        "id": "380",
+        "message_id": "95",
+        "title": "The photo must be an image",
+        "locale": "en",
+        "created_at": "2022-02-04 07:19:42",
+        "updated_at": "2022-02-04 07:19:42"
+    },
+    {
+        "id": "381",
+        "message_id": "96",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 07:20:10",
+        "updated_at": "2022-02-04 07:20:10"
+    },
+    {
+        "id": "382",
+        "message_id": "96",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 07:20:10",
+        "updated_at": "2022-02-04 07:20:10"
+    },
+    {
+        "id": "383",
+        "message_id": "96",
+        "title": "Фотография должна быть файлом типа: jpeg, jpg",
+        "locale": "ru",
+        "created_at": "2022-02-04 07:20:10",
+        "updated_at": "2022-02-04 07:20:10"
+    },
+    {
+        "id": "384",
+        "message_id": "96",
+        "title": "The photo must be a file of type: jpeg, jpg",
+        "locale": "en",
+        "created_at": "2022-02-04 07:20:10",
+        "updated_at": "2022-02-04 07:20:10"
+    },
+    {
+        "id": "385",
+        "message_id": "97",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 07:20:55",
+        "updated_at": "2022-02-04 07:20:55"
+    },
+    {
+        "id": "386",
+        "message_id": "97",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 07:20:55",
+        "updated_at": "2022-02-04 07:20:55"
+    },
+    {
+        "id": "387",
+        "message_id": "97",
+        "title": "Размер фото должен быть не более 300 килобайт.",
+        "locale": "ru",
+        "created_at": "2022-02-04 07:20:55",
+        "updated_at": "2022-02-04 07:20:55"
+    },
+    {
+        "id": "388",
+        "message_id": "97",
+        "title": "The photo must be 300 kilobytes",
+        "locale": "en",
+        "created_at": "2022-02-04 07:20:55",
+        "updated_at": "2022-02-04 07:20:55"
     }
 ]

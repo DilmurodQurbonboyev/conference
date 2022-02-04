@@ -1,6 +1,6 @@
 <div class="card card-primary">
     <div class="card-header">
-        <h3 class="card-title">{{ tr('Registers') }}</h3>
+        <h3 class="card-title">{{ tr('Offline') }}</h3>
     </div>
     <div class="card-body">
         <div class="row">
@@ -46,8 +46,8 @@
                         </td>
                         <td>{{ $offlineUser->created_at->format('d.m.20y') }}</td>
                         <td class="d-flex">
-                            @can('offlineUsers.show')
-                            <a class="btn btn-primary m-1" href="{{ route('offlineUsers.show', $offlineUser->id) }}"
+                            @can('offline.show')
+                            <a class="btn btn-primary m-1" href="{{ route('offline.show', $offlineUser->id) }}"
                                 title="View" aria-label="View"><span class="fas fa-eye"></span>
                             </a>
                             @endcan

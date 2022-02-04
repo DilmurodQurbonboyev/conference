@@ -104,7 +104,10 @@ class SiteController extends Controller
         $path = "registers";
 
         $register = new Register();
-        $register->fullName = $request->fullName;
+        $register->last_name = $request->last_name;
+        $register->first_name = $request->first_name;
+        $register->middle_name = $request->middle_name;
+        $register->fullName = $request->last_name . '' . $request->first_name . '' . $request->middle_name;
         $register->organization = $request->organization;
         $register->position = $request->position;
         $register->country = $request->country;

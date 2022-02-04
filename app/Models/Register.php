@@ -13,6 +13,9 @@ class Register extends Model
     protected $fillable = [
         'fullName',
         'organization',
+        'last_name',
+        'first_name',
+        'middle_name',
         'position',
         'country',
         'email',
