@@ -55,6 +55,8 @@ class ListCategory extends Model implements TranslatableContract, Auditable
         return $this->belongsTo(ListCategory::class, 'parent_id');
     }
 
+
+
     public function lists_category_translation()
     {
         return $this->hasMany(ListCategoryTranslation::class);

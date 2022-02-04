@@ -52,6 +52,9 @@
                     </div>
                 </div>
                 <?php }?>
+                @if($post->slug == 'dastur')
+                    <x-time-line/>
+                @endif
                 <div class="detail-content">
                     {!! $post->content !!}
                 </div>

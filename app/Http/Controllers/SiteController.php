@@ -4,12 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\RegisterRequest;
 use App\Models\ListCategory;
-use App\Mail\RegisterMail;
 use App\Models\Lists;
 use App\Models\Management;
 use App\Models\Register;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
 
 class SiteController extends Controller
 {
@@ -88,7 +86,6 @@ class SiteController extends Controller
         }
         return view("frontend.detail", compact('post'));
     }
-
 
     public function register()
     {
