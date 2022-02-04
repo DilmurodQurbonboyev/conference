@@ -68,7 +68,7 @@
                                                placeholder="Введите текст">
                                         <label class="custom-file-label" for="input6">{{ tr('Foto') }}</label>
                                     </div>
-                                    <div class="form-check mt-2">
+                                    <div class="form-check mt-3">
                                         <input class="form-check-input" type="radio" name="status" id="status"
                                                value="2">
                                         <label class="form-check-label" for="status">
@@ -76,9 +76,9 @@
                                         </label>
                                     </div>
                                     <div class="form-check mt-2">
-                                        <input class="form-check-input" type="radio" name="status" id="status"
+                                        <input class="form-check-input" type="radio" name="status" id="status1"
                                                value="1">
-                                        <label class="form-check-label" for="status">
+                                        <label class="form-check-label" for="status1">
                                             {{ tr('Offline') }}
                                         </label>
                                     </div>
