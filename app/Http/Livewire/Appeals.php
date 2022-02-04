@@ -15,7 +15,7 @@ class Appeals extends Component
         $filter_bank_number,
         $filter_status;
 
-    public $perPage = 10;
+    public $perPage = 20;
     protected $paginationTheme = "bootstrap";
     use WithPagination;
 
@@ -23,7 +23,7 @@ class Appeals extends Component
     public function render()
     {
 
-        $query = Register::query();
+        $query = Register::query()->where('status', 2);
 
         $query->when($this->filter_id != "", function ($q) {
             return $q->where('id', $this->filter_id);

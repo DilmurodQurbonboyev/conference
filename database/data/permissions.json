@@ -1027,5 +1027,54 @@
         "guard_name": "web",
         "created_at": "2022-01-23 11:58:58",
         "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "148",
+        "name": "offline.index",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "149",
+        "name": "offline.create",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "150",
+        "name": "offline.store",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "151",
+        "name": "offline.edit",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "152",
+        "name": "offline.update",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "153",
+        "name": "offline.show",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
+    },
+    {
+        "id": "154",
+        "name": "offline.destroy",
+        "guard_name": "web",
+        "created_at": "2022-01-23 11:58:58",
+        "updated_at": "2022-01-23 11:58:58"
     }
 ]

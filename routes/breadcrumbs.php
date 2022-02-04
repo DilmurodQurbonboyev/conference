@@ -338,3 +338,17 @@ Breadcrumbs::for('registers/edit', function ($trail, $id) {
     $trail->parent('registers');
     $trail->push(tr('Update Register'), route('appeals.edit', $id));
 });
+
+
+Breadcrumbs::for('offline', function ($trail) {
+    $trail->parent('admin');
+    $trail->push(tr('Offline'), route('offline.index'));
+});
+Breadcrumbs::for('offline/create', function ($trail) {
+    $trail->parent('offline');
+    $trail->push(tr('Send Offline'), route('offline.create'));
+});
+Breadcrumbs::for('offline/edit', function ($trail, $id) {
+    $trail->parent('offline');
+    $trail->push(tr('Update Offline'), route('offline.edit', $id));
+});

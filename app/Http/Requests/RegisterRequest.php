@@ -29,7 +29,7 @@ class RegisterRequest extends FormRequest
             'position' => 'required',
             'country' => 'required',
             'email' => 'required',
-            'photo' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'photo' => 'required|image|mimes:jpeg,png,jpg,gif|max:10240',
         ];
     }
 }

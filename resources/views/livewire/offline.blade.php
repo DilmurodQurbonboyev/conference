@@ -5,9 +5,8 @@
     <div class="card-body">
         <div class="row">
             <div class="col-md-12 my-2">
-                <a class="btn btn-primary create-btn" href="{{ route('appeals.create') }}">
-                    {{ tr('Send Zoom Link') }}
-                </a>
+                <a class="btn btn-primary create-btn" href="{{ route('offline.create') }}">
+                    {{ tr('Send Address') }}</a>
             </div>
         </div>
         <div class="table-responsive">
@@ -27,29 +26,29 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($appeals as $key=>$appeal)
+                    @foreach ($offlineUsers as $key=>$offlineUser)
                     <tr>
                         <td>{{++$key}}</td>
-                        <td>{{ $appeal->id }}</td>
+                        <td>{{ $offlineUser->id }}</td>
                         <td>
-                            <img width="100px" src="{{ asset($appeal->photo) }}" alt="">
+                            <img width="100px" src="{{ asset($offlineUser->photo) }}" alt="">
                         </td>
-                        <td>{{ $appeal->fullName }}</td>
-                        <td>{{$appeal->organization}}</td>
-                        <td>{{$appeal->position}}</td>
-                        <td>{{$appeal->email}}</td>
+                        <td>{{ $offlineUser->fullName }}</td>
+                        <td>{{$offlineUser->organization}}</td>
+                        <td>{{$offlineUser->position}}</td>
+                        <td>{{$offlineUser->email}}</td>
                         <td>
-                            @if ($appeal->status == 2)
+                            @if ($offlineUser->status == 2)
                             <span class="badge bg-success p-2">{{ tr('Online') }}</span>
                             @else
                             <span class="badge bg-info p-2">{{ tr('Offline') }}</span>
                             @endif
                         </td>
-                        <td>{{ $appeal->created_at->format('d.m.20y') }}</td>
+                        <td>{{ $offlineUser->created_at->format('d.m.20y') }}</td>
                         <td class="d-flex">
-                            @can('appeals.show')
-                            <a class="btn btn-primary m-1" href="{{ route('appeals.show', $appeal->id) }}" title="View"
-                                aria-label="View"><span class="fas fa-eye"></span>
+                            @can('offlineUsers.show')
+                            <a class="btn btn-primary m-1" href="{{ route('offlineUsers.show', $offlineUser->id) }}"
+                                title="View" aria-label="View"><span class="fas fa-eye"></span>
                             </a>
                             @endcan
                         </td>
@@ -57,7 +56,7 @@
                     @endforeach
                 </tbody>
             </table>
-            <span class="d-flex pt-2 justify-content-end"> {{ $appeals->links() }}</span>
+            <span class="d-flex pt-2 justify-content-end"> {{ $offlineUsers->links() }}</span>
         </div>
     </div>
 </div>
