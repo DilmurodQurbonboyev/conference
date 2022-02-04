@@ -578,7 +578,10 @@ video {
   color: rgba(70, 70, 70, 1);
 }
 .layout-right {}
-.layout-right span {}
+.layout-right span {
+  font-family: "Roboto-Condensed-700";
+  color: rgba(19, 56, 155, 1.0);
+}
 @media (min-width: 992px) {
   .layout-left span {
     font-size: 27px;

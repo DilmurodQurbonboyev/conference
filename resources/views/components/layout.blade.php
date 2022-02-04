@@ -8,8 +8,7 @@
             </div>
             <div class="col-my-4 col-xl-5">
                 <div class="layout-right">
-                    <span
-                        style="font-weight: bold; color: #5DADE2;">{{ tr('Regional cooperation of the countries of Central Asia within the framework of the Joint Action Plan for the implementation of the UN Global Counter-Terrorism Strategy') }}</span>
+                    <span>{{ tr('Regional cooperation of the countries of Central Asia within the framework of the Joint Action Plan for the implementation of the UN Global Counter-Terrorism Strategy') }}</span>
                 </div>
             </div>
         </div>

@@ -20,7 +20,10 @@ use App\Models\Lists;
             <div>
                 <i class="fas fa-circle"></i>
                 <div class="timeline-item">
-                    <span class="time"><i class="fas fa-clock"></i>{!! str_replace(['<p>', '</p>'], '', $item->description); !!}</span>
+                    <span class="time">
+{{--                        <i class="fas fa-clock"></i>--}}
+{{--                        {!! str_replace(['<p>', '</p>'], '', $item->description); !!}--}}
+                    </span>
                     <h3 class="timeline-header">
                         <span><?= $item->title ?></span>
                     </h3>
