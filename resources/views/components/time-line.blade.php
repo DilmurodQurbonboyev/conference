@@ -22,14 +22,21 @@ use App\Models\Lists;
                 <div class="timeline-item">
                     <span class="time">
 {{--                        <i class="fas fa-clock"></i>--}}
-{{--                        {!! str_replace(['<p>', '</p>'], '', $item->description); !!}--}}
+                        {{--                        {!! str_replace(['<p>', '</p>'], '', $item->description); !!}--}}
                     </span>
-                    <h3 class="timeline-header">
+                    <h3 class="timeline-header alert-primary">
                         <span><?= $item->title ?></span>
                     </h3>
-                    <div class="timeline-body">
-                        <?= $item->content ?>
-                    </div>
+                    @if($item->content)
+                        <div class="timeline-body">
+                            <?= $item->content ?>
+                        </div>
+                    @else
+                        <div class="timeline-body d-none">
+                            <?= $item->content ?>
+                        </div>
+                    @endif
+
                 </div>
             </div>
             <?php endforeach; ?>
