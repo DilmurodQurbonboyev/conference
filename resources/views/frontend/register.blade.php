@@ -44,17 +44,19 @@
                                         <div class="text-danger">{{ $message }}</div>
                                         @enderror
                                     </div>
-                                    <div class="form-group">
-                                        <label for="middle_name">{{tr('Middle Name')}}</label>
-                                        <input type="text" name="middle_name"
-                                               class="form-control @error('middle_name') is-invalid @enderror"
-                                               id="middle_name"
-                                               aria-describedby="emailHelp"
-                                               placeholder="{{ tr('Enter text') }}">
-                                        @error('middle_name')
-                                        <div class="text-danger">{{ $message }}</div>
-                                        @enderror
-                                    </div>
+                                    @if($app->getLocale() == 'ru')
+                                        <div class="form-group">
+                                            <label for="middle_name">{{tr('Middle Name')}}</label>
+                                            <input type="text" name="middle_name"
+                                                   class="form-control @error('middle_name') is-invalid @enderror"
+                                                   id="middle_name"
+                                                   aria-describedby="emailHelp"
+                                                   placeholder="{{ tr('Enter text') }}">
+                                            @error('middle_name')
+                                            <div class="text-danger">{{ $message }}</div>
+                                            @enderror
+                                        </div>
+                                    @endif
                                     <div class="form-group">
                                         <label for="organization">{{ tr('Organization') }}</label>
                                         <input type="text" name="organization"
