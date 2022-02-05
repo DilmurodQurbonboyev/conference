@@ -18,7 +18,7 @@
     <div class="card card-primary card-outline">
         <div class="card-body p-0">
             <div class="mailbox-read-message">
-                <table class="table table-striped table-hover">
+                <table class="table table-hover">
                     <tbody>
                     <tr>
                         <td>{{ tr('Count') }}</td>

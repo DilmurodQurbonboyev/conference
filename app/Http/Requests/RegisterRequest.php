@@ -26,7 +26,7 @@ class RegisterRequest extends FormRequest
         return [
             'last_name' => 'required',
             'first_name' => 'required',
-            'middle_name' => 'required',
+            'middle_name' => 'sometimes|required',
             'status' => 'required',
             'organization' => 'required',
             'position' => 'required',

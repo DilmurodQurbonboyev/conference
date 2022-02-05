@@ -10,10 +10,10 @@ use App\Models\SendEmail;
 
 class Appeals extends Component
 {
-    public $filter_id,
-        $filter_project,
-        $filter_bank_number,
-        $filter_status;
+    public $filter_fullName,
+        $filter_organization,
+        $filter_position,
+        $filter_email;
 
     public $perPage = 20;
     protected $paginationTheme = "bootstrap";
@@ -22,23 +22,22 @@ class Appeals extends Component
 
     public function render()
     {
-
         $query = Register::query()->where('status', 2);
 
-        $query->when($this->filter_id != "", function ($q) {
-            return $q->where('id', $this->filter_id);
+        $query->when($this->filter_fullName != "", function ($q) {
+            return $q->where('fullName', 'like', '%' . $this->filter_fullName . '%');
         });
 
-        $query->when($this->filter_project != "", function ($q) {
-            return $q->where('project', 'like', '%' . $this->filter_project . '%');
+        $query->when($this->filter_organization != "", function ($q) {
+            return $q->where('organization', 'like', '%' . $this->filter_organization . '%');
         });
 
-        $query->when($this->filter_bank_number != "", function ($q) {
-            return $q->where('bank_number', 'like', '%' . $this->filter_bank_number . '%');
+        $query->when($this->filter_position != "", function ($q) {
+            return $q->where('position', 'like', '%' . $this->filter_position . '%');
         });
 
-        $query->when($this->filter_status != "", function ($q) {
-            return $q->where('status', $this->filter_status);
+        $query->when($this->filter_email != "", function ($q) {
+            return $q->where('email', 'like', '%' . $this->filter_email . '%');
         });
 
         $appeals = $query->paginate($this->perPage);

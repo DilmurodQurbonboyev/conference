@@ -30,24 +30,20 @@ class AppealController extends Controller
 
     public function store(Request $request)
     {
-        try {
-            foreach ($request->users as $user) {
-                $registers = Register::find($user);
+        foreach ($request->users as $user) {
+            $registers = Register::find($user);
 
-                Mail::to($registers->email)->send(new RegisterMail($request->link));
+            Mail::to($registers->email)->send(new RegisterMail($request->link));
 
-                $result = new SendEmail();
-                $result->register_id = $registers->id;
-                $result->fullName = $registers->fullName;
-                $result->email = $registers->email;
-                $result->link = $request->link;
-                $result->status = 1;
-                $result->save();
+            $result = new SendEmail();
+            $result->register_id = $registers->id;
+            $result->fullName = $registers->fullName;
+            $result->email = $registers->email;
+            $result->link = $request->link;
+            $result->status = 1;
+            $result->save();
 
-                return redirect()->back()->with('success', 'Zoom link send to users');
-            }
-        } catch (\Throwable $e) {
-            dd($e);
+            return redirect()->back()->with('success', 'Zoom link send to users');
         }
     }
 

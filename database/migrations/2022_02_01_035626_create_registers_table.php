@@ -18,7 +18,7 @@ class CreateRegistersTable extends Migration
             $table->string('fullName')->nullable();
             $table->string('last_name');
             $table->string('first_name');
-            $table->string('middle_name');
+            $table->string('middle_name')->nullable();
             $table->string('organization');
             $table->string('position');
             $table->string('country');

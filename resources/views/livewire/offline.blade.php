@@ -12,26 +12,42 @@
         <div class="table-responsive">
             <table class="table table-hover table-wrap">
                 <thead>
-                    <tr class="text-primary">
-                        <th></th>
-                        <th>{{ tr('Id') }}</th>
-                        <th>{{ tr('Image') }}</th>
-                        <th>{{ tr('FullName') }}</th>
-                        <th>{{ tr('Organization') }}</th>
-                        <th>{{ tr('Position') }}</th>
-                        <th>{{ tr('Email') }}</th>
-                        <th>{{ tr('Status') }}</th>
-                        <th>{{tr('Created At')}}</th>
-                        <th style="width: 100px"></th>
-                    </tr>
+                <tr class="text-primary">
+                    <th>{{ tr('Id') }}</th>
+                    <th>{{ tr('Image') }}</th>
+                    <th>{{ tr('Full Name') }}</th>
+                    <th>{{ tr('Organization') }}</th>
+                    <th>{{ tr('Position') }}</th>
+                    <th>{{ tr('Email') }}</th>
+                    <th>{{ tr('Status') }}</th>
+                    <th>{{ tr('Count') }}</th>
+                    <th>{{tr('Created At')}}</th>
+                    <th style="width: 100px"></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>
+                        <input class="form-control" type="text" wire:model.debounce.300ms="filter_fullName">
+                    </th>
+                    <th>
+                        <input class="form-control" type="text" wire:model.debounce.300ms="filter_organization">
+                    </th>
+                    <th>
+                        <input class="form-control" type="text" wire:model.debounce.300ms="filter_position">
+                    </th>
+                    <th>
+                        <input class="form-control" type="text" wire:model.debounce.300ms="filter_email">
+                    </th>
+
+                </tr>
                 </thead>
                 <tbody>
-                    @foreach ($offlineUsers as $key=>$offlineUser)
+                @foreach ($offlineUsers as $offlineUser)
                     <tr>
-                        <td>{{++$key}}</td>
                         <td>{{ $offlineUser->id }}</td>
                         <td>
-                            <img width="100px" src="{{ asset($offlineUser->photo) }}" alt="">
+                            <img width="80px" src="{{ asset($offlineUser->photo) }}" alt="">
                         </td>
                         <td>{{ $offlineUser->fullName }}</td>
                         <td>{{$offlineUser->organization}}</td>
@@ -39,21 +55,24 @@
                         <td>{{$offlineUser->email}}</td>
                         <td>
                             @if ($offlineUser->status == 2)
-                            <span class="badge bg-success p-2">{{ tr('Online') }}</span>
+                                <span class="badge bg-success p-2">{{ tr('Online') }}</span>
                             @else
-                            <span class="badge bg-info p-2">{{ tr('Offline') }}</span>
+                                <span class="badge bg-info p-2">{{ tr('Offline') }}</span>
                             @endif
+                        </td>
+                        <td style="font-weight: 700">
+                            <?php echo App\Models\SendEmail::where('register_id', $offlineUser->id)->count(); ?>
                         </td>
                         <td>{{ $offlineUser->created_at->format('d.m.20y') }}</td>
                         <td class="d-flex">
                             @can('offline.show')
-                            <a class="btn btn-primary m-1" href="{{ route('offline.show', $offlineUser->id) }}"
-                                title="View" aria-label="View"><span class="fas fa-eye"></span>
-                            </a>
+                                <a class="btn btn-primary m-1" href="{{ route('offline.show', $offlineUser->id) }}"
+                                   title="View" aria-label="View"><span class="fas fa-eye"></span>
+                                </a>
                             @endcan
                         </td>
                     </tr>
-                    @endforeach
+                @endforeach
                 </tbody>
             </table>
             <span class="d-flex pt-2 justify-content-end"> {{ $offlineUsers->links() }}</span>

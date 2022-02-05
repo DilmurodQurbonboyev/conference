@@ -8,6 +8,7 @@ use App\Models\Lists;
 use App\Models\Management;
 use App\Models\Register;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 
 class SiteController extends Controller
 {
@@ -104,7 +105,7 @@ class SiteController extends Controller
         $register->last_name = $request->last_name;
         $register->first_name = $request->first_name;
         $register->middle_name = $request->middle_name;
-        $register->fullName = $request->last_name . '' . $request->first_name . '' . $request->middle_name;
+        $register->fullName = $request->last_name . ' ' . $request->first_name . ' ' . $request->middle_name;
         $register->organization = $request->organization;
         $register->position = $request->position;
         $register->country = $request->country;
