@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Artisan;
 
 Route::group(
     [
@@ -20,6 +21,12 @@ Route::group(
 
         Route::fallback(function () {
             return view("frontend.error");
+        });
+
+
+        Route::get('clear', function () {
+            Artisan::call('optimize:clear');
+            return redirect('/');
         });
     }
 );
