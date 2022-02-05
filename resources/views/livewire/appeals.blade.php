@@ -62,7 +62,7 @@
                             @endif
                         </td>
                         <td style="font-weight: 700">
-                            <?php echo App\Models\SendEmail::where('register_id', $appeal->id)->count(); ?>
+                            {{ $appeal->sendEmail->count() }}
                         </td>
                         <td>{{ $appeal->created_at->format('d.m.20y') }}</td>
                         <td class="d-flex">

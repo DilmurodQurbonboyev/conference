@@ -13,6 +13,7 @@ use Livewire\WithPagination;
 class Useful extends Component
 {
     use WithPagination;
+    public $deleteId = '';
 
     public $filter_id,
         $filter_title,
@@ -76,5 +77,15 @@ class Useful extends Component
 
         $usefuls = $query->paginate($this->perPage);
         return view('livewire.useful', compact('usefulsCategories', 'usefuls', 'users'));
+    }
+
+    public function deleteId($id)
+    {
+        $this->deleteId = $id;
+    }
+
+    public function delete()
+    {
+        Lists::findOrFail($this->deleteId)->delete();
     }
 }

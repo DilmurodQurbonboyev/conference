@@ -14,6 +14,8 @@ class Pages extends Component
 {
     use WithPagination;
 
+    public $deleteId = '';
+
     public $filter_id,
         $filter_title,
         $filter_category,
@@ -74,5 +76,15 @@ class Pages extends Component
 
         $pages = $query->paginate($this->perPage);
         return view('livewire.pages', compact('pagesCategories', 'pages', 'users'));
+    }
+
+    public function deleteId($id)
+    {
+        $this->deleteId = $id;
+    }
+
+    public function delete()
+    {
+        Lists::findOrFail($this->deleteId)->delete();
     }
 }

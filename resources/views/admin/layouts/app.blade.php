@@ -61,6 +61,7 @@
     <script src="{{ asset('plugins/toastr/toastr.min.js') }}"></script>
     <script src="{{ asset('plugins/leaflet/leaflet.js') }}"></script>
     <script src="{{ asset('js/jquery.fancybox.min.js') }}"></script>
+    <script src="{{ asset('plugins/chart.js/Chart.min.js') }}"></script>
     <script>
         $('#lfm_oz').filemanager('file');
         $('#lfm_uz').filemanager('file');

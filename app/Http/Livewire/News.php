@@ -26,6 +26,7 @@ class News extends Component
         $filter_link_type;
 
     public $perPage = 10;
+    public $deleteId = '';
 
     public function render()
     {
@@ -71,5 +72,14 @@ class News extends Component
 
         $news = $query->paginate($this->perPage);
         return view('livewire.news', compact('newsCategories', 'news', 'users'));
+    }
+    public function deleteId($id)
+    {
+        $this->deleteId = $id;
+    }
+
+    public function delete()
+    {
+        Lists::findOrFail($this->deleteId)->delete();
     }
 }

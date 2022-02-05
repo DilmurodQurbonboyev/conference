@@ -13,11 +13,18 @@
     </div>
 @endsection
 @section('content')
-    <div class="card card-primary card-outline card-tabs">
+    <div class="card card-primary">
         <div class="card-header">
-            <a class="btn btn-primary" href="{{ route('roles.create') }}">{{ tr('Create Roles') }}</a>
+            <h3 class="card-title">{{ tr('Roles') }}</h3>
         </div>
         <div class="card-body">
+            <div class="row">
+                <div class="col-md-12 my-2">
+                    @can('roles.create')
+                        <a class="btn btn-primary" href="{{ route('roles.create') }}">{{ tr('Create Roles') }}</a>
+                    @endcan
+                </div>
+            </div>
             <div class="table-responsive">
                 <table class="table table-hover">
                     <thead>
@@ -59,4 +66,5 @@
                 </table>
             </div>
         </div>
+    </div>
 @endsection

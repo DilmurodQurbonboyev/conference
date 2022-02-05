@@ -4,8 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Http\Livewire\Managements;
 use App\Models\ListCategory;
+use App\Models\Management;
 use App\Models\Menu;
 use App\Models\MenusCategory;
+use App\Models\Register;
 use App\Models\User;
 use Illuminate\Http\Request;
 use App\Models\Lists;
@@ -45,9 +47,12 @@ class HomeController extends Controller
         $totalPhotos = Lists::where('list_type_id', 7)->count();
         $totalVideos = Lists::where('list_type_id', 8)->count();
         $totalEvents = Lists::where('list_type_id', 9)->count();
-        //        $totalManagements = Management::where('list_type_id', 10)->count();
+        $totalManagements = Management::where('list_type_id', 10)->count();
         $totalRoles = Role::count();
         $totalUsers = User::count();
+
+        $onlineUsers = Register::where('status', 2)->count();
+        $offlineUsers = Register::where('status', 1)->count();
 
         return view('admin.index', compact(
             'totalMenus',
@@ -60,9 +65,11 @@ class HomeController extends Controller
             'totalPhotos',
             'totalVideos',
             'totalEvents',
-            // 'totalManagements',
+            'totalManagements',
             'totalRoles',
             'totalUsers',
+            'onlineUsers',
+            'offlineUsers',
         ));
     }
 }

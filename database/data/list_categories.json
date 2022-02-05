@@ -64,7 +64,7 @@
         "image": null,
         "status": "2",
         "user_id": "4",
-        "modifier_id": "4",
+        "modifier_id": null,
         "deleted_at": null,
         "created_at": "2022-02-01 04:38:03",
         "updated_at": "2022-02-02 07:27:52"
@@ -93,7 +93,7 @@
         "status": "2",
         "user_id": "4",
         "modifier_id": null,
-        "deleted_at": "2022-02-01 10:53:20",
+        "deleted_at": null,
         "created_at": "2022-02-01 10:52:01",
         "updated_at": "2022-02-01 10:53:20"
     },
@@ -180,5 +180,33 @@
         "deleted_at": null,
         "created_at": "2022-02-04 04:26:54",
         "updated_at": "2022-02-04 04:26:54"
+    },
+    {
+        "id": "14",
+        "list_type_id": "5",
+        "parent_id": "5",
+        "slug": "registraciya-uchastnikov",
+        "color": null,
+        "image": null,
+        "status": "2",
+        "user_id": "4",
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-02-04 12:23:21",
+        "updated_at": "2022-02-04 12:23:21"
+    },
+    {
+        "id": "15",
+        "list_type_id": "5",
+        "parent_id": "5",
+        "slug": "ceremoniya-otkrytiya",
+        "color": null,
+        "image": null,
+        "status": "2",
+        "user_id": "4",
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-02-04 12:24:04",
+        "updated_at": "2022-02-04 12:24:04"
     }
 ]

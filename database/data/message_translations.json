@@ -3102,5 +3102,197 @@
         "locale": "en",
         "created_at": "2022-02-04 07:20:55",
         "updated_at": "2022-02-04 07:20:55"
+    },
+    {
+        "id": "389",
+        "message_id": "98",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-05 04:55:02",
+        "updated_at": "2022-02-05 04:55:02"
+    },
+    {
+        "id": "390",
+        "message_id": "98",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-05 04:55:02",
+        "updated_at": "2022-02-05 04:55:02"
+    },
+    {
+        "id": "391",
+        "message_id": "98",
+        "title": "Отчество",
+        "locale": "ru",
+        "created_at": "2022-02-05 04:55:02",
+        "updated_at": "2022-02-05 04:55:02"
+    },
+    {
+        "id": "392",
+        "message_id": "98",
+        "title": null,
+        "locale": "en",
+        "created_at": "2022-02-05 04:55:02",
+        "updated_at": "2022-02-05 04:55:02"
+    },
+    {
+        "id": "393",
+        "message_id": "99",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-05 04:55:39",
+        "updated_at": "2022-02-05 04:55:39"
+    },
+    {
+        "id": "394",
+        "message_id": "99",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-05 04:55:39",
+        "updated_at": "2022-02-05 04:55:39"
+    },
+    {
+        "id": "395",
+        "message_id": "99",
+        "title": "Имя",
+        "locale": "ru",
+        "created_at": "2022-02-05 04:55:39",
+        "updated_at": "2022-02-05 04:55:39"
+    },
+    {
+        "id": "396",
+        "message_id": "99",
+        "title": "First name",
+        "locale": "en",
+        "created_at": "2022-02-05 04:55:39",
+        "updated_at": "2022-02-05 04:55:39"
+    },
+    {
+        "id": "397",
+        "message_id": "100",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-05 04:56:09",
+        "updated_at": "2022-02-05 04:56:09"
+    },
+    {
+        "id": "398",
+        "message_id": "100",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-05 04:56:09",
+        "updated_at": "2022-02-05 04:56:09"
+    },
+    {
+        "id": "399",
+        "message_id": "100",
+        "title": "Фамилия",
+        "locale": "ru",
+        "created_at": "2022-02-05 04:56:09",
+        "updated_at": "2022-02-05 04:56:09"
+    },
+    {
+        "id": "400",
+        "message_id": "100",
+        "title": "Last name",
+        "locale": "en",
+        "created_at": "2022-02-05 04:56:09",
+        "updated_at": "2022-02-05 04:56:09"
+    },
+    {
+        "id": "401",
+        "message_id": "101",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-05 04:56:40",
+        "updated_at": "2022-02-05 04:56:40"
+    },
+    {
+        "id": "402",
+        "message_id": "101",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-05 04:56:40",
+        "updated_at": "2022-02-05 04:56:40"
+    },
+    {
+        "id": "403",
+        "message_id": "101",
+        "title": "Электронная почта",
+        "locale": "ru",
+        "created_at": "2022-02-05 04:56:40",
+        "updated_at": "2022-02-05 04:56:40"
+    },
+    {
+        "id": "404",
+        "message_id": "101",
+        "title": "Email",
+        "locale": "en",
+        "created_at": "2022-02-05 04:56:40",
+        "updated_at": "2022-02-05 04:56:40"
+    },
+    {
+        "id": "405",
+        "message_id": "102",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-05 04:57:32",
+        "updated_at": "2022-02-05 04:57:32"
+    },
+    {
+        "id": "406",
+        "message_id": "102",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-05 04:57:32",
+        "updated_at": "2022-02-05 04:57:32"
+    },
+    {
+        "id": "407",
+        "message_id": "102",
+        "title": "Выбрать форму участия",
+        "locale": "ru",
+        "created_at": "2022-02-05 04:57:32",
+        "updated_at": "2022-02-05 04:57:32"
+    },
+    {
+        "id": "408",
+        "message_id": "102",
+        "title": "Choose a form of participation",
+        "locale": "en",
+        "created_at": "2022-02-05 04:57:32",
+        "updated_at": "2022-02-05 04:57:32"
+    },
+    {
+        "id": "409",
+        "message_id": "103",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-05 08:04:12",
+        "updated_at": "2022-02-05 08:04:12"
+    },
+    {
+        "id": "410",
+        "message_id": "103",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-05 08:04:12",
+        "updated_at": "2022-02-05 08:04:12"
+    },
+    {
+        "id": "411",
+        "message_id": "103",
+        "title": "Полное имя",
+        "locale": "ru",
+        "created_at": "2022-02-05 08:04:12",
+        "updated_at": "2022-02-05 08:04:12"
+    },
+    {
+        "id": "412",
+        "message_id": "103",
+        "title": "Full name",
+        "locale": "en",
+        "created_at": "2022-02-05 08:04:12",
+        "updated_at": "2022-02-05 08:04:12"
     }
 ]

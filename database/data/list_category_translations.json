@@ -414,5 +414,69 @@
         "locale": "en",
         "created_at": "2022-02-04 04:26:55",
         "updated_at": "2022-02-04 04:26:55"
+    },
+    {
+        "id": "53",
+        "list_category_id": "14",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 12:23:21",
+        "updated_at": "2022-02-04 12:23:21"
+    },
+    {
+        "id": "54",
+        "list_category_id": "14",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 12:23:21",
+        "updated_at": "2022-02-04 12:23:21"
+    },
+    {
+        "id": "55",
+        "list_category_id": "14",
+        "title": "Регистрация участников",
+        "locale": "ru",
+        "created_at": "2022-02-04 12:23:21",
+        "updated_at": "2022-02-04 12:23:21"
+    },
+    {
+        "id": "56",
+        "list_category_id": "14",
+        "title": "Registration of participants",
+        "locale": "en",
+        "created_at": "2022-02-04 12:23:21",
+        "updated_at": "2022-02-04 12:23:21"
+    },
+    {
+        "id": "57",
+        "list_category_id": "15",
+        "title": null,
+        "locale": "oz",
+        "created_at": "2022-02-04 12:24:04",
+        "updated_at": "2022-02-04 12:24:04"
+    },
+    {
+        "id": "58",
+        "list_category_id": "15",
+        "title": null,
+        "locale": "uz",
+        "created_at": "2022-02-04 12:24:04",
+        "updated_at": "2022-02-04 12:24:04"
+    },
+    {
+        "id": "59",
+        "list_category_id": "15",
+        "title": "ЦЕРЕМОНИЯ ОТКРЫТИЯ",
+        "locale": "ru",
+        "created_at": "2022-02-04 12:24:04",
+        "updated_at": "2022-02-04 12:24:04"
+    },
+    {
+        "id": "60",
+        "list_category_id": "15",
+        "title": "THE OPENING CEREMONY",
+        "locale": "en",
+        "created_at": "2022-02-04 12:24:04",
+        "updated_at": "2022-02-04 12:24:04"
     }
 ]
