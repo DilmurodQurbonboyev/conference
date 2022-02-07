@@ -128,6 +128,10 @@ video {
 .timeline > div > .timeline-item > .timeline-footer p {
   font-size: 18px;
 }
+.timeline > div > .timeline-item > .timeline-body,
+.timeline > div > .timeline-item > .timeline-footer h3 {
+  margin-top: 10px;
+}
 .timeline > div > .timeline-item > .timeline-body > img {
   margin: 10px;
 }
