@@ -60,23 +60,30 @@
                 </div>
                 @if ($post->pdf)
                     @if ($post->pdf_type == 2)
-                        <div class="pdf">
-                            <div class="pdf-in">
-                                <div class="pdf-icon">
-                                    <a href="{{ $post->pdf ?? '' }}" download="true">
-                                        <img src="{{ asset('img/pdf.png') }}" alt="pdf">
-                                    </a>
-                                </div>
-                                <div class="pdf-text">
-                                    <div class="pdf-title">
-                                        <span>{{ $post->pdf_title ?? '' }}</span>
+                        @if($post->slug == 'dastur')
+                            <div class="btn-download">
+                                <a href="{{ $post->pdf ?? '' }}">{{ tr('Download') }}</a>
+                            </div>
+                        @else
+                            <div class="pdf">
+                                <div class="pdf-in">
+                                    <div class="pdf-icon">
+                                        <a href="{{ $post->pdf ?? '' }}" download="true">
+                                            <img src="{{ asset('img/pdf.png') }}" alt="pdf">
+                                        </a>
                                     </div>
-                                    <div class="pdf-download">
-                                        <a href="{{ $post->pdf }}" download="true">{{ tr('Download') }}</a>
+                                    <div class="pdf-text">
+                                        <div class="pdf-title">
+                                            <span>{{ $post->pdf_title ?? '' }}</span>
+                                        </div>
+                                        <div class="pdf-download">
+                                            <a href="{{ $post->pdf }}"
+                                               download="{{ $post->pdf_title ?? '' }}">{{ tr('Download') }}</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        @endif
                     @endif
                     @if ($post->pdf_type == 1)
                         <div>

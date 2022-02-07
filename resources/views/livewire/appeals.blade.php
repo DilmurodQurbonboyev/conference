@@ -62,7 +62,11 @@
                             @endif
                         </td>
                         <td style="font-weight: 700">
-                            {{ $appeal->sendEmail->count() }}
+                            @if($appeal->sendEmail->count() == 0)
+                                <span class="badge bg-danger p-2">{{$appeal->sendEmail->count()}}</span>
+                            @else
+                                <span class="badge bg-success p-2">{{$appeal->sendEmail->count()}}</span>
+                            @endif
                         </td>
                         <td>{{ $appeal->created_at->format('d.m.20y') }}</td>
                         <td class="d-flex">

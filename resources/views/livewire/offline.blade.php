@@ -61,7 +61,11 @@
                             @endif
                         </td>
                         <td style="font-weight: 700">
-                            {{ $offlineUser->sendEmail->count() }}
+                            @if($offlineUser->sendEmail->count() == 0)
+                                <span class="badge bg-danger p-2">{{$offlineUser->sendEmail->count()}}</span>
+                            @else
+                                <span class="badge bg-success p-2">{{$offlineUser->sendEmail->count()}}</span>
+                            @endif
                         </td>
                         <td>{{ $offlineUser->created_at->format('d.m.20y') }}</td>
                         <td class="d-flex">

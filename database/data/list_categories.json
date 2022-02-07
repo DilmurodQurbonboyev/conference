@@ -190,10 +190,10 @@
         "image": null,
         "status": "2",
         "user_id": "4",
-        "modifier_id": null,
+        "modifier_id": "4",
         "deleted_at": null,
         "created_at": "2022-02-04 12:23:21",
-        "updated_at": "2022-02-04 12:23:21"
+        "updated_at": "2022-02-07 04:48:37"
     },
     {
         "id": "15",
@@ -204,9 +204,9 @@
         "image": null,
         "status": "2",
         "user_id": "4",
-        "modifier_id": null,
+        "modifier_id": "4",
         "deleted_at": null,
         "created_at": "2022-02-04 12:24:04",
-        "updated_at": "2022-02-04 12:24:04"
+        "updated_at": "2022-02-07 04:33:25"
     }
 ]
