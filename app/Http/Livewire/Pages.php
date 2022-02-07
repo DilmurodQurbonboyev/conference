@@ -15,6 +15,7 @@ class Pages extends Component
     use WithPagination;
 
     public $deleteId = '';
+    protected $paginationTheme = "bootstrap";
 
     public $filter_id,
         $filter_title,
