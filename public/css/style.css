@@ -238,6 +238,9 @@ video {
   .timeline .time-label {
     padding-left: 125px;
   }
+  .timeline > .time-label > span {
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 991px) {
   .timeline::before {
