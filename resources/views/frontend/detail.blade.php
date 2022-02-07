@@ -63,7 +63,7 @@
                         @if($post->slug == 'dastur')
                             <div class="btn-download">
                                 <a href="{{ $post->pdf ?? '' }}"
-                                   download="{{ $pdf->title ?? '' }}">{{ tr('Download') }}</a>
+                                   download="{{ $pdf->title ?? '' }}">{{ tr('Download program') }}</a>
                             </div>
                         @else
                             <div class="pdf">

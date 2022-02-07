@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Models\Register;
 use App\Models\Lists;
 use Illuminate\Support\Facades\Mail;
+use App\Mail\RegisterAddress;
 
 class OfflineController extends Controller
 {
@@ -38,7 +39,7 @@ class OfflineController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -46,7 +47,7 @@ class OfflineController extends Controller
         if ($request->link) {
             foreach ($request->users as $user) {
                 $registers = Register::find($user);
-                Mail::to($registers->email)->send(new RegisterMail($request->link));
+                Mail::to($registers->email)->send(new RegisterAddress($request->link));
                 $result = new SendEmail();
                 $result->register_id = $registers->id;
                 $result->fullName = $registers->fullName;
@@ -62,7 +63,7 @@ class OfflineController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -76,7 +77,7 @@ class OfflineController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -87,8 +88,8 @@ class OfflineController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param \Illuminate\Http\Request $request
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -99,7 +100,7 @@ class OfflineController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
