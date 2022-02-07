@@ -33,6 +33,8 @@ class PermissionGroup
     const MESSAGE = 'messages.';
     const CATEGORY = 'change-category.';
     const LISTS = 'change-lists.';
+    const APPEAL = 'appeals.';
+    const OFFLINE = 'offline.';
 
     public static function allTypes(): array
     {
@@ -66,6 +68,8 @@ class PermissionGroup
             self::MESSAGE,
             self::CATEGORY,
             self::LISTS,
+            self::APPEAL,
+            self::OFFLINE,
         ];
     }
 }
