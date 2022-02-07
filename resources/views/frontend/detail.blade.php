@@ -62,7 +62,8 @@
                     @if ($post->pdf_type == 2)
                         @if($post->slug == 'dastur')
                             <div class="btn-download">
-                                <a href="{{ $post->pdf ?? '' }}" download="true">{{ tr('Download') }}</a>
+                                <a href="{{ $post->pdf ?? '' }}"
+                                   download="{{ $pdf->title ?? '' }}">{{ tr('Download') }}</a>
                             </div>
                         @else
                             <div class="pdf">
