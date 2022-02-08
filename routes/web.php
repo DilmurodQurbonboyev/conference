@@ -25,7 +25,7 @@ Route::group(
 
 
         Route::get('clear', function () {
-            Artisan::call('optimize:clear');
+//            Artisan::call('optimize:clear');
             Artisan::call('storage:link');
             return redirect('/');
         });
