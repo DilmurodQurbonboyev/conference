@@ -17,3 +17,4 @@ yarn-error.log
 *_log
 *.log
 error.log
+/public/.htaccess
