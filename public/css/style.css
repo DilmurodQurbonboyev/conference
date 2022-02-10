@@ -655,6 +655,10 @@ select option span {
   font-family: "Roboto-Condensed-700";
   color: rgba(19, 56, 155, 1.0);
 }
+.asia {}
+.asia img {
+    width: 100%;
+}
 @media (min-width: 992px) {
   .layout-left span {
     font-size: 27px;
@@ -669,6 +673,11 @@ select option span {
   .layout {
     margin-top: 101px;
   }
+}
+@media (max-width: 1599px) {
+    .asia {
+        margin-top: 15px;
+    }
 }
 @media (max-width: 991px) {
   .layout-left span {
