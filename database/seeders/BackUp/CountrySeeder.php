@@ -20,8 +20,8 @@ class CountrySeeder extends Seeder
         foreach ($countries as $country) {
             Country::create([
                 "id" => $country->id,
-                "name" => $country->name,
-                "code" => $country->code,
+                "name_en" => $country->name_en,
+                "name_ru" => $country->name_ru,
                 "created_at" => $country->created_at,
                 "updated_at" => $country->updated_at,
             ]);

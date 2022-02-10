@@ -91,6 +91,11 @@ window.addEventListener("load", function(event) {
 		}
 	})
 	// ================================
+    $('#breakout_session option').each(function() {
+        var my_str = $(this).text();
+        if(my_str.length > 5){$(this).text(my_str.substring(5));}
+        console.log(my_str);
+    });
 	// ================================
 	// ================================
 	// ================================

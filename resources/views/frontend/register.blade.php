@@ -116,7 +116,13 @@
                                                 id="country">
                                             <option value>{{ tr('Select Country') }}</option>
                                             @foreach ($countries as $country)
-                                                <option value="{{ $country->name }}">{{ $country->name }}</option>
+                                                @if($app->getLocale() == 'ru')
+                                                    <option
+                                                        value="{{ $country->name_ru }}">{{ $country->name_ru }}</option>
+                                                @else
+                                                    <option
+                                                        value="{{ $country->name_en }}">{{ $country->name_en }}</option>
+                                                @endif
                                             @endforeach
                                         </select>
                                         @error('country')
@@ -170,7 +176,8 @@
                                     @enderror
                                     <div class="form-group mt-3">
                                         <label for="participation_format">{{ tr('Participation format') }}</label>
-                                        <select class="custom-select" name="participation_format" id="participation_format">
+                                        <select class="custom-select" name="participation_format"
+                                                id="participation_format">
                                             <option value></option>
                                             <option value="1">С докладом</option>
                                             <option value="2">С комментарием</option>

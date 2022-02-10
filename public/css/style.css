@@ -55,6 +55,18 @@ button:focus {
 video {
   vertical-align: middle;
 }
+select {
+    width: 100%;
+}
+select option {
+    width: 500px !important;
+    display: block;
+    white-space: pre-wrap;
+}
+select option span {
+    word-wrap: normal !important;
+    display: block;
+}
 @media (min-width: 1600px) {
   .container {
     max-width: 1540px;
