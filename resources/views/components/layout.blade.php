@@ -3,7 +3,9 @@
         <div class="row">
             <div class="col-my-4 col-xl-5">
                 <div class="layout-left">
-                    <span>{!! tr('HIGH LEVEL INTERNATIONAL CONFERENCE') !!}</span>
+                    <a href="/">
+                        <span>{!! tr('HIGH LEVEL INTERNATIONAL CONFERENCE') !!}</span>
+                    </a>
                 </div>
             </div>
             <div class="col-my-4 col-xl-5">

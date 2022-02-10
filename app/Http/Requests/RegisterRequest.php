@@ -33,6 +33,7 @@ class RegisterRequest extends FormRequest
             'country' => 'required',
             'email' => 'required',
             'photo' => 'image|mimes:jpeg,jpg,|max:300',
+            'gender' => 'required',
         ];
     }
 
@@ -51,6 +52,7 @@ class RegisterRequest extends FormRequest
             'photo.mimes' => tr('The photo must be a file of type: jpeg, jpg'),
             'photo.max' => tr('The photo must be 300 kilobytes'),
             'status.required' => tr('The status field is required'),
+            'gender.required' => tr('The gender field is required'),
         ];
     }
 }

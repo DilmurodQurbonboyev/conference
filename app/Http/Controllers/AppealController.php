@@ -24,27 +24,38 @@ class AppealController extends Controller
     public function create()
     {
         $link = Lists::where('lists_category_id', 12)->first();
-        $onlineUsers = Register::where('status', 2)->get();
+        $onlineUsers = Register::where('status', 2)->paginate(20);
         return view('admin.appeals.create', compact('onlineUsers', 'link'));
     }
 
     public function store(Request $request)
     {
-        foreach ($request->users as $user) {
-            $registers = Register::find($user);
+        if (!empty($request->link) && !empty($request->users)) {
+            try {
 
-            Mail::to($registers->email)->send(new RegisterMail($request->link));
-
-            $result = new SendEmail();
-            $result->register_id = $registers->id;
-            $result->fullName = $registers->fullName;
-            $result->email = $registers->email;
-            $result->link = $request->link;
-            $result->status = 1;
-            $result->save();
-
-            return redirect()->back()->with('success', 'Zoom link send to users');
+                foreach ($request->users as $user) {
+                    $register = Register::find($user);
+                    if ($register) {
+                        Mail::to($register->email)->send(new RegisterMail($request->link));
+                        $result = new SendEmail();
+                        $result->register_id = $register->id;
+                        $result->fullName = $register->fullName;
+                        $result->email = $register->email;
+                        $result->link = $request->link;
+                        $result->status = 1;
+                        if(!$result->save()){
+                            break;
+                        }
+                    }
+                    else{
+                        dd($user);
+                    }
+                }
+            }catch (\Exception $e){
+                dd($e->getMessage());
+            }
         }
+        return redirect()->back()->with('success', 'Zoom link send to users');
     }
 
     /**

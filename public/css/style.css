@@ -400,9 +400,7 @@ video {
 }
 /*--------foto-------*/
 /*========app========*/
-.application-form {
-  padding-top: 25px;
-}
+.application-form {}
 .application-in {
   background-image: url(../img/sd.jpg);
   background-repeat: no-repeat;
@@ -486,8 +484,6 @@ video {
     margin-top: 86px;
   }
   .application-left {
-    margin-left: auto;
-    margin-right: auto;
     max-width: 600px;
   }
   .application-form-in {
@@ -634,6 +630,9 @@ video {
   background-position: center;
 }
 .layout-left {}
+.layout-left a:hover span {
+    color: rgba(19, 56, 155, 1.0);
+}
 .layout-left span {
   font-family: "Roboto-Condensed-700";
   text-transform: uppercase;

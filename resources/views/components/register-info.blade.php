@@ -1,4 +1,4 @@
-<div class="col-xl-6">
+<div class="col-xl-12">
     <div class="application-left">
         <div class="head">
             <div class="head-title">
@@ -10,10 +10,9 @@
                 </ol>
             </nav>
         </div>
-        <div class="application-description">
-        </div>
-        <div class="application-text">
-            {!! $registerInfo->description ?? '' !!}
-        </div>
+{{--        <div class="application-description"></div>--}}
+{{--        <div class="application-text">--}}
+{{--            {!! $registerInfo->description ?? '' !!}--}}
+{{--        </div>--}}
     </div>
 </div>

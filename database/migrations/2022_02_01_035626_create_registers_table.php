@@ -23,6 +23,9 @@ class CreateRegistersTable extends Migration
             $table->string('position');
             $table->string('country');
             $table->string('email');
+            $table->integer('gender');
+            $table->integer('participation_format')->nullable();
+            $table->integer('breakout_session')->nullable();
             $table->string('photo')->nullable();
             $table->integer('status')->default(1);
             $table->text('browser_agent')->nullable();

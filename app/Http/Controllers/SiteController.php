@@ -10,7 +10,9 @@ use App\Models\Management;
 use App\Models\Register;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Mail;
 use PHPUnit\Framework\Constraint\Count;
+use App\Mail\WelcomeMail;
 
 class SiteController extends Controller
 {
@@ -111,10 +113,13 @@ class SiteController extends Controller
         $register->fullName = $request->last_name . ' ' . $request->first_name . ' ' . $request->middle_name;
         $register->organization = $request->organization;
         $register->position = $request->position;
+        $register->gender = $request->gender;
         $register->country = $request->country;
         $register->email = $request->email;
         $register->user_ip = $request->ip();
         $register->status = $request->status;
+        $register->participation_format = $request->participation_format;
+        $register->breakout_session = $request->breakout_session;
         $register->browser_agent = $request->header('User-Agent');
 
         if ($request->hasfile('photo')) {
@@ -125,6 +130,9 @@ class SiteController extends Controller
             $register->photo = $path . '/' . $filename;
         }
         $register->save();
+
+        Mail::to($register->email)->send(new WelcomeMail($register->fullName));
+
         return redirect()->back()->with('success', tr('ZOOM conference link sent to your email'));
     }
 

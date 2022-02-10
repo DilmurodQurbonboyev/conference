@@ -24,6 +24,22 @@ $(".select2").select2({
     theme: 'bootstrap4'
 });
 
+$('body').delegate('.saveBtn', 'click', function (event) {
+    const submitButton = $(this);
+    if (!submitButton.hasClass('disabled')) {
+        let a = submitButton.html();
+        submitButton.addClass('disabled');
+        submitButton.html("<span class=\"spinner-border spinner-border-sm\" role=\"status\" aria-hidden=\"true\"></span> " + a);
+
+        setTimeout(() => {
+            submitButton.removeClass('disabled');
+            submitButton.html(a);
+        }, 3000);
+    } else {
+        event.preventDefault();
+    }
+});
+
 // Tinymce editor
 
 var editor_config = {

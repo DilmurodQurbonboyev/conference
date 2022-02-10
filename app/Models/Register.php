@@ -23,6 +23,9 @@ class Register extends Model
         'status',
         'browser_agent',
         'user_ip',
+        'gender',
+        'participation_format',
+        'breakout_session'
     ];
 
     public function sendEmail()
