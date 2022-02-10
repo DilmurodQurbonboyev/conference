@@ -9,6 +9,7 @@ use Database\Seeders\BackUp\UserSeeder;
 use Database\Seeders\BackUp\ListSeeder;
 use Database\Seeders\BackUp\MenuSeeder;
 use Database\Seeders\BackUp\MessageSeeder;
+use Database\Seeders\BackUp\CountrySeeder;
 use Database\Seeders\BackUp\UserDataSeeder;
 use Database\Seeders\BackUp\McategorySeeder;
 use Database\Seeders\BackUp\ManagementSeeder;
@@ -37,10 +38,10 @@ class DatabaseSeeder extends Seeder
         $this->call(UserSeeder::class);
         $this->call(UserDataSeeder::class);
         $this->call(ListTypeSeeder::class);
-        $this->call(RoleSeeder::class);
         $this->call(PermissionSeeder::class);
-        $this->call(ModelHasRoleSeeder::class);
+        $this->call(RoleSeeder::class);
         $this->call(RoleHasPermissionSeeder::class);
+        $this->call(ModelHasRoleSeeder::class);
         $this->call(MessageSeeder::class);
         $this->call(MessageTranslationSeeder::class);
         $this->call(ListCategorySeeder::class);
@@ -55,5 +56,6 @@ class DatabaseSeeder extends Seeder
         $this->call(McategoryTranslationSeeder::class);
         $this->call(ManagementSeeder::class);
         $this->call(ManagementTranslationSeeder::class);
+        $this->call(CountrySeeder::class);
     }
 }

@@ -188,12 +188,12 @@
         "slug": "registraciya-uchastnikov",
         "color": null,
         "image": null,
-        "status": "2",
+        "status": "1",
         "user_id": "4",
-        "modifier_id": "4",
+        "modifier_id": "1",
         "deleted_at": null,
         "created_at": "2022-02-04 12:23:21",
-        "updated_at": "2022-02-07 04:48:37"
+        "updated_at": "2022-02-07 06:33:48"
     },
     {
         "id": "15",
@@ -208,5 +208,33 @@
         "deleted_at": null,
         "created_at": "2022-02-04 12:24:04",
         "updated_at": "2022-02-07 04:33:25"
+    },
+    {
+        "id": "16",
+        "list_type_id": "5",
+        "parent_id": "5",
+        "slug": "pyatnica-4-marta-2022",
+        "color": null,
+        "image": null,
+        "status": "2",
+        "user_id": "1",
+        "modifier_id": "1",
+        "deleted_at": null,
+        "created_at": "2022-02-07 06:41:36",
+        "updated_at": "2022-02-07 06:42:16"
+    },
+    {
+        "id": "17",
+        "list_type_id": "5",
+        "parent_id": "10",
+        "slug": "abconf",
+        "color": null,
+        "image": null,
+        "status": "1",
+        "user_id": "5",
+        "modifier_id": "5",
+        "deleted_at": "2022-02-08 06:21:46",
+        "created_at": "2022-02-08 06:17:13",
+        "updated_at": "2022-02-08 06:21:46"
     }
 ]

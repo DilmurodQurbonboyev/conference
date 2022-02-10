@@ -32,7 +32,7 @@ class RegisterRequest extends FormRequest
             'position' => 'required',
             'country' => 'required',
             'email' => 'required',
-            'photo' => 'required|image|mimes:jpeg,jpg,|max:300',
+            'photo' => 'image|mimes:jpeg,jpg,|max:300',
         ];
     }
 

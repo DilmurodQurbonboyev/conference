@@ -3,12 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\RegisterRequest;
+use App\Models\Country;
 use App\Models\ListCategory;
 use App\Models\Lists;
 use App\Models\Management;
 use App\Models\Register;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
+use PHPUnit\Framework\Constraint\Count;
 
 class SiteController extends Controller
 {
@@ -90,7 +92,8 @@ class SiteController extends Controller
 
     public function register()
     {
-        return view('frontend.register');
+        $countries = Country::get();
+        return view('frontend.register', compact('countries'));
     }
 
     public function registerPost(RegisterRequest $request)

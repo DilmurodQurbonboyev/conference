@@ -102,5 +102,31 @@
         "full_name": "OLIMJON ABDURUBOVICH BAXTIYEV",
         "created_at": "2022-01-31 12:07:46",
         "updated_at": "2022-01-31 12:07:46"
+    },
+    {
+        "userid": "5",
+        "birth_date": "1987-01-22",
+        "ctzn": "УЗБЕКИСТАН",
+        "per_adr": "Кашкадарьинская область, г.Шахрисабз, Кунчиқар МФЙ, ул. Шаршара, дом 83",
+        "pport_issue_place": "ШАХРИСАБЗСКИЙ РОВД КАШКАДАРЬИНСКОЙ ОБЛАСТИ",
+        "sur_name": "ISAYEV",
+        "gd": "1",
+        "natn": "УЗБЕК\/УЗБЕЧКА",
+        "pport_issue_date": "2014-15-03",
+        "pport_expr_date": "2024-14-03",
+        "pport_no": "AA4722428",
+        "pin": "32201872560088",
+        "mob_phone_no": "+998977337131",
+        "user_id": "nodking",
+        "email": "nodking@mail.ru",
+        "birth_place": "SHAHRISABZ SHAHRI",
+        "mid_name": "BAXTIYOROVICH",
+        "valid": "false",
+        "user_type": "L",
+        "ret_cd": "0",
+        "first_name": "NODIR",
+        "full_name": "NODIR BAXTIYOROVICH ISAYEV",
+        "created_at": "2022-02-07 10:39:58",
+        "updated_at": "2022-02-07 10:39:58"
     }
 ]

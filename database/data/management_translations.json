@@ -3,7 +3,7 @@
         "id": "1",
         "management_id": "1",
         "title": null,
-        "leader": null,
+        "leader": "Владимир Иванович Воронков",
         "reception": null,
         "address": null,
         "biography": null,
@@ -12,13 +12,13 @@
         "locale": "oz",
         "deleted_at": null,
         "created_at": "2022-02-02 06:53:00",
-        "updated_at": "2022-02-02 06:53:00"
+        "updated_at": "2022-02-08 07:47:44"
     },
     {
         "id": "2",
         "management_id": "1",
         "title": null,
-        "leader": null,
+        "leader": "Владимир Иванович Воронков",
         "reception": null,
         "address": null,
         "biography": null,
@@ -27,7 +27,7 @@
         "locale": "uz",
         "deleted_at": null,
         "created_at": "2022-02-02 06:53:00",
-        "updated_at": "2022-02-02 06:53:00"
+        "updated_at": "2022-02-08 07:47:44"
     },
     {
         "id": "3",
@@ -47,8 +47,8 @@
     {
         "id": "4",
         "management_id": "1",
-        "title": null,
-        "leader": null,
+        "title": "Under-Secretary-General of the United Nations Counter-Terrorism Office",
+        "leader": "Vladimir Ivanovich Voronkov",
         "reception": null,
         "address": null,
         "biography": null,
@@ -57,13 +57,13 @@
         "locale": "en",
         "deleted_at": null,
         "created_at": "2022-02-02 06:53:00",
-        "updated_at": "2022-02-02 06:53:00"
+        "updated_at": "2022-02-08 10:01:53"
     },
     {
         "id": "5",
         "management_id": "2",
         "title": null,
-        "leader": null,
+        "leader": "Хельга Шмид",
         "reception": null,
         "address": null,
         "biography": null,
@@ -72,13 +72,13 @@
         "locale": "oz",
         "deleted_at": null,
         "created_at": "2022-02-02 06:55:14",
-        "updated_at": "2022-02-02 06:55:14"
+        "updated_at": "2022-02-08 07:48:06"
     },
     {
         "id": "6",
         "management_id": "2",
         "title": null,
-        "leader": null,
+        "leader": "Хельга Шмид",
         "reception": null,
         "address": null,
         "biography": null,
@@ -87,7 +87,7 @@
         "locale": "uz",
         "deleted_at": null,
         "created_at": "2022-02-02 06:55:14",
-        "updated_at": "2022-02-02 06:55:14"
+        "updated_at": "2022-02-08 07:48:06"
     },
     {
         "id": "7",
@@ -107,8 +107,8 @@
     {
         "id": "8",
         "management_id": "2",
-        "title": null,
-        "leader": null,
+        "title": "Secretary General of the OSCE",
+        "leader": "Helga Maria Schmid",
         "reception": null,
         "address": null,
         "biography": null,
@@ -117,13 +117,13 @@
         "locale": "en",
         "deleted_at": null,
         "created_at": "2022-02-02 06:55:14",
-        "updated_at": "2022-02-02 06:55:14"
+        "updated_at": "2022-02-08 10:03:51"
     },
     {
         "id": "9",
         "management_id": "3",
         "title": null,
-        "leader": "Камилов, Абдулазиз Хафизович",
+        "leader": "Камилов  Абдулазиз Хафизович",
         "reception": null,
         "address": null,
         "biography": null,
@@ -132,13 +132,13 @@
         "locale": "oz",
         "deleted_at": null,
         "created_at": "2022-02-02 06:55:56",
-        "updated_at": "2022-02-02 07:21:43"
+        "updated_at": "2022-02-08 07:47:58"
     },
     {
         "id": "10",
         "management_id": "3",
         "title": null,
-        "leader": "Камилов, Абдулазиз Хафизович",
+        "leader": "Камилов  Абдулазиз Хафизович",
         "reception": null,
         "address": null,
         "biography": null,
@@ -147,13 +147,13 @@
         "locale": "uz",
         "deleted_at": null,
         "created_at": "2022-02-02 06:55:56",
-        "updated_at": "2022-02-02 07:21:43"
+        "updated_at": "2022-02-08 07:47:58"
     },
     {
         "id": "11",
         "management_id": "3",
         "title": "Министр иностранных дел Республики Узбекистан",
-        "leader": "Камилов, Абдулазиз Хафизович",
+        "leader": "Камилов  Абдулазиз Хафизович",
         "reception": null,
         "address": null,
         "biography": null,
@@ -162,13 +162,13 @@
         "locale": "ru",
         "deleted_at": null,
         "created_at": "2022-02-02 06:55:56",
-        "updated_at": "2022-02-02 07:19:31"
+        "updated_at": "2022-02-07 10:58:22"
     },
     {
         "id": "12",
         "management_id": "3",
-        "title": null,
-        "leader": "Камилов, Абдулазиз Хафизович",
+        "title": "Minister of Foreign Affairs of the Republic of Uzbekistan",
+        "leader": "KAMILOV ABDULAZIZ KHAFIZOVICH",
         "reception": null,
         "address": null,
         "biography": null,
@@ -177,13 +177,13 @@
         "locale": "en",
         "deleted_at": null,
         "created_at": "2022-02-02 06:55:56",
-        "updated_at": "2022-02-02 07:21:43"
+        "updated_at": "2022-02-08 09:59:37"
     },
     {
         "id": "13",
         "management_id": "4",
         "title": null,
-        "leader": null,
+        "leader": "Aрипов Элдор Тахирович",
         "reception": null,
         "address": null,
         "biography": null,
@@ -192,13 +192,13 @@
         "locale": "oz",
         "deleted_at": null,
         "created_at": "2022-02-02 06:56:35",
-        "updated_at": "2022-02-02 06:56:35"
+        "updated_at": "2022-02-08 07:47:51"
     },
     {
         "id": "14",
         "management_id": "4",
         "title": null,
-        "leader": null,
+        "leader": "Aрипов Элдор Тахирович",
         "reception": null,
         "address": null,
         "biography": null,
@@ -207,7 +207,7 @@
         "locale": "uz",
         "deleted_at": null,
         "created_at": "2022-02-02 06:56:35",
-        "updated_at": "2022-02-02 06:56:35"
+        "updated_at": "2022-02-08 07:47:51"
     },
     {
         "id": "15",
@@ -227,8 +227,8 @@
     {
         "id": "16",
         "management_id": "4",
-        "title": null,
-        "leader": null,
+        "title": "Director of the Institute for Strategic and Regional Studies under the President of Uzbekistan",
+        "leader": "Aripov Eldor Takhirovich",
         "reception": null,
         "address": null,
         "biography": null,
@@ -237,6 +237,6 @@
         "locale": "en",
         "deleted_at": null,
         "created_at": "2022-02-02 06:56:35",
-        "updated_at": "2022-02-02 06:56:35"
+        "updated_at": "2022-02-08 10:05:13"
     }
 ]

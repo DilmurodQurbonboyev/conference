@@ -28,6 +28,7 @@ class ListCategorySeeder extends Seeder
                 "image" => $listCategory->image,
                 "status" => $listCategory->status,
                 "user_id" => $listCategory->user_id,
+                "deleted_at" => $listCategory->deleted_at,
                 "created_at" => $listCategory->created_at,
                 "updated_at" => $listCategory->updated_at
             ]);

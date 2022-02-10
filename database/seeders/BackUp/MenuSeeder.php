@@ -31,6 +31,7 @@ class MenuSeeder extends Seeder
                 "order" => $menusCategoryTrans->order,
                 "user_id" => $menusCategoryTrans->user_id,
                 "modifier_id" => $menusCategoryTrans->modifier_id,
+                "deleted_at" => $menusCategoryTrans->deleted_at,
                 "created_at" => $menusCategoryTrans->created_at,
                 "updated_at" => $menusCategoryTrans->updated_at,
             ]);

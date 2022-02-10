@@ -23,6 +23,7 @@ class MenusCategorySeeder extends Seeder
                 "id" => $menusCategory->id,
                 "status" => $menusCategory->status,
                 "user_id" => $menusCategory->user_id,
+                "deleted_at" => $menusCategory->deleted_at,
                 "created_at" => $menusCategory->created_at,
                 "updated_at" => $menusCategory->updated_at
             ]);
