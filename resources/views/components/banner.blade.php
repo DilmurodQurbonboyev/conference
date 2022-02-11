@@ -5,14 +5,11 @@
                 <div class="logo">
                     <a href="/">
                         <div class="logo-in">
-                            {{--                            <img src="{{ asset('img/logo.png') }}">--}}
-                            {{--                            <span>{!! tr('UN Global Counter-Terrorism Strategy in Central Asia') !!}</span>--}}
                             @if($app->getLocale() == 'ru')
                                 <img src="{{ asset('img/ru.jpg') }}" alt="asia">
                             @else
                                 <img src="{{ asset('img/en.jpg') }}" alt="asia">
                             @endif
-
                         </div>
                     </a>
                 </div>

@@ -131,7 +131,7 @@ class SiteController extends Controller
         }
         $register->save();
 
-        Mail::to($register->email)->send(new WelcomeMail($register->fullName));
+//        Mail::to($register->email)->send(new WelcomeMail($register->fullName));
 
         return redirect()->back()->with('success', tr('ZOOM conference link sent to your email'));
     }
