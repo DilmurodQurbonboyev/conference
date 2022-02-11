@@ -6,7 +6,7 @@
     </div>
     <div class="online">
         <div class="online-img">
-            <img src="{{ asset('img/online.jpg') }}">
+            <img src="{{ asset('img/online.webp') }}">
         </div>
         <div class="online-content">
             <div class="online-play">
