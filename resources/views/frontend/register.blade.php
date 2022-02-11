@@ -176,7 +176,7 @@
                                     @enderror
                                     <div class="form-group mt-3">
                                         <label for="participation_format">{{ tr('Participation format') }}</label>
-                                        <select class="custom-select" name="participation_format"
+                                        <select class="custom-select select2" name="participation_format"
                                                 id="participation_format">
                                             <option value></option>
                                             <option value="1">С докладом</option>
@@ -185,7 +185,8 @@
                                     </div>
                                     <div class="form-group mt-3">
                                         <label for="breakout_session">{{ tr('Breakout session') }}</label>
-                                        <select class="custom-select" name="breakout_session" id="breakout_session">
+                                        <select class="custom-select select2" name="breakout_session"
+                                                id="breakout_session">
                                             <option value></option>
                                             <option value="1">
                                                 СЕКЦИЯ I: Меры по устранению условий, сопутствующих распространению
