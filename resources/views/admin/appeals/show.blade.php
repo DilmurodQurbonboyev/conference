@@ -101,11 +101,15 @@
                     </tr>
                     <tr>
                         <td>{{ tr('Created At') }}</td>
-                        <th scope="row">{{ $appeal->created_at->format('d.m.20y') }}</th>
+                        <th scope="row">{{ $appeal->created_at->format('d.m.20y') }}
+                            <br/> {{ $appeal->created_at->format('H:i') }}
+                        </th>
                     </tr>
                     <tr>
                         <td>{{ tr('Updated At') }}</td>
-                        <th scope="row">{{ $appeal->updated_at->format('d.m.20y') }}</th>
+                        <th scope="row">{{ $appeal->updated_at->format('d.m.20y') }}
+                            <br/> {{ $appeal->updated_at->format('H:i') }}
+                        </th>
                     </tr>
                     </tbody>
                 </table>
@@ -132,7 +136,9 @@
                             <td>{{ $appeal->fullName }}</td>
                             <td>{{ $appeal->link }}</td>
                             <td>{{$appeal->email}}</td>
-                            <td>{{ $appeal->created_at->format('d.m.20y') }}</td>
+                            <td>{{ $appeal->created_at->format('d.m.20y') }}
+                                <br/> {{ $appeal->created_at->format('H:i') }}</td>
+
                         </tr>
                     @endforeach
                     </tbody>

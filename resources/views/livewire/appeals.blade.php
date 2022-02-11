@@ -76,7 +76,9 @@
                                 <span class="badge bg-success p-2">{{$appeal->sendEmail->count()}}</span>
                             @endif
                         </td>
-                        <td>{{ $appeal->created_at->format('d.m.20y') }}</td>
+                        <td>{{ $appeal->created_at->format('d.m.20y') }}
+                            <br/> {{ $appeal->created_at->format('H:i') }}
+                        </td>
                         <td class="d-flex">
                             @can('appeals.show')
                                 <a class="btn btn-primary m-1" href="{{ route('appeals.show', $appeal->id) }}"

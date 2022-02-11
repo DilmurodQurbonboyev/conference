@@ -11,7 +11,6 @@ use App\Models\Register;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Mail;
-use PHPUnit\Framework\Constraint\Count;
 use App\Mail\WelcomeMail;
 
 class SiteController extends Controller
