@@ -66,24 +66,31 @@
                                    download="{{ $pdf->title ?? '' }}">{{ tr('Download program') }}</a>
                             </div>
                         @else
-                            <div class="pdf">
-                                <div class="pdf-in">
-                                    <div class="pdf-icon">
-                                        <a href="{{ $post->pdf ?? '' }}" download="true">
-                                            <img src="{{ asset('img/pdf.png') }}" alt="pdf">
-                                        </a>
-                                    </div>
-                                    <div class="pdf-text">
-                                        <div class="pdf-title">
-                                            <span>{{ $post->pdf_title ?? '' }}</span>
-                                        </div>
-                                        <div class="pdf-download">
-                                            <a href="{{ $post->pdf }}"
-                                               download="{{ $post->pdf_title ?? '' }}">{{ tr('Download') }}</a>
-                                        </div>
-                                    </div>
+                            <div class="btn-download">
+                                <div class="pdf-title">
+                                    <span>{{ $post->pdf_title ?? '' }}</span>
                                 </div>
+                                <a href="{{ $post->pdf ?? '' }}"
+                                   download="{{ $pdf->title ?? '' }}">{{ tr('Download') }}</a>
                             </div>
+                            {{--                            <div class="pdf">--}}
+                            {{--                                <div class="pdf-in">--}}
+                            {{--                                    <div class="pdf-icon">--}}
+                            {{--                                        <a href="{{ $post->pdf ?? '' }}" download="true">--}}
+                            {{--                                            <img src="{{ asset('img/pdf.png') }}" alt="pdf">--}}
+                            {{--                                        </a>--}}
+                            {{--                                    </div>--}}
+                            {{--                                    <div class="pdf-text">--}}
+{{--                                                                    <div class="pdf-title">--}}
+{{--                                                                        <span>{{ $post->pdf_title ?? '' }}</span>--}}
+{{--                                                                    </div>--}}
+                            {{--                                        <div class="pdf-download">--}}
+                            {{--                                            <a href="{{ $post->pdf }}"--}}
+                            {{--                                               download="{{ $post->pdf_title ?? '' }}">{{ tr('Download') }}</a>--}}
+                            {{--                                        </div>--}}
+                            {{--                                    </div>--}}
+                            {{--                                </div>--}}
+                            {{--                            </div>--}}
                         @endif
                     @endif
                     @if ($post->pdf_type == 1)
