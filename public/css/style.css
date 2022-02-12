@@ -1632,6 +1632,7 @@ footer {
 
 .banner-col a img {
     max-height: 132px;
+    max-width: 100%;
     transition: 0.25s;
 }
 
