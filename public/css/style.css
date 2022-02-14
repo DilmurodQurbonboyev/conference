@@ -121,7 +121,7 @@ select option span {
 .timeline > div > .timeline-item {
     background-color: #fff;
     color: #495057;
-    margin-top: 0;
+    margin-top: 10px;
     padding: 0;
     position: relative;
 }
@@ -135,10 +135,10 @@ select option span {
 
 .timeline > div > .timeline-item > .timeline-header {
     color: #495057;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.1;
     margin: 0;
-    font-family: "Roboto-Condensed-700";
+    font-weight: 500;
 }
 
 .timeline > div > .timeline-item > .timeline-header > a {
@@ -154,11 +154,12 @@ select option span {
     font-size: 18px;
 }
 
-.timeline > div > .timeline-item > .timeline-body,
-.timeline > div > .timeline-item > .timeline-footer h3 {
-    margin-top: 10px;
+.timeline > div > .timeline-item > .timeline-body {
+    padding-top: 7px;
 }
-
+.timeline > div > .timeline-item > .timeline-footer h3 {
+    padding-top: 10px;
+}
 .timeline > div > .timeline-item > .timeline-body > img {
     margin: 10px;
 }
@@ -188,7 +189,7 @@ select option span {
     line-height: 30px;
     position: absolute;
     text-align: center;
-    top: 10px;
+    top: 20px;
     width: 30px;
     border: 1px solid rgba(12, 50, 151, 1);
 }
@@ -263,8 +264,10 @@ select option span {
 
     .timeline > div > .timeline-item > .timeline-header {
         position: absolute;
-        left: -190px;
         padding: 10px;
+        right: calc(100% + 60px);
+        min-width: 220px;
+        text-align: right;
     }
 
     .timeline > div > .timeline-item {
@@ -297,7 +300,8 @@ select option span {
     }
 
     .timeline > div > .timeline-item > .timeline-header {
-        margin-bottom: 15px;
+        margin-bottom: 3px;
+        padding-top: 12px;
     }
 
     .timeline > div > .timeline-item {
