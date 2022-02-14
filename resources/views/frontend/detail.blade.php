@@ -67,9 +67,8 @@
                         @else
                             <div class="btn-download">
                                 <div class="pdf-title">
-                                    <span>{{ $post->pdf_title ?? '' }}</span>
                                 </div>
-                                <a href="{{ $post->pdf ?? '' }}">{{ tr('Download') }}</a>
+                                <a href="{{ $post->pdf ?? '' }}">{{ $post->pdf_title ?? '' }}</a>
                             </div>
                             {{--                            <div class="pdf">--}}
                             {{--                                <div class="pdf-in">--}}
