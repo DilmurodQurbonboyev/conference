@@ -62,16 +62,14 @@
                     @if ($post->pdf_type == 2)
                         @if($post->slug == 'dastur')
                             <div class="btn-download">
-                                <a href="{{ $post->pdf ?? '' }}"
-                                   download="{{ $pdf->title ?? '' }}">{{ tr('Download program') }}</a>
+                                <a href="{{ $post->pdf ?? '' }}">{{ tr('Download program') }}</a>
                             </div>
                         @else
                             <div class="btn-download">
                                 <div class="pdf-title">
                                     <span>{{ $post->pdf_title ?? '' }}</span>
                                 </div>
-                                <a href="{{ $post->pdf ?? '' }}"
-                                   download="{{ $pdf->title ?? '' }}">{{ tr('Download') }}</a>
+                                <a href="{{ $post->pdf ?? '' }}">{{ tr('Download') }}</a>
                             </div>
                             {{--                            <div class="pdf">--}}
                             {{--                                <div class="pdf-in">--}}
@@ -81,9 +79,9 @@
                             {{--                                        </a>--}}
                             {{--                                    </div>--}}
                             {{--                                    <div class="pdf-text">--}}
-{{--                                                                    <div class="pdf-title">--}}
-{{--                                                                        <span>{{ $post->pdf_title ?? '' }}</span>--}}
-{{--                                                                    </div>--}}
+                            {{--                                                                    <div class="pdf-title">--}}
+                            {{--                                                                        <span>{{ $post->pdf_title ?? '' }}</span>--}}
+                            {{--                                                                    </div>--}}
                             {{--                                        <div class="pdf-download">--}}
                             {{--                                            <a href="{{ $post->pdf }}"--}}
                             {{--                                               download="{{ $post->pdf_title ?? '' }}">{{ tr('Download') }}</a>--}}
