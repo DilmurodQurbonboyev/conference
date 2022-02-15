@@ -7,7 +7,7 @@
         <div class="application-in">
             <div class="container">
                 <div class="row">
-                    <x-register-info/>
+                    <x-register-info />
                     <div class="col-xl-12">
                         <div class="application-form">
                             {{-- @if ($errors->any())
@@ -32,34 +32,32 @@
                                         <span>{{ tr('Fill out the form to register') }}</span>
                                     </div>
                                     <div class="form-group">
-                                        <label for="last_name">{{tr('Last Name')}}</label>
+                                        <label for="last_name">{{ tr('Last Name') }}</label>
                                         <input type="text" name="last_name"
-                                               class="form-control @error('last_name') is-invalid @enderror"
-                                               id="last_name"
-                                               aria-describedby="emailHelp" placeholder="{{ tr('Enter text') }}">
+                                            class="form-control @error('last_name') is-invalid @enderror" id="last_name"
+                                            aria-describedby="emailHelp" placeholder="{{ tr('Enter text') }}">
                                         @error('last_name')
-                                        <div class="text-danger">{{ $message }}</div>
+                                            <div class="text-danger">{{ $message }}</div>
                                         @enderror
                                     </div>
                                     <div class="form-group">
-                                        <label for="first_name">{{tr('First Name')}}</label>
+                                        <label for="first_name">{{ tr('First Name') }}</label>
                                         <input type="text" name="first_name"
-                                               class="form-control @error('first_name') is-invalid @enderror"
-                                               id="first_name"
-                                               aria-describedby="emailHelp" placeholder="{{ tr('Enter text') }}">
+                                            class="form-control @error('first_name') is-invalid @enderror" id="first_name"
+                                            aria-describedby="emailHelp" placeholder="{{ tr('Enter text') }}">
                                         @error('first_name')
-                                        <div class="text-danger">{{ $message }}</div>
+                                            <div class="text-danger">{{ $message }}</div>
                                         @enderror
                                     </div>
-                                    @if($app->getLocale() == 'ru')
+                                    @if ($app->getLocale() == 'ru')
                                         <div class="form-group">
-                                            <label for="middle_name">{{tr('Middle Name')}}</label>
+                                            <label for="middle_name">{{ tr('Middle Name') }}</label>
                                             <input type="text" name="middle_name"
-                                                   class="form-control @error('middle_name') is-invalid @enderror"
-                                                   id="middle_name"
-                                                   aria-describedby="emailHelp" placeholder="{{ tr('Enter text') }}">
+                                                class="form-control @error('middle_name') is-invalid @enderror"
+                                                id="middle_name" aria-describedby="emailHelp"
+                                                placeholder="{{ tr('Enter text') }}">
                                             @error('middle_name')
-                                            <div class="text-danger">{{ $message }}</div>
+                                                <div class="text-danger">{{ $message }}</div>
                                             @enderror
                                         </div>
                                     @endif
@@ -70,7 +68,7 @@
                                         <div class="col-md-6">
                                             <div class="form-check mb-2">
                                                 <input class="form-check-input" type="radio" name="gender" id="gender"
-                                                       value="2">
+                                                    value="2">
                                                 <label class="form-check-label" for="gender">
                                                     {{ tr('Male') }}
                                                 </label>
@@ -79,7 +77,7 @@
                                         <div class="col-md-6">
                                             <div class="form-check mb-2">
                                                 <input class="form-check-input" type="radio" name="gender" id="gender1"
-                                                       value="1">
+                                                    value="1">
                                                 <label class="form-check-label" for="gender1">
                                                     {{ tr('Female') }}
                                                 </label>
@@ -87,65 +85,63 @@
                                         </div>
                                     </div>
                                     @error('gender')
-                                    <div class="text-danger">{{ $message }}</div>
+                                        <div class="text-danger">{{ $message }}</div>
                                     @enderror
                                     <div class="form-group">
                                         <label for="organization">{{ tr('Organization') }}</label>
                                         <input type="text" name="organization"
-                                               class="form-control @error('organization') is-invalid @enderror"
-                                               id="organization" aria-describedby="emailHelp"
-                                               placeholder="{{ tr('Enter text') }}">
+                                            class="form-control @error('organization') is-invalid @enderror"
+                                            id="organization" aria-describedby="emailHelp"
+                                            placeholder="{{ tr('Enter text') }}">
                                         @error('organization')
-                                        <div class="text-danger">{{ $message }}</div>
+                                            <div class="text-danger">{{ $message }}</div>
                                         @enderror
                                     </div>
                                     <div class="form-group">
                                         <label for="position">{{ tr('Position') }}</label>
                                         <input type="text" name="position"
-                                               class="form-control @error('position') is-invalid @enderror"
-                                               id="position"
-                                               aria-describedby="emailHelp" placeholder="{{ tr('Enter text') }}">
+                                            class="form-control @error('position') is-invalid @enderror" id="position"
+                                            aria-describedby="emailHelp" placeholder="{{ tr('Enter text') }}">
                                         @error('position')
-                                        <div class="text-danger">{{ $message }}</div>
+                                            <div class="text-danger">{{ $message }}</div>
                                         @enderror
                                     </div>
                                     <div class="form-group">
-                                        <label for="country">{{tr('Country')}}</label>
+                                        <label for="country">{{ tr('Country') }}</label>
                                         <select name="country"
-                                                class="form-control select2 @error('country') is-invalid @enderror"
-                                                id="country">
+                                            class="form-control select2 @error('country') is-invalid @enderror"
+                                            id="country">
                                             <option value>{{ tr('Select Country') }}</option>
                                             @foreach ($countries as $country)
-                                                @if($app->getLocale() == 'ru')
-                                                    <option
-                                                        value="{{ $country->name_ru }}">{{ $country->name_ru }}</option>
+                                                @if ($app->getLocale() == 'ru')
+                                                    <option value="{{ $country->name_ru }}">{{ $country->name_ru }}
+                                                    </option>
                                                 @else
-                                                    <option
-                                                        value="{{ $country->name_en }}">{{ $country->name_en }}</option>
+                                                    <option value="{{ $country->name_en }}">{{ $country->name_en }}
+                                                    </option>
                                                 @endif
                                             @endforeach
                                         </select>
                                         @error('country')
-                                        <div class="text-danger">{{ $message }}</div>
+                                            <div class="text-danger">{{ $message }}</div>
                                         @enderror
                                     </div>
                                     <div class="form-group">
                                         <label for="email">{{ tr('Email') }}</label>
                                         <input type="text" name="email"
-                                               class="form-control @error('email') is-invalid @enderror" id="email"
-                                               aria-describedby="emailHelp" placeholder="{{ tr('Enter text') }}">
+                                            class="form-control @error('email') is-invalid @enderror" id="email"
+                                            aria-describedby="emailHelp" placeholder="{{ tr('Enter text') }}">
                                         @error('email')
-                                        <div class="text-danger">{{ $message }}</div>
+                                            <div class="text-danger">{{ $message }}</div>
                                         @enderror
                                     </div>
                                     <div class="custom-file">
-                                        <input type="file"
-                                               class="custom-file-input @error('photo') is-invalid @enderror"
-                                               name="photo" id="photo" aria-describedby="emailHelp"
-                                               placeholder="{{ tr('Enter text') }}">
+                                        <input type="file" class="custom-file-input @error('photo') is-invalid @enderror"
+                                            name="photo" id="photo" aria-describedby="emailHelp"
+                                            placeholder="{{ tr('Enter text') }}">
                                         <label class="custom-file-label" for="file">{{ tr('Foto') }}</label>
                                         @error('photo')
-                                        <div class="text-danger">{{ $message }}</div>
+                                            <div class="text-danger">{{ $message }}</div>
                                         @enderror
                                     </div>
                                     <div class="form-group">
@@ -155,7 +151,7 @@
                                         <div class="col-md-6">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio" name="status" id="status"
-                                                       value="2">
+                                                    value="2">
                                                 <label class="form-check-label" for="status">
                                                     {{ tr('Online') }}
                                                 </label>
@@ -164,7 +160,7 @@
                                         <div class="col-md-6">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio" name="status" id="status1"
-                                                       value="1">
+                                                    value="1">
                                                 <label class="form-check-label" for="status1">
                                                     {{ tr('Offline') }}
                                                 </label>
@@ -172,36 +168,74 @@
                                         </div>
                                     </div>
                                     @error('status')
-                                    <div class="text-danger">{{ $message }}</div>
+                                        <div class="text-danger">{{ $message }}</div>
                                     @enderror
                                     <div class="form-group mt-3">
                                         <label for="participation_format">{{ tr('Participation format') }}</label>
                                         <select class="custom-select select2" name="participation_format"
-                                                id="participation_format">
+                                            id="participation_format">
                                             <option value></option>
-                                            <option value="1">С докладом</option>
-                                            <option value="2">С комментарием</option>
+                                            <option value="1">
+                                                @if ($app->getLocale() == 'ru')
+                                                    С докладом
+                                                @else
+                                                    Session Speaker
+                                                @endif
+                                            </option>
+                                            <option value="2">
+                                                @if ($app->getLocale() == 'ru')
+                                                    С комментарием
+                                                @else
+                                                    Statement from the floor
+                                                @endif
+                                            </option>
+                                            <option value="3">
+                                                @if ($app->getLocale() == 'ru')
+                                                    Представители СМИ
+                                                @else
+                                                    Media coverage
+                                                @endif
+                                            </option>
                                         </select>
                                     </div>
                                     <div class="form-group mt-3">
                                         <label for="breakout_session">{{ tr('Breakout session') }}</label>
-                                        <select class="custom-select select2" name="breakout_session"
-                                                id="breakout_session">
+                                        <select class="custom-select select2" name="breakout_session" id="breakout_session">
                                             <option value></option>
                                             <option value="1">
-                                                СЕКЦИЯ I: Меры по устранению условий, сопутствующих распространению
-                                                терроризма
+                                                @if ($app->getLocale() == 'ru')
+                                                    СЕКЦИЯ I: Меры по устранению условий, сопутствующих распространению
+                                                    терроризма
+                                                @else
+                                                    PANEL DISCUSSION I: Addressing the conditions conducive to the spread of
+                                                    terrorism
+                                                @endif
                                             </option>
                                             <option value="2">
-                                                СЕКЦИЯ II: Предотвращение и борьба с терроризмом
+                                                @if ($app->getLocale() == 'ru')
+                                                    СЕКЦИЯ II: Предотвращение и борьба с терроризмом
+                                                @else
+                                                    PANEL DISCUSSION II: Preventing and countering terrorism
+                                                @endif
                                             </option>
                                             <option value="3">
-                                                СЕКЦИЯ III: Укрепление возможностей государств по предотвращению и
-                                                борьбе с терроризмом, а также расширению роли системы ООН в этой области
+                                                @if ($app->getLocale() == 'ru')
+                                                    СЕКЦИЯ III: Укрепление возможностей государств по предотвращению и
+                                                    борьбе с терроризмом, а также расширению роли системы ООН в этой области
+                                                @else
+                                                    PANEL DISCUSSION III: Building states’ capacity to prevent and combat
+                                                    terrorism and to strengthen the role of the United Nations system in
+                                                    that regard
+                                                @endif
                                             </option>
                                             <option value="4">
-                                                СЕКЦИЯ IV: Обеспечение всеобщего уважения прав человека и верховенства
-                                                права в качестве фундаментальной основы для борьбы с терроризмом
+                                                @if ($app->getLocale() == 'ru')
+                                                    СЕКЦИЯ IV: Обеспечение всеобщего уважения прав человека и верховенства
+                                                    права в качестве фундаментальной основы для борьбы с терроризмом
+                                                @else
+                                                    PANEL DISCUSSION IV: Ensuring respect for human rights for all and the
+                                                    rule of law as the fundamental basis for the fight against terrorism
+                                                @endif
                                             </option>
                                         </select>
                                     </div>
@@ -212,14 +246,13 @@
                                 </div>
 
                                 <div class="modal fade" id="exampleModal" tabindex="-1"
-                                     aria-labelledby="exampleModalLabel"
-                                     aria-hidden="true">
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <h5 class="modal-title" id="exampleModalLabel">{{ tr('notice') }}</h5>
                                                 <button type="button" class="close" data-dismiss="modal"
-                                                        aria-label="Close">
+                                                    aria-label="Close">
                                                     <span aria-hidden="true">&times;</span>
                                                 </button>
                                             </div>
@@ -245,8 +278,9 @@
     @push('css')
         <style>
             .custom-file-label::after {
-                content: "<?php echo tr('Browse') ?>";
+                content: "<?php echo tr('Browse'); ?>";
             }
+
         </style>
     @endpush
 @endsection
