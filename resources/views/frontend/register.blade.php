@@ -111,7 +111,7 @@
                                         <select name="country"
                                             class="form-control select2 @error('country') is-invalid @enderror"
                                             id="country">
-                                            <option value>{{ tr('Select Country') }}</option>
+                                            <option value></option>
                                             @foreach ($countries as $country)
                                                 @if ($app->getLocale() == 'ru')
                                                     <option value="{{ $country->name_ru }}">{{ $country->name_ru }}

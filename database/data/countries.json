@@ -1,1367 +1,786 @@
 [
     {
-        "id": 1,
+        "name_en": "International / Regional Organization",
+        "name_ru": "Международная / Региональная Организация"
+    },
+    {
         "name_en": "Afghanistan",
-        "name_ru": "Афганистан",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Афганистан"
     },
     {
-        "id": 2,
         "name_en": "Albania",
-        "name_ru": "Албания",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Албания"
     },
     {
-        "id": 3,
         "name_en": "Algeria",
-        "name_ru": "Алжир",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Алжир"
     },
     {
-        "id": 4,
         "name_en": "Andorra",
-        "name_ru": "Андорра",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Андорра"
     },
     {
-        "id": 5,
         "name_en": "Angola",
-        "name_ru": "Ангола",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Ангола"
     },
     {
-        "id": 6,
         "name_en": "Antigua and Barbuda",
-        "name_ru": "Антигуа и Барбуда",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Антигуа и Барбуда"
     },
     {
-        "id": 7,
         "name_en": "Argentina",
-        "name_ru": "Аргентина",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Аргентина"
     },
     {
-        "id": 8,
         "name_en": "Armenia",
-        "name_ru": "Армения",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Армения"
     },
     {
-        "id": 9,
         "name_en": "Australia",
-        "name_ru": "Австралия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Австралия"
     },
     {
-        "id": 10,
         "name_en": "Austria",
-        "name_ru": "Австрия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Австрия"
     },
     {
-        "id": 11,
         "name_en": "Azerbaijan",
-        "name_ru": "Азербайджан",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Азербайджан"
     },
     {
-        "id": 12,
         "name_en": "Bahamas",
-        "name_ru": "Багамы",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Багамы"
     },
     {
-        "id": 13,
         "name_en": "Bahrain",
-        "name_ru": "Бахрейн",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Бахрейн"
     },
     {
-        "id": 14,
         "name_en": "Bangladesh",
-        "name_ru": "Бангладеш",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Бангладеш"
     },
     {
-        "id": 15,
         "name_en": "Barbados",
-        "name_ru": "Барбадос",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Барбадос"
     },
     {
-        "id": 16,
         "name_en": "Belarus",
-        "name_ru": "Беларусь",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Беларусь"
     },
     {
-        "id": 17,
         "name_en": "Belgium",
-        "name_ru": "Бельгия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Бельгия"
     },
     {
-        "id": 18,
         "name_en": "Belize",
-        "name_ru": "Белиз",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Белиз"
     },
     {
-        "id": 19,
         "name_en": "Benin",
-        "name_ru": "Бенин",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Бенин"
     },
     {
-        "id": 20,
         "name_en": "Bhutan",
-        "name_ru": "Бутан",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Бутан"
     },
     {
-        "id": 21,
         "name_en": "Bolivia",
-        "name_ru": "Боливия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Боливия"
     },
     {
-        "id": 22,
         "name_en": "Bosnia and Herzegovina",
-        "name_ru": "Босния и Герцеговина",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Босния и Герцеговина"
     },
     {
-        "id": 23,
         "name_en": "Botswana",
-        "name_ru": "Ботсвана",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Ботсвана"
     },
     {
-        "id": 24,
         "name_en": "Brazil",
-        "name_ru": "Бразилия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Бразилия"
     },
     {
-        "id": 25,
         "name_en": "Brunei",
-        "name_ru": "Бруней",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Бруней"
     },
     {
-        "id": 26,
         "name_en": "Bulgaria",
-        "name_ru": "Болгария",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Болгария"
     },
     {
-        "id": 27,
         "name_en": "Burkina Faso",
-        "name_ru": "Буркина-Фасо",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Буркина-Фасо"
     },
     {
-        "id": 28,
         "name_en": "Burundi",
-        "name_ru": "Бурунди",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Бурунди"
     },
     {
-        "id": 29,
         "name_en": "Côte d'Ivoire",
-        "name_ru": "Берег Слоновой Кости",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Берег Слоновой Кости"
     },
     {
-        "id": 30,
         "name_en": "Cabo Verde",
-        "name_ru": "Кабо-Верде",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Кабо-Верде"
     },
     {
-        "id": 31,
         "name_en": "Cambodia",
-        "name_ru": "Камбоджа",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Камбоджа"
     },
     {
-        "id": 32,
         "name_en": "Cameroon",
-        "name_ru": "Камерун",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Камерун"
     },
     {
-        "id": 33,
         "name_en": "Canada",
-        "name_ru": "Канада",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Канада"
     },
     {
-        "id": 34,
         "name_en": "Central African Republic",
-        "name_ru": "Центрально-Африканская Респ,ублика",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Центрально-Африканская Респ,ублика"
     },
     {
-        "id": 35,
         "name_en": "Chad",
-        "name_ru": "Чад",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Чад"
     },
     {
-        "id": 36,
         "name_en": "Chile",
-        "name_ru": "Чили",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Чили"
     },
     {
-        "id": 37,
         "name_en": "China",
-        "name_ru": "Китай",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Китай"
     },
     {
-        "id": 38,
         "name_en": "Colombia",
-        "name_ru": "Колумбия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Колумбия"
     },
     {
-        "id": 39,
         "name_en": "Comoros",
-        "name_ru": "Коморы",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Коморы"
     },
     {
-        "id": 40,
         "name_en": "Congo (Congo-Brazzaville)",
-        "name_ru": "Конго (Конго-Браззавиль)",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Конго (Конго-Браззавиль)"
     },
     {
-        "id": 41,
         "name_en": "Costa Rica",
-        "name_ru": "Коста-Рика",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Коста-Рика"
     },
     {
-        "id": 42,
         "name_en": "Croatia",
-        "name_ru": "Хорватия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Хорватия"
     },
     {
-        "id": 43,
         "name_en": "Cuba",
-        "name_ru": "Куба",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Куба"
     },
     {
-        "id": 44,
         "name_en": "Cyprus",
-        "name_ru": "Кипр",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Кипр"
     },
     {
-        "id": 45,
         "name_en": "Czechia (Czech Republic)",
-        "name_ru": "Чехия (Чехия)",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Чехия (Чехия)"
     },
     {
-        "id": 46,
         "name_en": "Democratic Republic of the Congo",
-        "name_ru": "Демократическая Республика ,Конго",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Демократическая Республика ,Конго"
     },
     {
-        "id": 47,
         "name_en": "Denmark",
-        "name_ru": "Дания",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Дания"
     },
     {
-        "id": 48,
         "name_en": "Djibouti",
-        "name_ru": "Джибути",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Джибути"
     },
     {
-        "id": 49,
         "name_en": "Dominica",
-        "name_ru": "Доминика",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Доминика"
     },
     {
-        "id": 50,
         "name_en": "Dominican Republic",
-        "name_ru": "Доминиканская Республика",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Доминиканская Республика"
     },
     {
-        "id": 51,
         "name_en": "Ecuador",
-        "name_ru": "Эквадор",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Эквадор"
     },
     {
-        "id": 52,
         "name_en": "Egypt",
-        "name_ru": "Египет",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Египет"
     },
     {
-        "id": 53,
         "name_en": "El Salvador",
-        "name_ru": "Сальвадор",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Сальвадор"
     },
     {
-        "id": 54,
         "name_en": "Equatorial Guinea",
-        "name_ru": "Экваториальная Гвинея",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Экваториальная Гвинея"
     },
     {
-        "id": 55,
         "name_en": "Eritrea",
-        "name_ru": "Эритрея",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Эритрея"
     },
     {
-        "id": 56,
         "name_en": "Estonia",
-        "name_ru": "Эстония",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Эстония"
     },
     {
-        "id": 57,
         "name_en": "Eswatini (fmr. \"Swaziland\")",
-        "name_ru": "Эсватини (фр. «Свазиленд»)",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Эсватини (фр. «Свазиленд»)"
     },
     {
-        "id": 58,
         "name_en": "Ethiopia",
-        "name_ru": "Эфиопия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Эфиопия"
     },
     {
-        "id": 59,
         "name_en": "Fiji",
-        "name_ru": "Фиджи",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Фиджи"
     },
     {
-        "id": 60,
         "name_en": "Finland",
-        "name_ru": "Финляндия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Финляндия"
     },
     {
-        "id": 61,
         "name_en": "France",
-        "name_ru": "Франция",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Франция"
     },
     {
-        "id": 62,
         "name_en": "Gabon",
-        "name_ru": "Габон",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Габон"
     },
     {
-        "id": 63,
         "name_en": "Gambia",
-        "name_ru": "Гамбия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Гамбия"
     },
     {
-        "id": 64,
         "name_en": "Georgia",
-        "name_ru": "Грузия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Грузия"
     },
     {
-        "id": 65,
         "name_en": "Germany",
-        "name_ru": "Германия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Германия"
     },
     {
-        "id": 66,
         "name_en": "Ghana",
-        "name_ru": "Гана",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Гана"
     },
     {
-        "id": 67,
         "name_en": "Greece",
-        "name_ru": "Греция",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Греция"
     },
     {
-        "id": 68,
         "name_en": "Grenada",
-        "name_ru": "Гренада",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Гренада"
     },
     {
-        "id": 69,
         "name_en": "Guatemala",
-        "name_ru": "Гватемала",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Гватемала"
     },
     {
-        "id": 70,
         "name_en": "Guinea",
-        "name_ru": "Гвинея",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Гвинея"
     },
     {
-        "id": 71,
         "name_en": "Guinea-Bissau",
-        "name_ru": "Гвинея-Бисау",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Гвинея-Бисау"
     },
     {
-        "id": 72,
         "name_en": "Guyana",
-        "name_ru": "Гайана",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Гайана"
     },
     {
-        "id": 73,
         "name_en": "Haiti",
-        "name_ru": "Гаити",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Гаити"
     },
     {
-        "id": 74,
         "name_en": "Holy See",
-        "name_ru": "Святой Престол",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Святой Престол"
     },
     {
-        "id": 75,
         "name_en": "Honduras",
-        "name_ru": "Гондурас",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Гондурас"
     },
     {
-        "id": 76,
         "name_en": "Hungary",
-        "name_ru": "Венгрия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Венгрия"
     },
     {
-        "id": 77,
         "name_en": "Iceland",
-        "name_ru": "Исландия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Исландия"
     },
     {
-        "id": 78,
         "name_en": "India",
-        "name_ru": "Индия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Индия"
     },
     {
-        "id": 79,
         "name_en": "Indonesia",
-        "name_ru": "Индонезия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Индонезия"
     },
     {
-        "id": 80,
         "name_en": "Iran",
-        "name_ru": "Иран",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Иран"
     },
     {
-        "id": 81,
         "name_en": "Iraq",
-        "name_ru": "Ирак",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Ирак"
     },
     {
-        "id": 82,
         "name_en": "Ireland",
-        "name_ru": "Ирландия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Ирландия"
     },
     {
-        "id": 83,
         "name_en": "Israel",
-        "name_ru": "Израиль",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Израиль"
     },
     {
-        "id": 84,
         "name_en": "Italy",
-        "name_ru": "Италия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Италия"
     },
     {
-        "id": 85,
         "name_en": "Jamaica",
-        "name_ru": "Ямайка",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Ямайка"
     },
     {
-        "id": 86,
         "name_en": "Japan",
-        "name_ru": "Япония",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Япония"
     },
     {
-        "id": 87,
         "name_en": "Jordan",
-        "name_ru": "Иордания",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Иордания"
     },
     {
-        "id": 88,
         "name_en": "Kazakhstan",
-        "name_ru": "Казахстан",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Казахстан"
     },
     {
-        "id": 89,
         "name_en": "Kenya",
-        "name_ru": "Кения",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Кения"
     },
     {
-        "id": 90,
         "name_en": "Kiribati",
-        "name_ru": "Кирибати",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Кирибати"
     },
     {
-        "id": 91,
         "name_en": "Kuwait",
-        "name_ru": "Кувейт",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Кувейт"
     },
     {
-        "id": 92,
         "name_en": "Kyrgyzstan",
-        "name_ru": "Кыргызстан",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Кыргызстан"
     },
     {
-        "id": 93,
         "name_en": "Laos",
-        "name_ru": "Лаос",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Лаос"
     },
     {
-        "id": 94,
         "name_en": "Latvia",
-        "name_ru": "Латвия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Латвия"
     },
     {
-        "id": 95,
         "name_en": "Lebanon",
-        "name_ru": "Ливан",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Ливан"
     },
     {
-        "id": 96,
         "name_en": "Lesotho",
-        "name_ru": "Лесото",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Лесото"
     },
     {
-        "id": 97,
         "name_en": "Liberia",
-        "name_ru": "Либерия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Либерия"
     },
     {
-        "id": 98,
         "name_en": "Libya",
-        "name_ru": "Ливия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Ливия"
     },
     {
-        "id": 99,
         "name_en": "Liechtenstein",
-        "name_ru": "Лихтенштейн",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Лихтенштейн"
     },
     {
-        "id": 100,
         "name_en": "Lithuania",
-        "name_ru": "Литва",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Литва"
     },
     {
-        "id": 101,
         "name_en": "Luxembourg",
-        "name_ru": "Люксембург",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Люксембург"
     },
     {
-        "id": 102,
         "name_en": "Madagascar",
-        "name_ru": "Мадагаскар",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Мадагаскар"
     },
     {
-        "id": 103,
         "name_en": "Malawi",
-        "name_ru": "Малави",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Малави"
     },
     {
-        "id": 104,
         "name_en": "Malaysia",
-        "name_ru": "Малайзия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Малайзия"
     },
     {
-        "id": 105,
         "name_en": "Maldives",
-        "name_ru": "Мальдивы",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Мальдивы"
     },
     {
-        "id": 106,
         "name_en": "Mali",
-        "name_ru": "Мали",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Мали"
     },
     {
-        "id": 107,
         "name_en": "Malta",
-        "name_ru": "Мальта",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Мальта"
     },
     {
-        "id": 108,
         "name_en": "Marshall Islands",
-        "name_ru": "Маршалловы острова",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Маршалловы острова"
     },
     {
-        "id": 109,
         "name_en": "Mauritania",
-        "name_ru": "Мавритания",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Мавритания"
     },
     {
-        "id": 110,
         "name_en": "Mauritius",
-        "name_ru": "Маврикий",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Маврикий"
     },
     {
-        "id": 111,
         "name_en": "Mexico",
-        "name_ru": "Мексика",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Мексика"
     },
     {
-        "id": 112,
         "name_en": "Micronesia",
-        "name_ru": "Микронезия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Микронезия"
     },
     {
-        "id": 113,
         "name_en": "Moldova",
-        "name_ru": "Молдова",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Молдова"
     },
     {
-        "id": 114,
         "name_en": "Monaco",
-        "name_ru": "Монако",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Монако"
     },
     {
-        "id": 115,
         "name_en": "Mongolia",
-        "name_ru": "Монголия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Монголия"
     },
     {
-        "id": 116,
         "name_en": "Montenegro",
-        "name_ru": "Черногория",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Черногория"
     },
     {
-        "id": 117,
         "name_en": "Morocco",
-        "name_ru": "Марокко",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Марокко"
     },
     {
-        "id": 118,
         "name_en": "Mozambique",
-        "name_ru": "Мозамбик",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Мозамбик"
     },
     {
-        "id": 119,
         "name_en": "Myanmar (formerly Burma)",
-        "name_ru": "Мьянма (бывшая Бирма)",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Мьянма (бывшая Бирма)"
     },
     {
-        "id": 120,
         "name_en": "Namibia",
-        "name_ru": "Намибия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Намибия"
     },
     {
-        "id": 121,
         "name_en": "Nauru",
-        "name_ru": "Науру",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Науру"
     },
     {
-        "id": 122,
         "name_en": "Nepal",
-        "name_ru": "Непал",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Непал"
     },
     {
-        "id": 123,
         "name_en": "Netherlands",
-        "name_ru": "Нидерланды",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Нидерланды"
     },
     {
-        "id": 124,
         "name_en": "New Zealand",
-        "name_ru": "Новая Зеландия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Новая Зеландия"
     },
     {
-        "id": 125,
         "name_en": "Nicaragua",
-        "name_ru": "Никарагуа",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Никарагуа"
     },
     {
-        "id": 126,
         "name_en": "Niger",
-        "name_ru": "Нигер",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Нигер"
     },
     {
-        "id": 127,
         "name_en": "Nigeria",
-        "name_ru": "Нигерия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Нигерия"
     },
     {
-        "id": 128,
         "name_en": "North Korea",
-        "name_ru": "Северная Корея",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Северная Корея"
     },
     {
-        "id": 129,
         "name_en": "North Macedonia",
-        "name_ru": "Северная Македония",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Северная Македония"
     },
     {
-        "id": 130,
         "name_en": "Norway",
-        "name_ru": "Норвегия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Норвегия"
     },
     {
-        "id": 131,
         "name_en": "Oman",
-        "name_ru": "Оман",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Оман"
     },
     {
-        "id": 132,
         "name_en": "Pakistan",
-        "name_ru": "Пакистан",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Пакистан"
     },
     {
-        "id": 133,
         "name_en": "Palau",
-        "name_ru": "Палау",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Палау"
     },
     {
-        "id": 134,
         "name_en": "Palestine State",
-        "name_ru": "Государство Палестина",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Государство Палестина"
     },
     {
-        "id": 135,
         "name_en": "Panama",
-        "name_ru": "Панама",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Панама"
     },
     {
-        "id": 136,
         "name_en": "Papua New Guinea",
-        "name_ru": "Папуа - Новая Гвинея",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Папуа - Новая Гвинея"
     },
     {
-        "id": 137,
         "name_en": "Paraguay",
-        "name_ru": "Парагвай",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Парагвай"
     },
     {
-        "id": 138,
         "name_en": "Peru",
-        "name_ru": "Перу",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Перу"
     },
     {
-        "id": 139,
         "name_en": "Philippines",
-        "name_ru": "Филиппины",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Филиппины"
     },
     {
-        "id": 140,
         "name_en": "Poland",
-        "name_ru": "Польша",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Польша"
     },
     {
-        "id": 141,
         "name_en": "Portugal",
-        "name_ru": "Португалия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Португалия"
     },
     {
-        "id": 142,
         "name_en": "Qatar",
-        "name_ru": "Катар",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Катар"
     },
     {
-        "id": 143,
         "name_en": "Romania",
-        "name_ru": "Румыния",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Румыния"
     },
     {
-        "id": 144,
         "name_en": "Russia",
-        "name_ru": "Россия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Россия"
     },
     {
-        "id": 145,
         "name_en": "Rwanda",
-        "name_ru": "Руанда",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Руанда"
     },
     {
-        "id": 146,
         "name_en": "Saint Kitts and Nevis",
-        "name_ru": "Сент-Китс и Невис",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Сент-Китс и Невис"
     },
     {
-        "id": 147,
         "name_en": "Saint Lucia",
-        "name_ru": "Санкт-Люсия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Санкт-Люсия"
     },
     {
-        "id": 148,
         "name_en": "Saint Vincent and the Grenadines",
-        "name_ru": "Святой Винсент и Гренадины",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Святой Винсент и Гренадины"
     },
     {
-        "id": 149,
         "name_en": "Samoa",
-        "name_ru": "Самоа",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Самоа"
     },
     {
-        "id": 150,
         "name_en": "San Marino",
-        "name_ru": "Сан-Марино",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Сан-Марино"
     },
     {
-        "id": 151,
         "name_en": "Sao Tome and Principe",
-        "name_ru": "Сан-Томе и Принсипи",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Сан-Томе и Принсипи"
     },
     {
-        "id": 152,
         "name_en": "Saudi Arabia",
-        "name_ru": "Саудовская Аравия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Саудовская Аравия"
     },
     {
-        "id": 153,
         "name_en": "Senegal",
-        "name_ru": "Сенегал",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Сенегал"
     },
     {
-        "id": 154,
         "name_en": "Serbia",
-        "name_ru": "Сербия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Сербия"
     },
     {
-        "id": 155,
         "name_en": "Seychelles",
-        "name_ru": "Сейшелы",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Сейшелы"
     },
     {
-        "id": 156,
         "name_en": "Sierra Leone",
-        "name_ru": "Сьерра-Леоне",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Сьерра-Леоне"
     },
     {
-        "id": 157,
         "name_en": "Singapore",
-        "name_ru": "Сингапур",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Сингапур"
     },
     {
-        "id": 158,
         "name_en": "Slovakia",
-        "name_ru": "Словакия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Словакия"
     },
     {
-        "id": 159,
         "name_en": "Slovenia",
-        "name_ru": "Словения",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Словения"
     },
     {
-        "id": 160,
         "name_en": "Solomon Islands",
-        "name_ru": "Соломоновы острова",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Соломоновы острова"
     },
     {
-        "id": 161,
         "name_en": "Somalia",
-        "name_ru": "Сомали",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Сомали"
     },
     {
-        "id": 162,
         "name_en": "South Africa",
-        "name_ru": "Южная Африка",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Южная Африка"
     },
     {
-        "id": 163,
         "name_en": "South Korea",
-        "name_ru": "Южная Корея",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Южная Корея"
     },
     {
-        "id": 164,
         "name_en": "South Sudan",
-        "name_ru": "южный Судан",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "южный Судан"
     },
     {
-        "id": 165,
         "name_en": "Spain",
-        "name_ru": "Испания",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Испания"
     },
     {
-        "id": 166,
         "name_en": "Sri Lanka",
-        "name_ru": "Шри-Ланка",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Шри-Ланка"
     },
     {
-        "id": 167,
         "name_en": "Sudan",
-        "name_ru": "Судан",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Судан"
     },
     {
-        "id": 168,
         "name_en": "Suriname",
-        "name_ru": "Суринам",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Суринам"
     },
     {
-        "id": 169,
         "name_en": "Sweden",
-        "name_ru": "Швеция",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Швеция"
     },
     {
-        "id": 170,
         "name_en": "Switzerland",
-        "name_ru": "Швейцария",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Швейцария"
     },
     {
-        "id": 171,
         "name_en": "Syria",
-        "name_ru": "Сирия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Сирия"
     },
     {
-        "id": 172,
         "name_en": "Tajikistan",
-        "name_ru": "Таджикистан",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Таджикистан"
     },
     {
-        "id": 173,
         "name_en": "Tanzania",
-        "name_ru": "Танзания",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Танзания"
     },
     {
-        "id": 174,
         "name_en": "Thailand",
-        "name_ru": "Таиланд",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Таиланд"
     },
     {
-        "id": 175,
         "name_en": "Timor-Leste",
-        "name_ru": "Тимор-Лешти",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Тимор-Лешти"
     },
     {
-        "id": 176,
         "name_en": "Togo",
-        "name_ru": "Идти",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Идти"
     },
     {
-        "id": 177,
         "name_en": "Tonga",
-        "name_ru": "Тонга",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Тонга"
     },
     {
-        "id": 178,
         "name_en": "Trinidad and Tobago",
-        "name_ru": "Тринидад и Тобаго",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Тринидад и Тобаго"
     },
     {
-        "id": 179,
         "name_en": "Tunisia",
-        "name_ru": "Тунис",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Тунис"
     },
     {
-        "id": 180,
         "name_en": "Turkey",
-        "name_ru": "Турция",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Турция"
     },
     {
-        "id": 181,
         "name_en": "Turkmenistan",
-        "name_ru": "Туркменистан",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Туркменистан"
     },
     {
-        "id": 182,
         "name_en": "Tuvalu",
-        "name_ru": "Тувалу",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Тувалу"
     },
     {
-        "id": 183,
         "name_en": "Uganda",
-        "name_ru": "Уганда",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Уганда"
     },
     {
-        "id": 184,
         "name_en": "Ukraine",
-        "name_ru": "Украина",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Украина"
     },
     {
-        "id": 185,
         "name_en": "United Arab Emirates",
-        "name_ru": "Объединенные Арабские Эмира,ты",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Объединенные Арабские Эмира,ты"
     },
     {
-        "id": 186,
         "name_en": "United Kingdom",
-        "name_ru": "объединенное Королевство",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "объединенное Королевство"
     },
     {
-        "id": 187,
         "name_en": "United States of America",
-        "name_ru": "Соединенные Штаты Америки",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Соединенные Штаты Америки"
     },
     {
-        "id": 188,
         "name_en": "Uruguay",
-        "name_ru": "Уругвай",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Уругвай"
     },
     {
-        "id": 189,
         "name_en": "Uzbekistan",
-        "name_ru": "Узбекистан",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Узбекистан"
     },
     {
-        "id": 190,
         "name_en": "Vanuatu",
-        "name_ru": "Вануату",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Вануату"
     },
     {
-        "id": 191,
         "name_en": "Venezuela",
-        "name_ru": "Венесуэла",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Венесуэла"
     },
     {
-        "id": 192,
         "name_en": "Vietnam",
-        "name_ru": "Вьетнам",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Вьетнам"
     },
     {
-        "id": 193,
         "name_en": "Yemen",
-        "name_ru": "Йемен",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Йемен"
     },
     {
-        "id": 194,
         "name_en": "Zambia",
-        "name_ru": "Замбия",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Замбия"
     },
     {
-        "id": 195,
         "name_en": "Zimbabwe",
-        "name_ru": "Зимбабве",
-        "created_at": "2022-02-09 18:58:31",
-        "updated_at": "2022-02-09 18:58:31"
+        "name_ru": "Зимбабве"
     }
 ]
