@@ -32,7 +32,7 @@ class Pages extends Component
     public function render()
     {
         $users = User::all();
-        $pagesCategories = ListCategory::where('list_type_id', 5)->where('parent_id', 0)->get();
+        $pagesCategories = ListCategory::where('list_type_id', 5)->get();
         $query = Lists::query()->where('list_type_id', 5);
 
         $query->when($this->filter_id != "", function ($q) {

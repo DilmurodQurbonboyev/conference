@@ -18,6 +18,7 @@ class Appeals extends Component
     public $perPage = 20;
     protected $paginationTheme = "bootstrap";
     use WithPagination;
+    public $deleteId = '';
 
 
     public function render()
@@ -43,5 +44,15 @@ class Appeals extends Component
         $appeals = $query->paginate($this->perPage);
 
         return view('livewire.appeals', compact('appeals'));
+    }
+
+    public function deleteId($id)
+    {
+        $this->deleteId = $id;
+    }
+
+    public function delete()
+    {
+        Register::findOrFail($this->deleteId)->delete();
     }
 }

@@ -43,15 +43,14 @@ class AppealController extends Controller
                         $result->email = $register->email;
                         $result->link = $request->link;
                         $result->status = 1;
-                        if(!$result->save()){
+                        if (!$result->save()) {
                             break;
                         }
-                    }
-                    else{
+                    } else {
                         dd($user);
                     }
                 }
-            }catch (\Exception $e){
+            } catch (\Exception $e) {
                 dd($e->getMessage());
             }
         }
@@ -99,12 +98,11 @@ class AppealController extends Controller
     public function destroy($id)
     {
         $appeal = Register::findOrFail($id);
-
         if ($appeal->photo) {
             unlink($appeal->photo);
         }
-
         $appeal->delete();
-        return redirect()->route('appeals.index')->with('success', 'Successfully deleted');
+
+        return redirect()->route('appeals.index')->with('success', tr('Successfully deleted'));
     }
 }

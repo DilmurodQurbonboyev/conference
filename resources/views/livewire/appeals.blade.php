@@ -86,9 +86,45 @@
                                    aria-label="View"><span class="fas fa-eye"></span>
                                 </a>
                             @endcan
+                            @can('appeals.destroy')
+                                    <form action="{{ route('appeals.destroy', $appeal->id) }}" method="POST">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="button" wire:click="deleteId({{ $appeal->id }})"
+                                                class="btn btn-primary m-1"
+                                                data-toggle="modal" data-target="#deleteModal">
+                                            <span class="fas fa-trash-alt"></span>
+                                        </button>
+                                    </form>
+                            @endcan
                         </td>
                     </tr>
                 @endforeach
+                <div wire:ignore.self class="modal fade" id="deleteModal" tabindex="-1" role="dialog"
+                     aria-labelledby="deleteModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="deleteModalLabel">{{ tr('Delete Confirm') }}
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true close-btn">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>{{ tr('Are you sure want to delete') }}?</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary close-btn" data-dismiss="modal">{{
+                                        tr('No')
+                                        }}</button>
+                                <button type="button" wire:click.prevent="delete()"
+                                        class="btn btn-primary close-modal" data-dismiss="modal">{{
+                                        tr('Yes') }}</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </tbody>
             </table>
             <span class="d-flex pt-2 justify-content-end"> {{ $appeals->links() }}</span>
