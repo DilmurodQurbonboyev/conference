@@ -8,6 +8,7 @@ use App\Models\ListCategory;
 use App\Models\Lists;
 use App\Models\Management;
 use App\Models\Register;
+use App\Models\SendEmail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Mail;
@@ -28,10 +29,16 @@ class SiteController extends Controller
         if (is_null($category)) {
             return view('frontend.error', compact('metaTitle'));
         }
-
         switch ($category->list_type_id) {
             case 1:
-                $view = "frontend.news";
+                switch ($category->id) {
+                    case 1:
+                        $view = "frontend.news";
+                        break;
+                    case 19:
+                        $view = "frontend.press";
+                        break;
+                }
                 break;
             case 5:
                 $view = "frontend.error";
@@ -130,7 +137,7 @@ class SiteController extends Controller
         }
         $register->save();
 
-//        Mail::to($register->email)->send(new WelcomeMail($register->fullName));
+        Mail::to($register->email)->send(new WelcomeMail($register->fullName));
 
         return redirect()->back()->with('success', tr('ZOOM conference link sent to your email'));
     }
