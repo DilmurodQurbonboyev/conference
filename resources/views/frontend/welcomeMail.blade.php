@@ -2,26 +2,24 @@
     <h4>
         @if($app->getLocale() == 'ru')
             <div class="alert alert-success alert-block">
-                <strong>После отправки регистрационной формы вы будете проинформированы о том, что данные
-                    были успешно отправлены, однако это не следует ошибочно принимать за подтверждение
-                    данного запроса на регистрацию. После одобрения со стороны организаторов, на
-                    указанный электронный адрес будет отправлено отдельное электронное письмо,
-                    подтверждающее очное участие или же данные для доступа к конференции виртуальных
-                    участников. В целях безопасности, ссылки и пароли будут отправляться в двух разных
-                    электронных письмах.</strong>
+                Уважаемый участник!
+                Благодарим Вас за регистрацию на Международную конференцию высокого уровня «Региональное сотрудничество между государствами Центральной Азии в рамках Совместного Плана Действий по осуществлению Глобальной контртеррористической стратегии Организации Объединенных Наций», которая состоится 3-4 марта 2022 года в г.Ташкенте, Республика Узбекистан.
+                Обратите внимание, что все документы, относящиеся
+                к конференции, будут размещаться и регулярно обновляться на сайте мероприятия – https://gcts-ca.uz/
+                Сообщаем, что ССЫЛКИ НА ZOOM для тестовых сессий и доступа к конференции будет отправлена по электронной почте после одобрения вашей заявки на регистрацию/участие организаторами.
+                При необходимости получить дополнительную информацию, просьба обращаться к г-же Насибе Давлетовой, e-mail: gms@isrs.uz
+                и к г-ну Нодир Исаев e-mail: Isaev.N@isrs.uz, ¬ismi3618@gmail.com
+
             </div>
         @else
             <div class="alert alert-success alert-block">
-                <strong> Upon submitting a registration form, you will be informed that data has been successfully
-                    submitted, which
-                    should not be confused with approval of a given registration request. Upon approval by the
-                    organizers, a
-                    separate email will be sent to the indicated e-mail confirming physical participation or the meeting
-                    access
-                    details for virtual participants. For security reasons, links and passwords will be sent in two
-                    different
-                    e-mails.
-                </strong>
+                Dear participant!
+                Thank you for registering for the High level international conference "Regional cooperation of the countries of Central Asia within the framework of the Joint Action Plan for the implementation of the UN Global Counter-Terrorism Strategy" to be held on 3-4 March 2022 in Tashkent, The Republic of Uzbekistan.
+                Please note that all documents pertaining to the conference will be posted and regularly updated on the conference web-site –
+                https://gcts-ca.uz/en.
+                Please be informed that the ZOOM LINKS to test sessions and to access the conference will be provided via email upon approval of your registration/participation request by the organizers.
+                In case any further clarifications are required, please contact Ms. Nasiba Davletova, e-mail: gms@isrs.uz и к Mr. Nodir Isaev, e-mail: Isaev.N@isrs.uz¬, ¬ismi3618@gmail.com.
+
             </div>
         @endif
     </h4>
