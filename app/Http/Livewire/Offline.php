@@ -13,6 +13,9 @@ class Offline extends Component
     protected $paginationTheme = "bootstrap";
     use WithPagination;
 
+    public $deleteId = '';
+
+
     public $filter_fullName,
         $filter_organization,
         $filter_position,
@@ -40,5 +43,15 @@ class Offline extends Component
 
         $offlineUsers = $query->paginate($this->perPage);
         return view('livewire.offline', compact('offlineUsers'));
+    }
+
+    public function deleteId($id)
+    {
+        $this->deleteId = $id;
+    }
+
+    public function delete()
+    {
+        Register::findOrFail($this->deleteId)->delete();
     }
 }
