@@ -2,10 +2,12 @@
 
 namespace App\Http\Livewire;
 
+use App\Exports\AppealsExport;
 use Livewire\Component;
 use App\Models\Register;
 use Livewire\WithPagination;
 use App\Models\SendEmail;
+use Maatwebsite\Excel\Excel;
 
 
 class Appeals extends Component
@@ -18,8 +20,8 @@ class Appeals extends Component
     public $perPage = 20;
     protected $paginationTheme = "bootstrap";
     use WithPagination;
-    public $deleteId = '';
 
+    public $deleteId = '';
 
     public function render()
     {
@@ -54,5 +56,10 @@ class Appeals extends Component
     public function delete()
     {
         Register::findOrFail($this->deleteId)->delete();
+    }
+
+    public function export()
+    {
+        return (new AppealsExport)->download('online_participant.xlsx');
     }
 }

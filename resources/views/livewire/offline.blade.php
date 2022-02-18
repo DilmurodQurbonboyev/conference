@@ -7,6 +7,10 @@
             <div class="col-md-12 my-2">
                 <a class="btn btn-primary create-btn" href="{{ route('offline.create') }}">
                     {{ tr('Send Address') }}</a>
+                <button type="button" class="btn btn-success" wire:click="export('xlsx')" wire:loading.attr="disabled">
+                    <i class="fas fa-file-excel"></i>
+                    {{ tr('Export to Excel') }}
+                </button>
             </div>
         </div>
         <div class="table-responsive">

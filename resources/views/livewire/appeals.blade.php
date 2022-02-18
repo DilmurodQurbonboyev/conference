@@ -8,6 +8,10 @@
                 <a class="btn btn-primary create-btn" href="{{ route('appeals.create') }}">
                     {{ tr('Send Zoom Link') }}
                 </a>
+                <button type="button" class="btn btn-success" wire:click="export('xlsx')" wire:loading.attr="disabled">
+                    <i class="fas fa-file-excel"></i>
+                    {{ tr('Export to Excel') }}
+                </button>
             </div>
         </div>
         <div class="table-responsive">
@@ -87,15 +91,15 @@
                                 </a>
                             @endcan
                             @can('appeals.destroy')
-                                    <form action="{{ route('appeals.destroy', $appeal->id) }}" method="POST">
-                                        @csrf
-                                        @method('DELETE')
-                                        <button type="button" wire:click="deleteId({{ $appeal->id }})"
-                                                class="btn btn-primary m-1"
-                                                data-toggle="modal" data-target="#deleteModal">
-                                            <span class="fas fa-trash-alt"></span>
-                                        </button>
-                                    </form>
+                                <form action="{{ route('appeals.destroy', $appeal->id) }}" method="POST">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="button" wire:click="deleteId({{ $appeal->id }})"
+                                            class="btn btn-primary m-1"
+                                            data-toggle="modal" data-target="#deleteModal">
+                                        <span class="fas fa-trash-alt"></span>
+                                    </button>
+                                </form>
                             @endcan
                         </td>
                     </tr>

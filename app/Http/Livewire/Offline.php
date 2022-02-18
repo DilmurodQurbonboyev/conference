@@ -5,6 +5,9 @@ namespace App\Http\Livewire;
 use Livewire\Component;
 use App\Models\Register;
 use Livewire\WithPagination;
+use App\Exports\OfflineExport;
+use Maatwebsite\Excel\Excel;
+
 
 class Offline extends Component
 {
@@ -53,5 +56,10 @@ class Offline extends Component
     public function delete()
     {
         Register::findOrFail($this->deleteId)->delete();
+    }
+
+    public function export()
+    {
+        return (new OfflineExport)->download('in_person_participation.xlsx');
     }
 }
