@@ -48,9 +48,9 @@
                 </tr>
                 </thead>
                 <tbody>
-                @foreach ($appeals as $appeal)
+                @foreach ($appeals as $key=>$appeal)
                     <tr>
-                        <td>{{ $appeal->id }}</td>
+                        <td>{{ ++$key }}</td>
                         <td>
                             @if($appeal->photo)
                                 <img width="50px" src="{{ asset($appeal->photo) }}" alt="">

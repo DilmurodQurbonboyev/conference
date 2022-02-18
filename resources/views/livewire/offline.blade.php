@@ -47,9 +47,9 @@
                 </tr>
                 </thead>
                 <tbody>
-                @foreach ($offlineUsers as $offlineUser)
+                @foreach ($offlineUsers as $key=>$offlineUser)
                     <tr>
-                        <td>{{ $offlineUser->id }}</td>
+                        <td>{{ ++$key }}</td>
                         <td>
                             @if($offlineUser->photo)
                                 <img width="80px" src="{{ asset($offlineUser->photo) }}" alt="">
