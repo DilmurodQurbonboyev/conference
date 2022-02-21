@@ -11,6 +11,7 @@ use App\Models\Lists;
             foreach ($programs as $program):
             $items = Lists::where('list_type_id', 5)
                 ->where('lists_category_id', $program->id)
+                ->orderBy('order', 'desc')
                 ->get();
             ?>
             <div class="time-label">

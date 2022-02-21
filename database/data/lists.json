@@ -4,7 +4,7 @@
         "list_type_id": "6",
         "lists_category_id": "3",
         "slug": "bmt",
-        "image": "\/storage\/photos\/shares\/b1.png",
+        "image": "\/storage\/photos\/shares\/IMG_20220214_052631_545.png",
         "anons_image": null,
         "body_image": null,
         "show_on_slider": null,
@@ -24,7 +24,7 @@
         "modifier_id": "1",
         "deleted_at": null,
         "created_at": "2022-01-31 12:43:11",
-        "updated_at": "2022-02-08 07:46:49"
+        "updated_at": "2022-02-14 00:30:34"
     },
     {
         "id": "2",
@@ -49,9 +49,9 @@
         "status": "2",
         "user_id": "2",
         "modifier_id": "1",
-        "deleted_at": null,
+        "deleted_at": "2022-02-14 10:43:01",
         "created_at": "2022-01-31 12:45:29",
-        "updated_at": "2022-02-08 07:41:56"
+        "updated_at": "2022-02-14 10:43:01"
     },
     {
         "id": "3",
@@ -99,13 +99,13 @@
         "right_menu": "2",
         "date": "2022-01-31",
         "order": "50",
-        "count_view": "0",
+        "count_view": "1",
         "status": "2",
         "user_id": "2",
         "modifier_id": "1",
-        "deleted_at": null,
+        "deleted_at": "2022-02-14 10:43:03",
         "created_at": "2022-01-31 13:02:22",
-        "updated_at": "2022-02-08 07:42:08"
+        "updated_at": "2022-02-14 10:43:03"
     },
     {
         "id": "5",
@@ -369,13 +369,13 @@
         "right_menu": "2",
         "date": "2022-02-01",
         "order": "50",
-        "count_view": "40",
+        "count_view": "229",
         "status": "2",
         "user_id": "4",
-        "modifier_id": "4",
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-01 04:40:38",
-        "updated_at": "2022-02-09 12:35:05"
+        "updated_at": "2022-02-21 06:30:33"
     },
     {
         "id": "15",
@@ -396,13 +396,13 @@
         "right_menu": "2",
         "date": "2022-02-01",
         "order": "50",
-        "count_view": "1",
+        "count_view": "4",
         "status": "2",
         "user_id": "4",
         "modifier_id": "1",
-        "deleted_at": null,
+        "deleted_at": "2022-02-14 10:43:06",
         "created_at": "2022-02-01 05:29:16",
-        "updated_at": "2022-02-08 07:51:22"
+        "updated_at": "2022-02-14 10:43:06"
     },
     {
         "id": "16",
@@ -454,9 +454,9 @@
         "status": "2",
         "user_id": "4",
         "modifier_id": "1",
-        "deleted_at": null,
+        "deleted_at": "2022-02-14 10:43:09",
         "created_at": "2022-02-01 09:38:16",
-        "updated_at": "2022-02-08 07:51:17"
+        "updated_at": "2022-02-14 10:43:09"
     },
     {
         "id": "18",
@@ -481,9 +481,9 @@
         "status": "2",
         "user_id": "4",
         "modifier_id": "1",
-        "deleted_at": null,
+        "deleted_at": "2022-02-14 10:48:07",
         "created_at": "2022-02-01 09:42:17",
-        "updated_at": "2022-02-08 07:51:02"
+        "updated_at": "2022-02-14 10:48:07"
     },
     {
         "id": "19",
@@ -508,9 +508,9 @@
         "status": "2",
         "user_id": "4",
         "modifier_id": "1",
-        "deleted_at": null,
+        "deleted_at": "2022-02-14 10:48:03",
         "created_at": "2022-02-01 09:46:11",
-        "updated_at": "2022-02-08 07:30:41"
+        "updated_at": "2022-02-14 10:48:03"
     },
     {
         "id": "20",
@@ -559,12 +559,12 @@
         "date": "2022-02-01",
         "order": "50",
         "count_view": "0",
-        "status": "2",
+        "status": "1",
         "user_id": "4",
-        "modifier_id": "1",
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-01 11:12:25",
-        "updated_at": "2022-02-08 07:48:48"
+        "updated_at": "2022-02-14 11:52:25"
     },
     {
         "id": "22",
@@ -586,12 +586,12 @@
         "date": "2022-02-01",
         "order": "50",
         "count_view": "0",
-        "status": "2",
+        "status": "1",
         "user_id": "4",
-        "modifier_id": "1",
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-01 11:18:59",
-        "updated_at": "2022-02-08 07:49:15"
+        "updated_at": "2022-02-14 11:52:37"
     },
     {
         "id": "23",
@@ -613,12 +613,12 @@
         "date": "2022-02-01",
         "order": null,
         "count_view": "0",
-        "status": "2",
+        "status": "1",
         "user_id": "4",
-        "modifier_id": "1",
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-01 11:56:54",
-        "updated_at": "2022-02-08 07:49:45"
+        "updated_at": "2022-02-14 09:51:20"
     },
     {
         "id": "24",
@@ -640,12 +640,12 @@
         "date": "2022-02-01",
         "order": null,
         "count_view": "0",
-        "status": "2",
+        "status": "1",
         "user_id": "1",
-        "modifier_id": "1",
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-01 12:58:13",
-        "updated_at": "2022-02-08 07:49:51"
+        "updated_at": "2022-02-14 09:51:40"
     },
     {
         "id": "25",
@@ -666,13 +666,13 @@
         "right_menu": "2",
         "date": "2022-02-02",
         "order": "10",
-        "count_view": "4",
+        "count_view": "9",
         "status": "2",
         "user_id": "4",
         "modifier_id": "1",
-        "deleted_at": null,
+        "deleted_at": "2022-02-14 10:48:00",
         "created_at": "2022-02-02 06:00:28",
-        "updated_at": "2022-02-09 08:09:10"
+        "updated_at": "2022-02-14 10:48:00"
     },
     {
         "id": "26",
@@ -751,9 +751,9 @@
         "status": "2",
         "user_id": "4",
         "modifier_id": null,
-        "deleted_at": null,
+        "deleted_at": "2022-02-14 11:52:17",
         "created_at": "2022-02-03 13:48:43",
-        "updated_at": "2022-02-03 13:48:43"
+        "updated_at": "2022-02-14 11:52:17"
     },
     {
         "id": "29",
@@ -804,10 +804,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "4",
-        "modifier_id": "1",
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-04 12:29:55",
-        "updated_at": "2022-02-07 05:13:38"
+        "updated_at": "2022-02-14 13:09:23"
     },
     {
         "id": "31",
@@ -831,10 +831,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "4",
-        "modifier_id": "1",
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 04:42:56",
-        "updated_at": "2022-02-07 08:34:55"
+        "updated_at": "2022-02-10 12:13:53"
     },
     {
         "id": "32",
@@ -858,10 +858,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "1",
-        "modifier_id": "4",
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 06:43:42",
-        "updated_at": "2022-02-07 07:44:23"
+        "updated_at": "2022-02-14 09:26:09"
     },
     {
         "id": "33",
@@ -885,10 +885,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "1",
-        "modifier_id": "1",
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 06:45:18",
-        "updated_at": "2022-02-07 08:40:38"
+        "updated_at": "2022-02-14 07:26:54"
     },
     {
         "id": "34",
@@ -912,10 +912,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "1",
-        "modifier_id": null,
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 07:18:25",
-        "updated_at": "2022-02-07 07:18:25"
+        "updated_at": "2022-02-14 08:33:47"
     },
     {
         "id": "35",
@@ -939,10 +939,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "1",
-        "modifier_id": "1",
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 07:22:14",
-        "updated_at": "2022-02-07 07:22:24"
+        "updated_at": "2022-02-10 12:19:46"
     },
     {
         "id": "36",
@@ -966,10 +966,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "1",
-        "modifier_id": null,
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 07:23:03",
-        "updated_at": "2022-02-07 07:23:03"
+        "updated_at": "2022-02-10 12:20:25"
     },
     {
         "id": "37",
@@ -1018,12 +1018,12 @@
         "date": null,
         "order": "50",
         "count_view": "0",
-        "status": "2",
+        "status": "1",
         "user_id": "1",
-        "modifier_id": "1",
-        "deleted_at": null,
+        "modifier_id": "5",
+        "deleted_at": "2022-02-17 12:40:23",
         "created_at": "2022-02-07 07:30:23",
-        "updated_at": "2022-02-07 08:38:40"
+        "updated_at": "2022-02-17 12:40:23"
     },
     {
         "id": "39",
@@ -1047,10 +1047,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "1",
-        "modifier_id": null,
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 07:35:28",
-        "updated_at": "2022-02-07 07:35:28"
+        "updated_at": "2022-02-14 09:23:01"
     },
     {
         "id": "40",
@@ -1074,10 +1074,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "1",
-        "modifier_id": "1",
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 07:36:03",
-        "updated_at": "2022-02-07 07:45:38"
+        "updated_at": "2022-02-14 14:20:05"
     },
     {
         "id": "41",
@@ -1101,10 +1101,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "4",
-        "modifier_id": "4",
-        "deleted_at": null,
+        "modifier_id": "5",
+        "deleted_at": "2022-02-17 12:48:40",
         "created_at": "2022-02-07 07:40:09",
-        "updated_at": "2022-02-07 07:41:13"
+        "updated_at": "2022-02-17 12:48:40"
     },
     {
         "id": "42",
@@ -1128,10 +1128,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "4",
-        "modifier_id": "1",
-        "deleted_at": null,
+        "modifier_id": "5",
+        "deleted_at": "2022-02-17 12:48:46",
         "created_at": "2022-02-07 07:42:26",
-        "updated_at": "2022-02-07 08:41:11"
+        "updated_at": "2022-02-17 12:48:46"
     },
     {
         "id": "43",
@@ -1155,10 +1155,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "4",
-        "modifier_id": "1",
-        "deleted_at": null,
+        "modifier_id": "5",
+        "deleted_at": "2022-02-17 12:47:03",
         "created_at": "2022-02-07 07:46:34",
-        "updated_at": "2022-02-07 08:42:41"
+        "updated_at": "2022-02-17 12:47:03"
     },
     {
         "id": "44",
@@ -1182,10 +1182,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "1",
-        "modifier_id": null,
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 07:47:13",
-        "updated_at": "2022-02-07 07:47:13"
+        "updated_at": "2022-02-14 08:45:22"
     },
     {
         "id": "45",
@@ -1209,10 +1209,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "4",
-        "modifier_id": "4",
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 07:50:48",
-        "updated_at": "2022-02-07 08:28:27"
+        "updated_at": "2022-02-14 09:01:56"
     },
     {
         "id": "46",
@@ -1236,10 +1236,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "4",
-        "modifier_id": "1",
-        "deleted_at": null,
+        "modifier_id": "5",
+        "deleted_at": "2022-02-17 12:49:23",
         "created_at": "2022-02-07 07:51:34",
-        "updated_at": "2022-02-07 09:11:14"
+        "updated_at": "2022-02-17 12:49:23"
     },
     {
         "id": "47",
@@ -1263,10 +1263,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "4",
-        "modifier_id": null,
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 07:55:03",
-        "updated_at": "2022-02-07 07:55:03"
+        "updated_at": "2022-02-14 09:06:17"
     },
     {
         "id": "48",
@@ -1291,9 +1291,9 @@
         "status": "2",
         "user_id": "4",
         "modifier_id": null,
-        "deleted_at": null,
+        "deleted_at": "2022-02-14 09:09:11",
         "created_at": "2022-02-07 07:55:36",
-        "updated_at": "2022-02-07 07:55:36"
+        "updated_at": "2022-02-14 09:09:11"
     },
     {
         "id": "49",
@@ -1318,9 +1318,9 @@
         "status": "2",
         "user_id": "4",
         "modifier_id": null,
-        "deleted_at": null,
+        "deleted_at": "2022-02-14 09:09:44",
         "created_at": "2022-02-07 07:56:26",
-        "updated_at": "2022-02-07 07:56:26"
+        "updated_at": "2022-02-14 09:09:44"
     },
     {
         "id": "50",
@@ -1344,10 +1344,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "1",
-        "modifier_id": null,
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 07:57:08",
-        "updated_at": "2022-02-07 07:57:08"
+        "updated_at": "2022-02-14 09:21:04"
     },
     {
         "id": "51",
@@ -1371,10 +1371,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "4",
-        "modifier_id": "1",
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 07:58:02",
-        "updated_at": "2022-02-07 08:28:58"
+        "updated_at": "2022-02-14 07:32:41"
     },
     {
         "id": "52",
@@ -1398,10 +1398,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "4",
-        "modifier_id": "1",
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 08:19:32",
-        "updated_at": "2022-02-07 09:08:21"
+        "updated_at": "2022-02-14 07:34:15"
     },
     {
         "id": "53",
@@ -1425,10 +1425,10 @@
         "count_view": "0",
         "status": "2",
         "user_id": "4",
-        "modifier_id": null,
+        "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-07 08:20:09",
-        "updated_at": "2022-02-07 08:20:09"
+        "updated_at": "2022-02-14 09:13:53"
     },
     {
         "id": "54",
@@ -1827,12 +1827,255 @@
         "right_menu": "2",
         "date": "2022-02-08",
         "order": "50",
-        "count_view": "19",
+        "count_view": "212",
         "status": "2",
         "user_id": "5",
         "modifier_id": "5",
         "deleted_at": null,
         "created_at": "2022-02-08 06:29:53",
-        "updated_at": "2022-02-09 12:35:30"
+        "updated_at": "2022-02-21 05:24:03"
+    },
+    {
+        "id": "69",
+        "list_type_id": "5",
+        "lists_category_id": "15",
+        "slug": "17-30-18-00",
+        "image": null,
+        "anons_image": null,
+        "body_image": null,
+        "show_on_slider": null,
+        "pdf_type": "2",
+        "video_code": null,
+        "video": null,
+        "media_type": null,
+        "link": null,
+        "link_type": null,
+        "parent_id": "2",
+        "right_menu": "2",
+        "date": null,
+        "order": "50",
+        "count_view": "0",
+        "status": "2",
+        "user_id": "5",
+        "modifier_id": null,
+        "deleted_at": "2022-02-14 08:43:18",
+        "created_at": "2022-02-14 08:41:01",
+        "updated_at": "2022-02-14 08:43:18"
+    },
+    {
+        "id": "70",
+        "list_type_id": "1",
+        "lists_category_id": "1",
+        "slug": "uzbekistan-priglasil-gosudarstva-uchastnikov-obse-na-mezhdunarodnuyu-konferenciyu-v-tashkente-posvyashchennuyu-realizacii-globalnoy-kontrterroristicheskoy-strategii-oon",
+        "image": null,
+        "anons_image": "\/storage\/photos\/shares\/Novosti\/1644575100.4474.png",
+        "body_image": null,
+        "show_on_slider": "2",
+        "pdf_type": "2",
+        "video_code": null,
+        "video": null,
+        "media_type": null,
+        "link": null,
+        "link_type": null,
+        "parent_id": "2",
+        "right_menu": "2",
+        "date": null,
+        "order": "50",
+        "count_view": "11",
+        "status": "2",
+        "user_id": "5",
+        "modifier_id": "5",
+        "deleted_at": null,
+        "created_at": "2022-02-14 10:46:30",
+        "updated_at": "2022-02-19 16:53:02"
+    },
+    {
+        "id": "71",
+        "list_type_id": "1",
+        "lists_category_id": "1",
+        "slug": "v-tashkente-proydet-mezhdunarodnaya-konferenciya-posvyashchennaya-dostignutym-za-10-let-rezultatam-v-ramkah-regionalnogo-sovmestnogo-plana-po-realizacii-globalnoy-kontrterroristicheskoy-strategii-oon",
+        "image": null,
+        "anons_image": "\/storage\/photos\/shares\/Novosti\/1644317186.9876.png",
+        "body_image": null,
+        "show_on_slider": "2",
+        "pdf_type": "2",
+        "video_code": null,
+        "video": null,
+        "media_type": null,
+        "link": null,
+        "link_type": null,
+        "parent_id": "2",
+        "right_menu": "2",
+        "date": null,
+        "order": "50",
+        "count_view": "3",
+        "status": "1",
+        "user_id": "5",
+        "modifier_id": "5",
+        "deleted_at": null,
+        "created_at": "2022-02-14 10:52:00",
+        "updated_at": "2022-02-14 16:06:32"
+    },
+    {
+        "id": "72",
+        "list_type_id": "1",
+        "lists_category_id": "1",
+        "slug": "gensek-obse-posetit-uzbekistan-v-marte",
+        "image": null,
+        "anons_image": "\/storage\/photos\/shares\/Novosti\/of9Drd16444906493430_b.jpg",
+        "body_image": null,
+        "show_on_slider": "2",
+        "pdf_type": "2",
+        "video_code": null,
+        "video": null,
+        "media_type": null,
+        "link": null,
+        "link_type": null,
+        "parent_id": "2",
+        "right_menu": "2",
+        "date": null,
+        "order": "50",
+        "count_view": "8",
+        "status": "2",
+        "user_id": "5",
+        "modifier_id": "5",
+        "deleted_at": null,
+        "created_at": "2022-02-14 10:55:07",
+        "updated_at": "2022-02-19 08:57:06"
+    },
+    {
+        "id": "73",
+        "list_type_id": "1",
+        "lists_category_id": "1",
+        "slug": "gensek-obse-helga-shmid-posetit-uzbekistan-v-marte",
+        "image": null,
+        "anons_image": "\/storage\/photos\/shares\/Novosti\/aa4f46ac6.jpeg",
+        "body_image": null,
+        "show_on_slider": "2",
+        "pdf_type": "2",
+        "video_code": null,
+        "video": null,
+        "media_type": null,
+        "link": null,
+        "link_type": null,
+        "parent_id": "2",
+        "right_menu": "2",
+        "date": null,
+        "order": "50",
+        "count_view": "11",
+        "status": "2",
+        "user_id": "5",
+        "modifier_id": "5",
+        "deleted_at": null,
+        "created_at": "2022-02-14 10:59:17",
+        "updated_at": "2022-02-19 08:46:28"
+    },
+    {
+        "id": "74",
+        "list_type_id": "5",
+        "lists_category_id": "18",
+        "slug": "informaciya-dlya-uchastnikov",
+        "image": null,
+        "anons_image": null,
+        "body_image": null,
+        "show_on_slider": null,
+        "pdf_type": "2",
+        "video_code": null,
+        "video": null,
+        "media_type": null,
+        "link": null,
+        "link_type": null,
+        "parent_id": "2",
+        "right_menu": "2",
+        "date": null,
+        "order": "50",
+        "count_view": "117",
+        "status": "2",
+        "user_id": "5",
+        "modifier_id": "5",
+        "deleted_at": null,
+        "created_at": "2022-02-14 11:12:52",
+        "updated_at": "2022-02-21 05:03:42"
+    },
+    {
+        "id": "75",
+        "list_type_id": "1",
+        "lists_category_id": "1",
+        "slug": "v-tashkente-sostoitsya-mezhdunarodnaya-konferenciya",
+        "image": null,
+        "anons_image": "\/storage\/photos\/shares\/Novosti\/Sam.jpg",
+        "body_image": null,
+        "show_on_slider": "2",
+        "pdf_type": "2",
+        "video_code": null,
+        "video": null,
+        "media_type": null,
+        "link": null,
+        "link_type": null,
+        "parent_id": "2",
+        "right_menu": "2",
+        "date": null,
+        "order": "50",
+        "count_view": "4",
+        "status": "2",
+        "user_id": "5",
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-02-20 08:11:57",
+        "updated_at": "2022-02-20 15:58:33"
+    },
+    {
+        "id": "76",
+        "list_type_id": "1",
+        "lists_category_id": "1",
+        "slug": "bmtning-global-aksilterror-strategiyasi-terrorizmga-arshi-kurash-b-yicha-milliy-minta-aviy-va-hal-aro-say-arakatlarni-tashkil-etishning-noeb-vositasi-sifatida",
+        "image": null,
+        "anons_image": "\/storage\/photos\/shares\/Novosti\/images-1.jpg",
+        "body_image": null,
+        "show_on_slider": "2",
+        "pdf_type": "2",
+        "video_code": null,
+        "video": null,
+        "media_type": null,
+        "link": null,
+        "link_type": null,
+        "parent_id": "2",
+        "right_menu": "2",
+        "date": null,
+        "order": "50",
+        "count_view": "1",
+        "status": "2",
+        "user_id": "5",
+        "modifier_id": null,
+        "deleted_at": null,
+        "created_at": "2022-02-21 04:37:22",
+        "updated_at": "2022-02-21 04:37:53"
+    },
+    {
+        "id": "77",
+        "list_type_id": "5",
+        "lists_category_id": "16",
+        "slug": "sayd-ivent",
+        "image": null,
+        "anons_image": null,
+        "body_image": null,
+        "show_on_slider": null,
+        "pdf_type": "2",
+        "video_code": null,
+        "video": null,
+        "media_type": null,
+        "link": null,
+        "link_type": null,
+        "parent_id": "2",
+        "right_menu": "2",
+        "date": null,
+        "order": "100",
+        "count_view": "0",
+        "status": "2",
+        "user_id": "5",
+        "modifier_id": "4",
+        "deleted_at": null,
+        "created_at": "2022-02-21 05:16:03",
+        "updated_at": "2022-02-21 06:33:56"
     }
 ]
