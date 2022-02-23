@@ -10,12 +10,15 @@ use App\Models\User;
 use App\Models\MCategory;
 use App\Models\ManagementTranslation;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use OwenIt\Auditing\Contracts\Auditable;
 
 
 
-class Management extends Model implements TranslatableContract
+class Management extends Model implements TranslatableContract, Auditable
 {
     use HasFactory, Translatable, SoftDeletes;
+
+    use \OwenIt\Auditing\Auditable;
 
     public $useTranslationFallback = true;
 

@@ -65,7 +65,7 @@
                         <td>{{ $audit->id }}</td>
                         <td>{{ $audit->auditable_type }}</td>
                         <td>{{ $audit->auditable_id }}</td>
-                        <td>{{ $audit->user['name'] }}</td>
+                        <td>{{ $audit->user_id }}</td>
                         <td>{{ $audit->ip_address }}</td>
                         <td>{{ $audit->url }}</td>
                         <td>{{ $audit->event }}</td>
