@@ -806,7 +806,7 @@ select option span {
 
 .layout-left span {
     font-family: "Roboto-Condensed-700";
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: rgba(70, 70, 70, 1);
 }
 
@@ -1579,7 +1579,7 @@ footer {
     font-family: "Roboto-Condensed-700";
     color: rgba(19, 56, 155, 1.0);
     display: block;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .banner-date {
