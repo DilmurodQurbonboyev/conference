@@ -14,8 +14,8 @@
                     <div class="online-time-in"></div>
                 </div>
                 <div class="online-play-in">
-                    {{--                    data-fancybox--}}
-                    <a data-type="iframe" data-src="#"
+                    <a @if(isset($liveStream->video_code)) data-fancybox @endif data-type="iframe"
+                       data-src="https://www.youtube.com/embed/{{ $liveStream->video_code ?? '' }}"
                        href="javascript:;">
                         <img src="{{ asset('img/play.png') }}">
                         <span>{{ tr('Watch') }}</span>
