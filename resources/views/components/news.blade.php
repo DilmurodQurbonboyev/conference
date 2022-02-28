@@ -1,8 +1,8 @@
 <section class="news-section">
     <div class="container">
-        <div class="heading">
+        <a href="/category/yangiliklar" class="heading text-dark">
             <span>{{ tr('News') }}</span>
-        </div>
+        </a>
     </div>
     <div class="container">
         <div class="owl-news">
