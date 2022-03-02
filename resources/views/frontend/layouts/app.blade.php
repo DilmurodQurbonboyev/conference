@@ -29,6 +29,7 @@
     <meta name="twitter:type" content="website">
     <meta name="twitter:url" content="{{$current_url}}">
     <meta property="og:image" content="{{$image}}">
+    <meta property="og:description" content="{{$description}}" />
     <meta property="og:locale" content="{{app()->getLocale()}}">
     <meta property="og:site_name" content="{{$site_name}}">
     <meta property="og:type" content="website">
