@@ -84,6 +84,7 @@
                     <option value="3">{{ tr('Video from this site') }}</option>
                     <option value="4">{{ tr('Video from utube.uz') }}</option>
                     <option value="5">{{ tr('Video from youtube.com') }}</option>
+                    <option value="6">{{ tr('Link') }}</option>
                 </select>
             </div>
             <input type="hidden" class="form-control" name="list_type_id" value="8">

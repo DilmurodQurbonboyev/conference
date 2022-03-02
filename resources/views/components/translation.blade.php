@@ -14,12 +14,35 @@
                     <div class="online-time-in"></div>
                 </div>
                 <div class="online-play-in">
-                    <a @if(isset($liveStream->video_code)) data-fancybox @endif data-type="iframe"
-                       data-src="https://www.youtube.com/embed/{{ $liveStream->video_code ?? '' }}"
-                       href="javascript:;">
-                        <img src="{{ asset('img/play.png') }}">
-                        <span>{{ tr('Watch') }}</span>
-                    </a>
+                    @if(isset($liveStream->media_type))
+                        @if($liveStream->media_type == 6)
+                            <a data-fancybox data-type="iframe" data-src="{{ $liveStream->video_code }}"
+                               href="javascript:;">
+                                <img src="{{ asset('img/play.png') }}">
+                                <span>{{ tr('Watch') }}</span>
+                            </a>
+                        @endif
+                    @endif
+
+                    @if(isset($liveStream->media_type))
+                        @if($liveStream->media_type == 3)
+                            <a data-fancybox data-type="iframe" data-src="{{ $liveStream->video }}"
+                               href="javascript:;">
+                                <img src="{{ asset('img/play.png') }}">
+                                <span>{{ tr('Watch') }}</span>
+                            </a>
+                        @endif
+                    @endif
+                    @if(isset($liveStream->media_type))
+                        @if($liveStream->media_type == 5)
+                            <a @if(isset($liveStream->video_code)) data-fancybox @endif data-type="iframe"
+                               data-src="https://www.youtube.com/embed/{{ $liveStream->video_code ?? '' }}"
+                               href="javascript:;">
+                                <img src="{{ asset('img/play.png') }}">
+                                <span>{{ tr('Watch') }}</span>
+                            </a>
+                        @endif
+                    @endif
                 </div>
             </div>
         </div>
