@@ -1,6 +1,3 @@
 <p>
-    {{ $data }}
-    <br/>
-    Thank you
-
+{{--    {{ $data }}--}}
 </p>

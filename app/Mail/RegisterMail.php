@@ -29,8 +29,12 @@ class RegisterMail extends Mailable
      */
     public function build()
     {
-        return $this->from(env('MAIL_USERNAME'))->subject(tr('Link for zoom meeting'))
+        return $this->from(env('MAIL_USERNAME'))
+            ->subject(tr('Link for zoom meeting'))
             ->view('frontend.email')
-            ->with('details', $this->data);
+//            ->with('details', $this->data)
+            ->attach($this->data['image']->getRealPath(), [
+                'as' => $this->data['image']->getClientOriginalName()
+            ]);
     }
 }

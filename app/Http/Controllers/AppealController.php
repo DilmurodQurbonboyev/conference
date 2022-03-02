@@ -30,18 +30,22 @@ class AppealController extends Controller
 
     public function store(Request $request)
     {
-        if (!empty($request->link) && !empty($request->users)) {
+        $data = [
+            'image' => $request->file('image')
+        ];
+
+        if (!empty($request->file('image')) && !empty($request->users)) {
             try {
 
                 foreach ($request->users as $user) {
                     $register = Register::find($user);
                     if ($register) {
-                        Mail::to($register->email)->send(new RegisterMail($request->link));
+                        Mail::to($register->email)->send(new RegisterMail($data));
                         $result = new SendEmail();
                         $result->register_id = $register->id;
                         $result->fullName = $register->fullName;
                         $result->email = $register->email;
-                        $result->link = $request->link;
+//                        $result->link = $request->link;
                         $result->status = 1;
                         if (!$result->save()) {
                             break;
@@ -68,6 +72,7 @@ class AppealController extends Controller
         $appeal = Register::findOrFail($id);
         $sendEmail = SendEmail::where('register_id', $appeal->id)->get();
         $count = SendEmail::where('register_id', $appeal->id)->count();
+
         return view('admin.appeals.show', compact('appeal', 'sendEmail', 'count'));
     }
 

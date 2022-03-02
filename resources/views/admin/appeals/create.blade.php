@@ -17,14 +17,18 @@
     <div class="card card-primary card-outline card-tabs">
 
         <div class="card-body">
-            <form action="{{ route('appeals.store') }}" method="post">
+            <form action="{{ route('appeals.store') }}" method="post" enctype="multipart/form-data">
                 @csrf
                 <div class="form-group">
-                    <label for="link">{{ tr('Link') }}</label>
-                    <input type="text" name="link" value="<?php if (isset($link->link)) {
-                        echo $link->link;
-                    } ?>" class="form-control">
+                    <input type="file" name="image" id="image">
                 </div>
+{{--                <div class="form-group">--}}
+{{--                    <label for="link">{{ tr('Link') }}</label>--}}
+{{--                    <input type="text" name="link" value="<?php if (isset($link->link)) {--}}
+{{--                        echo $link->link;--}}
+{{--                    } ?>" class="form-control">--}}
+{{--                </div>--}}
+
                 <div class="card-body">
                     <div class="table-responsive">
                         <table class="table">
