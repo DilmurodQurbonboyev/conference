@@ -74,7 +74,7 @@
                             @endforeach
                             </tbody>
                         </table>
-                        <span class="d-flex pt-2 justify-content-end"> {{ $onlineUsers->links() }}</span>
+                        <span class="d-flex pt-2 justify-content-end"> {{ $onlineUsers->links('pagination::bootstrap-4') }}</span>
                     </div>
                 </div>
                 <div class="form-group">
