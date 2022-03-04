@@ -59,7 +59,8 @@ class SiteController extends Controller
         $lists = Lists::where('list_type_id', $category->list_type_id)
             ->where('status', 2)
             ->orderBy('id', 'desc')
-            ->paginate(12);
+            ->orderBy('order', 'desc')
+            ->paginate(13);
 
         return view($view, compact('lists', 'metaTitle'));
     }

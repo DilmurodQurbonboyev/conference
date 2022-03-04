@@ -100,4 +100,86 @@ window.addEventListener("load", function(event) {
 	// ================================
 	// ================================
 });
+jQuery(function ($) {
+
+    $("document").ready(function() {
+        $("[data-fancybox]").fancybox({
+            baseClass: "awesome-gally",
+            protect: true,
+            toolbar: true,
+            preventCaptionOverlap: true,
+            // infobar: true,
+            idleTime: 100,
+            thumbs : {
+                autoStart : true,
+                axis: "x"
+            },
+            zoomOpacity: false,
+            animationEffect: false,
+            buttons: [
+                "share",
+                "download",
+                "close"
+            ],
+            lang: "en",
+            i18n: {
+                en: {
+                    CLOSE: "Закрыт",
+                    NEXT: "Следующий",
+                    PREV: "Предыдущий",
+                    FULL_SCREEN: "Полноэкранный режим",
+                    DOWNLOAD: "Скачать",
+                    SHARE: "Поделиться",
+                    ZOOM: "Увеличить"
+                },
+            },
+        });
+    });
+
+    jQuery(document).pjax("#p0 a", {"push":true,"replace":false,"timeout":1000,"scrollTo":false,"container":"#p0"});
+    jQuery(document).off("submit", "#p0 form[data-pjax]").on("submit", "#p0 form[data-pjax]", function (event) {jQuery.pjax.submit(event, {"push":true,"replace":false,"timeout":1000,"scrollTo":false,"container":"#p0"});});
+    jQuery(document).pjax("#p1 a", {"push":true,"replace":false,"timeout":1000,"scrollTo":false,"container":"#p1"});
+    jQuery(document).off("submit", "#p1 form[data-pjax]").on("submit", "#p1 form[data-pjax]", function (event) {jQuery.pjax.submit(event, {"push":true,"replace":false,"timeout":1000,"scrollTo":false,"container":"#p1"});});
+    jQuery(document).pjax("#p2 a", {"push":true,"replace":false,"timeout":1000,"scrollTo":false,"container":"#p2"});
+    jQuery(document).off("submit", "#p2 form[data-pjax]").on("submit", "#p2 form[data-pjax]", function (event) {jQuery.pjax.submit(event, {"push":true,"replace":false,"timeout":1000,"scrollTo":false,"container":"#p2"});});
+    jQuery(document).pjax("#p3 a", {"push":true,"replace":false,"timeout":1000,"scrollTo":false,"container":"#p3"});
+    jQuery(document).off("submit", "#p3 form[data-pjax]").on("submit", "#p3 form[data-pjax]", function (event) {jQuery.pjax.submit(event, {"push":true,"replace":false,"timeout":1000,"scrollTo":false,"container":"#p3"});});
+
+    $("document").ready(function() {
+        $("[data-fancybox]").fancybox({
+            baseClass: "awesome-gally",
+            protect: true,
+            toolbar: true,
+            preventCaptionOverlap: true,
+            // infobar: true,
+            idleTime: 100,
+            thumbs : {
+                autoStart : true,
+                axis: "x"
+            },
+            zoomOpacity: false,
+            animationEffect: false,
+            buttons: [
+                "share",
+                "download",
+                "close"
+            ],
+            lang: "en",
+            i18n: {
+                en: {
+                    CLOSE: "Закрыт",
+                    NEXT: "Следующий",
+                    PREV: "Предыдущий",
+                    FULL_SCREEN: "Полноэкранный режим",
+                    DOWNLOAD: "Скачать",
+                    SHARE: "Поделиться",
+                    ZOOM: "Увеличить"
+                },
+            },
+        });
+    });
+
+    jQuery('#w0').tab();
+    jQuery('#w1').yiiActiveForm([{"id":"searchform-text","name":"text","container":".field-searchform-text","input":"#searchform-text","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"«Калит сўз» ни тўлдириш шарт."});yii.validation.string(value, messages, {"message":"«Калит сўз» қиймати satr бўлиши керак.","min":3,"tooShort":"«Калит сўз» қиймати камида 3 белгидан ташкил топиши керак","max":255,"tooLong":"«Калит сўз» қиймати 255 белгидан ошмаслиги керак","skipOnEmpty":1});}}], []);
+});
 
