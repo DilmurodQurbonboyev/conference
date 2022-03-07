@@ -24,7 +24,6 @@
             <div class="foto-list">
                 <div class="row">
                     @foreach($lists as $list)
-                        @if ($list->translate($app->getLocale())->title !== null)
                             @if ($list->media_type == 5)
                                 <div class="col-my-4 col-xl-4 col-md-6">
                                     <div class="foto">
@@ -86,7 +85,6 @@
                                     </div>
                                 </div>
                             @endif
-                        @endif
                     @endforeach
 
                     {{--                    <div class="col-my-4 col-xl-4 col-md-6">--}}

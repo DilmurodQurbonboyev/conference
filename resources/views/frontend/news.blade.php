@@ -24,28 +24,28 @@
             <div class="page-body">
                 <div class="row">
                     @foreach($lists as $list)
-                        @if ($list->translate($app->getLocale())->title !== null)
-                            <div class="col-my-3 col-xl-4 col-md-6">
-                                <div class="news-out">
-                                    <div class="news">
-                                        <div class="news-img">
-                                            <a href="{{ route('news', $list->slug) }}">
-                                                <img src="{{ $list->anons_image }}">
-                                            </a>
-                                        </div>
-                                        <div class="news-title">
-                                            <a href="{{ route('news', $list->slug) }}">{{$list->title ?? ''}}</a>
-                                        </div>
-                                        <div class="news-date">
-                                            <img src="{{ asset('img/time.png') }}">
-                                            <span>{{ $list->created_at->format('d.m.20y') }}</span>
-                                            <span> | </span>
-                                            <span>{{ $list->created_at->format('H:i') }}</span>
-                                        </div>
+                        {{--                        @if ($list->translate($app->getLocale())->title !== null)--}}
+                        <div class="col-my-3 col-xl-4 col-md-6">
+                            <div class="news-out">
+                                <div class="news">
+                                    <div class="news-img">
+                                        <a href="{{ route('news', $list->slug) }}">
+                                            <img src="{{ $list->anons_image }}">
+                                        </a>
+                                    </div>
+                                    <div class="news-title">
+                                        <a href="{{ route('news', $list->slug) }}">{{$list->title ?? ''}}</a>
+                                    </div>
+                                    <div class="news-date">
+                                        <img src="{{ asset('img/time.png') }}">
+                                        <span>{{ $list->created_at->format('d.m.20y') }}</span>
+                                        <span> | </span>
+                                        <span>{{ $list->created_at->format('H:i') }}</span>
                                     </div>
                                 </div>
                             </div>
-                        @endif
+                        </div>
+                        {{--                        @endif--}}
                     @endforeach
                 </div>
                 <div class="my-pagination">

@@ -6,11 +6,13 @@ use App\Http\Requests\RegisterRequest;
 use App\Models\Country;
 use App\Models\ListCategory;
 use App\Models\Lists;
+use App\Models\ListsTranslation;
 use App\Models\Management;
 use App\Models\Register;
 use App\Models\SendEmail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\WelcomeMail;
 
@@ -58,9 +60,11 @@ class SiteController extends Controller
 
         $lists = Lists::where('list_type_id', $category->list_type_id)
             ->where('status', 2)
-//            ->orderBy('id', 'desc')
             ->orderBy('order', 'desc')
-            ->paginate(13);
+            ->join('lists_translations', 'lists.id', '=', 'lists_translations.lists_id')
+            ->where('lists_translations.title', '!=', null)
+            ->where('lists_translations.locale', '=', app()->getLocale())
+            ->paginate(12);
 
         return view($view, compact('lists', 'metaTitle'));
     }

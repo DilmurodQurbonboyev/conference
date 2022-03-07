@@ -23,7 +23,6 @@
         <div class="container detail-container">
             <div class="row">
                 @foreach($lists as $list)
-                    @if ($list->translate($app->getLocale())->title !== null)
                         <div class="col-xl-3 col-md-6">
                             <div class="f-in">
                                 <div class="foto-main">
@@ -65,7 +64,6 @@
                                 </div>
                             </div>
                         </div>
-                    @endif
                 @endforeach
             </div>
         </div>
