@@ -58,11 +58,14 @@ class SiteController extends Controller
                 break;
         }
 
-        $lists = Lists::where('list_type_id', $category->list_type_id)
+        $lists = Lists::query()
+            ->where('list_type_id', $category->list_type_id)
             ->where('status', 2)
             ->orderBy('order', 'desc')
+            ->orderBy('date', 'desc')
             ->join('lists_translations', 'lists.id', '=', 'lists_translations.lists_id')
             ->where('lists_translations.title', '!=', null)
+            ->orderByDesc('lists_translations.created_at')
             ->where('lists_translations.locale', '=', app()->getLocale())
             ->paginate(12);
 
