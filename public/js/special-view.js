@@ -56,7 +56,7 @@ function setFontSize(size) {
     }
     $('').css({'font-size': parseInt(size) + 12 + 'px'});/*26*/
     $('').css({'font-size': parseInt(size) + 10 + 'px'});/*24*/
-    $('').css({'font-size': parseInt(size) + 2 + 'px'});/*16*/
+    $('p').css({'font-size': parseInt(size) + 2 + 'px'});/*16*/
     $('').css({'font-size': parseInt(size) + 6 + 'px'});/*20*/
     $('').css({'font-size': parseInt(size) + 4 + 'px'});/*18*/
     $('').css({'font-size': parseInt(size) - 2 + 'px'});/*12*/
