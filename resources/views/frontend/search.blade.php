@@ -10,12 +10,11 @@
         <div class="container">
             <div class="head">
                 <div class="head-title">
-                    <span>НОВОСТИ</span>
+                    <span>{{ tr('Search') }}</span>
                 </div>
                 <nav class="breadcrumb-nav" aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/">{{ tr('Home') }}</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Library</li>
                     </ol>
                 </nav>
             </div>
