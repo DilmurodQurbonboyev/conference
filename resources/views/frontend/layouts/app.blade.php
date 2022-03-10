@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('plugins/select2/css/select2.min.css') }}">
     <link rel="stylesheet" href="{{ asset('plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
           integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
@@ -94,6 +95,9 @@
 <x-footer/>
 
 <script type="text/javascript" src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/jquery-ui.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/special-view.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/jquery.cookie.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/jquery.fancybox.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/owl.carousel.min.js') }}"></script>

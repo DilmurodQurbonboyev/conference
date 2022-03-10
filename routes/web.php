@@ -18,6 +18,8 @@ Route::group(
         Route::get('/register', [App\Http\Controllers\SiteController::class, 'register'])->name('register');
         Route::post('/register', [App\Http\Controllers\SiteController::class, 'registerPost'])->name('registerPost');
         Route::get('/leaders', [App\Http\Controllers\SiteController::class, 'leaders']);
+        Route::get('/search', [App\Http\Controllers\SiteController::class, 'search'])->name('search');
+
 
         Route::fallback(function () {
             return view("frontend.error");

@@ -60,13 +60,13 @@ class SiteController extends Controller
 
         $lists = Lists::query()
             ->where('list_type_id', $category->list_type_id)
+            ->join('lists_translations', 'lists.id', '=', 'lists_translations.lists_id')
+            ->where('lists_translations.title', '!=', null)
+            ->where('lists_translations.locale', '=', app()->getLocale())
+            ->orderByDesc('lists_translations.created_at')
             ->where('status', 2)
             ->orderBy('order', 'desc')
             ->orderBy('date', 'desc')
-            ->join('lists_translations', 'lists.id', '=', 'lists_translations.lists_id')
-            ->where('lists_translations.title', '!=', null)
-            ->orderByDesc('lists_translations.created_at')
-            ->where('lists_translations.locale', '=', app()->getLocale())
             ->paginate(12);
 
         return view($view, compact('lists', 'metaTitle'));
@@ -158,5 +158,14 @@ class SiteController extends Controller
             ->get();
 
         return view('frontend.managements', compact('leaders'));
+    }
+
+    public function search(Request $request)
+    {
+        $search = $request->input('search');
+        $lists = Lists::whereTranslationLike('title', '%' . $search . '%')
+            ->orWhereTranslationLike('content', '%' . $search . '%')
+            ->get();
+        return view("frontend.search", compact('lists'));
     }
 }

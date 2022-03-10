@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/jquery.fancybox.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.carousel.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
           integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <?php
@@ -85,11 +86,46 @@
 <x-news/>
 <x-useful/>
 <x-footer/>
+<section>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">{{tr('Search')}}</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="{{ route('search') }}">
+                        @csrf
+                        <div class="form-group">
+                            <input type="search" name="search" class="form-control" placeholder="{{tr('Search')}}...">
+                        </div>
+                        <div class="form-group text-right">
+                            <button type="button" class="btn btn-secondary"
+                                    data-dismiss="modal">{{tr('Cancel')}}</button>
+                            <button type="submit" class="btn btn-success">{{tr('Search')}}</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <script type="text/javascript" src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/jquery-ui.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/special-view.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/jquery.cookie.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/jquery.fancybox.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/owl.carousel.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
+<script type="text/javascript">
+    $('.mobile-li button').click(function () {
+        window.open(window.location.href, "_blank", "toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=450, height=600");
+    })
+</script>
 @stack('javascript')
 </body>
 </html>
